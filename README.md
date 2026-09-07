@@ -1,10 +1,12 @@
-# ArXiv Papers 网站
+# JEPA / 世界模型 每日论文卡
 
-这是一个展示ArXiv论文精选的静态网站，支持搜索和独立详情页查看功能。项目会自动爬取包含 VLA / Vision-Language-Action 以及 World Action Model 相关关键词的论文，并使用 AI 生成摘要。
+这是一个展示 ArXiv 论文精选的静态网站，支持搜索和独立详情页查看功能。项目会自动爬取 **JEPA（Joint-Embedding Predictive Architecture）、联合嵌入自监督、隐空间预测与世界模型**相关关键词的论文，并使用 AI 生成中文摘要。
+
+fork 自 [infinity4b/daily-arxiv-vla](https://github.com/infinity4b/daily-arxiv-vla)，与其共用同一套流水线，仅主题不同；两站内容允许重叠（本站不排除 VLA / WAM 论文）。
 
 ## 功能特性
 
-- 🤖 **自动爬取**: 每日自动从 ArXiv 爬取 VLA 与 World Action Model 相关最新论文
+- 🤖 **自动爬取**: 每日自动从 ArXiv 爬取 JEPA / 联合嵌入 / 隐空间预测 / 世界模型相关最新论文（实测日均约 7 篇）
 - 🧠 **AI摘要生成**: 使用ModelScope API自动为论文生成中文摘要
 - 📚 从 `papers.md` 自动解析论文信息
 - 🔍 实时搜索功能
@@ -38,8 +40,8 @@ cp .env.example .env
 **可选配置：**
 - `MODELSCOPE_BASE_URL`: API 基础 URL（默认：https://api-inference.modelscope.cn/v1/）
 - `MODELSCOPE_MODEL`: 使用的模型（默认：deepseek-ai/DeepSeek-V3.2）
-- `ARXIV_QUERY_KEYWORD`: 搜索关键词，支持 arXiv 查询语法（默认同时检索 VLA 与 World Action Model 相关短语）
-- `ARXIV_INIT_RESULTS`: 初始化抓取数量（默认：500）
+- `ARXIV_QUERY_KEYWORD`: 搜索关键词，支持 arXiv 查询语法（默认检索 JEPA / 联合嵌入 / 隐空间预测 / 世界模型；用 `ti:`/`abs:` 限定字段，避免只在 comments 或 journal-ref 里蹭词的命中）
+- `ARXIV_INIT_RESULTS`: 初始化抓取数量（默认：120，约 2.5 周历史。GitHub Actions **未覆盖**此值，改 `scripts/arxiv_crawler.py` 里的默认值才会在 CI 生效）
 - `ARXIV_DAILY_RESULTS`: 每日抓取数量（默认：20）
 - `ARXIV_MAX_RETRIES`: arXiv 搜索重试次数（默认：3）
 - `HTTP_MAX_RETRIES`: HTTP 请求重试次数（默认：3）
@@ -48,6 +50,8 @@ cp .env.example .env
 - `API_MAX_RETRIES`: API 调用重试次数（默认：3）
 - `BATCH_WRITE_SIZE`: 批量写入大小，每生成 N 篇摘要写入一次文件（默认：5）
 - `GA_MEASUREMENT_ID`: Google Analytics 4 的 Measurement ID（例如 `G-XXXXXXXXXX`，未配置时不加载 GA）
+
+> ⚠️ **`.env` 对爬虫和站点构建不生效。** `scripts/arxiv_crawler.py` 与 `scripts/build_site.py` 都**没有**调用 `load_dotenv()`（全仓只有 `generate_summaries.py` 调用）。所以写在 `.env` 里的 `ARXIV_QUERY_KEYWORD`、`ARXIV_INIT_RESULTS`、`ARXIV_DAILY_RESULTS` 等**不会**被这两个脚本读取——`.env.example` 里的这些行只是文档。要改检索式或抓取量，请改 `scripts/arxiv_crawler.py` / `scripts/build_site.py` 的默认值，或在 shell / CI 里真正 `export`。这是 fork 自带的行为，本次未改动（改它会变更 CI 语义）。
 
 ### 爬取论文数据
 
@@ -72,6 +76,26 @@ npm run paper-image:fallbacks
 # 将截图结果注册进 manifest
 python scripts/register_paper_image_fallbacks.py
 ```
+
+### 加深历史回填
+
+`initialize()` 只在 `papers.md` 缺失时触发，之后每次运行都走 `run_daily()`。要把历史从 120 篇加深：
+
+1. 临时把 `.github/workflows/deploy.yml` 里的 `ARXIV_DAILY_RESULTS` 每轮 +100
+2. 推送触发一次运行，新入库论文的摘要会标记为「待生成」
+3. 后续每日 cron 会继续消化未生成的摘要（`generate_summaries.py` 按 `BATCH_WRITE_SIZE=5` 增量写盘）
+4. 达到想要的深度后把 `ARXIV_DAILY_RESULTS` 改回 `80`
+
+**不要一次性设成几百篇**：单次运行要生成同等数量的摘要，可能撞上 GitHub Actions 的 6 小时硬限。作业被杀时「提交更改」步骤不会执行，`papers.md` 不会落盘，下一轮会重复同样的超时。
+
+### 本地测试
+
+```bash
+pip install -r requirements-dev.txt
+python3 -m pytest tests/test_topic_retarget.py -v
+```
+
+测试只覆盖两类真实失效模式：检索式在多副本间漂移（会让首页标题渲染成一坨查询语法）、品牌改造漏改。测试用 `ast` 提取 `arxiv_crawler.py` 的常量而非 import 它，因此**无需安装 `arxiv` 等运行时依赖**。
 
 ### 构建网站
 
@@ -111,6 +135,13 @@ npx serve site
 
 ## GitHub Pages 部署
 
+### 0. 前置条件（首次部署必做）
+
+1. **开启 Pages**：`Settings → Pages → Build and deployment → Source` 选 **GitHub Actions**。未开启时 `deploy` 作业的 `actions/deploy-pages` 会失败。
+2. **配置 Secret**：`MODELSCOPE_ACCESS_TOKEN`（必需）。fork **不继承**上游 secrets，必须在本仓库重新配置。
+3. **合并到默认分支**：cron 与 Pages 只认默认分支 `master`。在 `dev_jepa` 上的改动必须合入 `master` 才会开始每日更新。
+4. **可选 GA4**：`Settings → Secrets and variables → Actions → Variables` 新增 `GA_MEASUREMENT_ID`。
+
 ### 1. 配置仓库
 
 1. 确保你的仓库是公开的
@@ -131,13 +162,16 @@ npx serve site
   run: python scripts/arxiv_crawler.py
   env:
     MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
-    ARXIV_QUERY_KEYWORD: "your_keyword"  # 可选：修改搜索关键词
     ARXIV_DAILY_RESULTS: "30"            # 可选：修改每日抓取数量
 ```
 
+> ⚠️ **不要在 CI 里覆盖 `ARXIV_QUERY_KEYWORD`。** `build_site.py` 的 `get_arxiv_keyword_label()` 靠「环境变量是否逐字等于脚本默认查询串」来决定站点标题：任一处差一个空格，首页 H1、`<title>`、meta description、详情页与封面页标题就会全部变成 260 字符的查询语法。本仓库已刻意删除 CI 里的两处覆盖，改检索式请改 `scripts/arxiv_crawler.py` 与 `scripts/build_site.py` 的默认值（`tests/test_topic_retarget.py` 会强制两者逐字相等）。
+
 默认配置：
-- 搜索关键词：`all:"VLA" OR all:"Vision-Language-Action" OR all:"World Action Model" OR all:"World-Action Model" OR all:"action world model"`
-- 每日抓取：20篇（GitHub Actions 中可覆盖）
+- 搜索关键词：`(ti:"JEPA" OR abs:"JEPA" OR ti:"joint embedding predictive" OR abs:"joint embedding predictive" OR abs:"joint embedding" OR abs:"latent prediction" OR ti:"world model" OR ti:"world models" OR abs:"world model" OR abs:"world models" OR abs:"latent world model")`
+- 语料规模：实测 4513 篇（2026-09-07），日均新增约 7 篇，主类目白名单过滤后保留约 93%
+- 初始回填：120 篇
+- 每日抓取：80 篇（GitHub Actions 中覆盖代码默认值 20，提供约 11 天容错）
 - 模型：deepseek-ai/DeepSeek-V3.2
 - 其他配置见 `.env.example`
 
@@ -170,7 +204,7 @@ GitHub Actions 还会在每日中午12点自动执行：
 https://你的用户名.github.io/仓库名
 ```
 
-例如：`https://username.github.io/arxiv`
+本仓库对应：`https://dreamskanda.github.io/daily-arxiv-jepa`
 
 ## 自定义配置
 
@@ -181,8 +215,12 @@ https://你的用户名.github.io/仓库名
 ## 项目结构
 
 ```
-arxiv/
+daily-arxiv-jepa/
 ├── papers.md                    # 论文数据源文件
+├── requirements-dev.txt         # 测试依赖（pytest）
+├── tests/
+│   └── test_topic_retarget.py   # 检索式一致性与品牌回归测试
+├── docs/superpowers/            # 设计文档与实施计划
 ├── scripts/
 │   ├── arxiv_crawler.py         # ArXiv论文爬虫
 │   ├── generate_summaries.py    # AI摘要生成脚本
@@ -190,6 +228,7 @@ arxiv/
 │   ├── build_paper_image_fallback_queue.py
 │   ├── register_paper_image_fallbacks.py
 │   ├── render_paper_image_fallbacks.mjs
+│   ├── modern_ui.css            # 首页附加样式（含 hero 水印字母）
 │   └── build_site.py            # 网站构建脚本
 ├── site/                        # 生成的静态网站
 │   ├── index.html

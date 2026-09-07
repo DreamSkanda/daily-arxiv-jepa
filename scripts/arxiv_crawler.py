@@ -7,9 +7,12 @@ from typing import List, Set
 import arxiv
 
 DEFAULT_ARXIV_QUERY = (
-	'all:"VLA" OR all:"Vision-Language-Action" OR '
-	'all:"World Action Model" OR all:"World-Action Model" OR '
-	'all:"action world model"'
+	'(ti:"JEPA" OR abs:"JEPA" OR '
+	'ti:"joint embedding predictive" OR abs:"joint embedding predictive" OR '
+	'abs:"joint embedding" OR abs:"latent prediction" OR '
+	'ti:"world model" OR ti:"world models" OR '
+	'abs:"world model" OR abs:"world models" OR '
+	'abs:"latent world model")'
 )
 
 
@@ -19,7 +22,7 @@ class ArxivCollector:
 	 * @class ArxivCollector
 	 * @description 每日自动获取 arXiv 上包含指定关键词的论文，并维护项目根目录下的
 	 * `papers.md` 表格（列：日期、标题、链接）。首次运行无数据时执行初始化，之后每日增量并去重。
-	 * 关键词可通过环境变量 ARXIV_QUERY_KEYWORD 配置，默认同时检索 VLA 与 World Action Model 相关短语。
+	 * 关键词可通过环境变量 ARXIV_QUERY_KEYWORD 配置，默认检索 JEPA / 联合嵌入 / 隐空间预测 / 世界模型相关短语。
 	 */
 	"""
 
@@ -37,14 +40,14 @@ class ArxivCollector:
 		"""
 		初始化 ArxivCollector
 		参数可通过环境变量配置：
-		- ARXIV_QUERY_KEYWORD: 搜索关键词（默认同时检索 VLA 与 World Action Model）
-		- ARXIV_INIT_RESULTS: 初始化抓取数量（默认 500）
+		- ARXIV_QUERY_KEYWORD: 搜索关键词（默认检索 JEPA / 世界模型相关短语）
+		- ARXIV_INIT_RESULTS: 初始化抓取数量（默认 120）
 		- ARXIV_DAILY_RESULTS: 每日抓取数量（默认 20）
 		- ARXIV_PAGE_SIZE: 单次请求返回数量（默认 20，避免 arxiv 库默认请求 100 条触发限流）
 		- ARXIV_DELAY_SECONDS: arXiv 请求间隔（默认 10 秒）
 		"""
 		self.papers_path = papers_path
-		self.init_results = init_results or int(os.getenv("ARXIV_INIT_RESULTS", "500"))
+		self.init_results = init_results or int(os.getenv("ARXIV_INIT_RESULTS", "120"))
 		self.daily_results = daily_results or int(os.getenv("ARXIV_DAILY_RESULTS", "20"))
 		self.query_keyword = query_keyword or os.getenv("ARXIV_QUERY_KEYWORD") or DEFAULT_ARXIV_QUERY
 		self.arxiv_page_size = int(os.getenv("ARXIV_PAGE_SIZE", "20"))

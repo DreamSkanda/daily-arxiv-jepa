@@ -37,11 +37,14 @@ COVERS_DIR = SITE_DIR / "covers"
 IMAGE_DIR = ASSETS_DIR / "paper-images"
 PAPER_IMAGES_MANIFEST = ASSETS_DIR / "paper-images.json"
 DEFAULT_ARXIV_QUERY = (
-    'all:"VLA" OR all:"Vision-Language-Action" OR '
-    'all:"World Action Model" OR all:"World-Action Model" OR '
-    'all:"action world model"'
+    '(ti:"JEPA" OR abs:"JEPA" OR '
+    'ti:"joint embedding predictive" OR abs:"joint embedding predictive" OR '
+    'abs:"joint embedding" OR abs:"latent prediction" OR '
+    'ti:"world model" OR ti:"world models" OR '
+    'abs:"world model" OR abs:"world models" OR '
+    'abs:"latent world model")'
 )
-DEFAULT_ARXIV_KEYWORD_LABEL = "VLA / World Action Model"
+DEFAULT_ARXIV_KEYWORD_LABEL = "JEPA / 世界模型"
 
 COVER_THEMES = [
     {
@@ -732,7 +735,7 @@ def generate_head(title: str, description: str, stylesheet_prefix: str = "") -> 
         "%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E"
         "%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E"
         "%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' "
-        "font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E"
+        "font-size='30' font-family='Arial, sans-serif' fill='white'%3EJ%3C/text%3E"
         "%3C/svg%3E"
     )
     return f"""
@@ -806,7 +809,7 @@ def generate_index_html() -> str:
       <div class="container">
         <nav class="site-nav" aria-label="站点导航">
           <a class="site-brand" href="index.html" aria-label="返回首页">
-            <span class="site-brand-mark">VLA/WAM</span>
+            <span class="site-brand-mark">JEPA/WM</span>
             <span>Research Brief</span>
           </a>
           <div class="site-nav-actions">
@@ -819,7 +822,7 @@ def generate_index_html() -> str:
         </nav>
         <div class="header-content">
           <div class="header-copy">
-            <p class="eyebrow">VLA &amp; World Action Model Feed</p>
+            <p class="eyebrow">JEPA &amp; World Model Feed</p>
             <h1 class="site-title">{escape(keyword)} <span class="site-title-nowrap">每日论文卡</span></h1>
             <p class="site-subtitle">聚合最新论文，提炼核心贡献、方法与实验结果，用更清晰的阅读路径持续跟进前沿研究。</p>
             <div class="hero-tags" aria-label="站点特点">
@@ -838,7 +841,7 @@ def generate_index_html() -> str:
               <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                 <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <input id="search" type="search" placeholder="比如：OpenVLA、World Action Model、实时推理..." aria-label="搜索论文卡片" />
+              <input id="search" type="search" placeholder="比如：V-JEPA、latent prediction、世界模型..." aria-label="搜索论文卡片" />
             </div>
             <p class="search-hint">支持同时输入多个关键词，将在标题、机构、摘要和 arXiv ID 中检索。</p>
           </div>
