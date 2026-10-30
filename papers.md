@@ -1,5 +1,76 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-29 | world2vec: Mechanistic world models through latent dynamics learning | http://arxiv.org/abs/2610.40637 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory | http://arxiv.org/abs/2610.40614 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Fight World Model: Customizable Combat through Visual Interaction Proxies | http://arxiv.org/abs/2610.40607 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Algebraic World Model: From Exploration to Proofs | http://arxiv.org/abs/2610.40503 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors | http://arxiv.org/abs/2610.40401 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model | http://arxiv.org/abs/2610.40373 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning | http://arxiv.org/abs/2610.40356 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Wizard: Manipulate Any World in Real Time via Agentic Control | http://arxiv.org/abs/2610.40339 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Latent Prediction Yields Cross-Subject Alignable Representations in Sensory-Evoked fMRI | http://arxiv.org/abs/2610.40280 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement | http://arxiv.org/abs/2610.40191 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information | http://arxiv.org/abs/2610.40030 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | GROME: GROunding Factorized MEmory into Video World Models | http://arxiv.org/abs/2610.39812 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration | http://arxiv.org/abs/2610.39721 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | FutureWorld: A Plug-and-Play Causal Next-State Predictor for Interactive Video World Exploration | http://arxiv.org/abs/2610.39619 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance | http://arxiv.org/abs/2610.39547 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | PRIME W0: Physical Priors from World Models for Embodied Manipulation | http://arxiv.org/abs/2610.39528 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Robust LIDAR Sensor-to-Sensor Domain Generalization via Accumulated-Point Scene Completion | http://arxiv.org/abs/2610.39516 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | More Is Better? Exploring Latent Correspondence in Federated Hypergraph Learning | http://arxiv.org/abs/2610.39362 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Proving and Improving the Platonic Representation Hypothesis with JEPAs | http://arxiv.org/abs/2610.39302 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining | http://arxiv.org/abs/2610.39278 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Seeing and Imagining as One: Unified Video Generation and 4D Perception for Embodied World Modeling | http://arxiv.org/abs/2610.39232 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Generating Critic-Guided Synthetic Experience in Latent World Models | http://arxiv.org/abs/2610.39100 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection | http://arxiv.org/abs/2610.39076 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | Context Compaction for World Models | http://arxiv.org/abs/2610.38980 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | Structural-Test Geometry as an Inductive Bias for Partially Observable World Models | http://arxiv.org/abs/2610.38903 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation | http://arxiv.org/abs/2610.38657 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control | http://arxiv.org/abs/2610.38508 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | DES-JEPA: Learning a Shared Vocabulary for High-Dimensional Discrete Event Sequences | http://arxiv.org/abs/2610.38445 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | Predict the Reward, Not the World: World Reward Models for ML Agents | http://arxiv.org/abs/2610.38439 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | PulmoWorld: An Asynchronous Multimodal Medical World Model for Longitudinal Pneumonia Dynamics | http://arxiv.org/abs/2610.38289 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation | http://arxiv.org/abs/2610.38266 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-28 | ETA-Motion: Efficient Topology-Agnostic Motion Diffusion via Sparse Joint Learning | http://arxiv.org/abs/2610.38259 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Self-Supervised Latent Action-Conditioned World Modeling for Time Series | http://arxiv.org/abs/2610.37963 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | When More Planning Hurts: Learned Planners for World Models | http://arxiv.org/abs/2610.37891 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Understanding the limits of latent world models | http://arxiv.org/abs/2610.37588 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Representing the Unseen: Rethinking Visual Imagination for Spatial Reasoning | http://arxiv.org/abs/2610.37437 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations | http://arxiv.org/abs/2610.37381 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling | http://arxiv.org/abs/2610.37257 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model | http://arxiv.org/abs/2610.37175 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | GAWM: A Compact Latent World-Action Model for Multi-Task Robot Manipulation | http://arxiv.org/abs/2610.37091 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Vision-Language Agents Can Learn in Their Own Latent Worlds | http://arxiv.org/abs/2610.36925 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents | http://arxiv.org/abs/2610.36877 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions | http://arxiv.org/abs/2610.36791 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Readout and Operating-Point Sensitivity in Event-Stream Candidate Selection | http://arxiv.org/abs/2610.36743 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Hy-Nomas: Towards Free-form Interactive World Generation | http://arxiv.org/abs/2610.36729 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | SWIM: Learning What Matters from Behaviors for JEPA World Models | http://arxiv.org/abs/2610.36662 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | AC-JEPA: Anchored Cross-Modal Joint Embedding Predictive Architecture for Visual-to-Symbolic Translation | http://arxiv.org/abs/2610.36493 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | BoxWorld: Let World Engines Control and Video Generators Render | http://arxiv.org/abs/2610.36371 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Rollback: Experience Backtracking in World Models for Policy Improvement | http://arxiv.org/abs/2610.36068 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling | http://arxiv.org/abs/2610.36011 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Adapt for Planning, Not just Prediction: Optimistic Test-Time World Model Adaptation | http://arxiv.org/abs/2610.35636 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models | http://arxiv.org/abs/2610.35044 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | TimeWorld: Towards Action-Conditioned Multimodal World Models for Time Series Forecasting | http://arxiv.org/abs/2610.34797 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Video World Models Need Predictable Latents | http://arxiv.org/abs/2610.34663 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Dream to Assist: Intent-Conditioned World Models for Shared Vehicle Control | http://arxiv.org/abs/2610.34650 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-25 | What Does World Modeling Actually Improve in Robot Action Learning? | http://arxiv.org/abs/2610.34593 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-25 | FlockWorld: Toward Population-Scale Multi-Agent Video World Models through Artificial Life Simulation | http://arxiv.org/abs/2610.34564 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-25 | How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3 | http://arxiv.org/abs/2610.34523 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-25 | Fovea-JEPA: Overcoming Geometric Blind Spots in V-JEPA for Camera Motion Recognition | http://arxiv.org/abs/2610.34033 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-24 | TurboWAM: Learning What Matters for Fast World Action Models | http://arxiv.org/abs/2610.33941 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-24 | WMEval: Evaluating Interactive World Models Grounded on Physical Simulations | http://arxiv.org/abs/2610.33894 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-24 | RoboWorM: Evaluating Movement Realism, Consistency and Acceleration Affects in Embodied Video World Models | http://arxiv.org/abs/2610.33807 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-24 | Mix Forcing: Causal Pre-Training via Mixture Attention for Interactive World Models | http://arxiv.org/abs/2610.33589 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-24 | Distilling Dense Trajectory Teachers For Large-Motion Video World Models | http://arxiv.org/abs/2610.33566 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-24 | WorldFailBench: Do World Models Understand Policy Failures? | http://arxiv.org/abs/2610.33565 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | World-in-Context: Interactive Video World Modeling with In-Context Conditioning | http://arxiv.org/abs/2610.33169 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | UniAction: Unified Action Conditioning for World Models | http://arxiv.org/abs/2610.32977 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection | http://arxiv.org/abs/2610.32742 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | DT-JEPA: Learning to Predict Future Representations for Decision-Making | http://arxiv.org/abs/2610.32657 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Shared Is Not Enough: Predictor Width and Factor Readability Under Masked Latent Prediction | http://arxiv.org/abs/2610.32562 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching | http://arxiv.org/abs/2610.32554 | <details><summary>展开</summary>待生成</details> |
 | 2026-09-04 | TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image | http://arxiv.org/abs/2609.04911 | <details><summary>展开</summary>待生成</details> |
 | 2026-09-04 | From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments | http://arxiv.org/abs/2609.04894 | <details><summary>展开</summary>待生成</details> |
 | 2026-09-04 | Coupled Control and Wireless World Models for Resilient Remote Robotic Control | http://arxiv.org/abs/2609.04851 | <details><summary>展开</summary>待生成</details> |
