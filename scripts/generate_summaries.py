@@ -1,7 +1,8 @@
 import os
 import re
+import tempfile
 import time
-from typing import List, Set, Tuple
+from typing import List, Optional, Set, Tuple
 
 import requests
 from dotenv import load_dotenv
@@ -21,17 +22,19 @@ RATE_LIMITED_MODELS: Set[str] = set()
 """
 
 
-def get_client() -> OpenAI:
+def get_client() -> Optional[OpenAI]:
     """
     构造 OpenAI 客户端（ModelScope），从环境变量读取配置。
     """
     load_dotenv()
-    api_key = os.getenv("MODELSCOPE_ACCESS_TOKEN")
+    api_key = os.getenv("MODELSCOPE_ACCESS_TOKEN", "").strip()
     if not api_key:
-        raise RuntimeError("缺少环境变量 MODELSCOPE_ACCESS_TOKEN")
+        print("警告: 未配置 MODELSCOPE_ACCESS_TOKEN，跳过可选摘要生成，保留「待生成」。")
+        return None
 
     base_url = os.getenv("MODELSCOPE_BASE_URL", "https://api-inference.modelscope.cn/v1/")
-    return OpenAI(api_key=api_key, base_url=base_url)
+    # 应用层已有模型回退和重试，避免 SDK 叠加重试拖延网站发布。
+    return OpenAI(api_key=api_key, base_url=base_url, timeout=60.0, max_retries=0)
 
 
 def get_papers_md_path() -> str:
@@ -325,6 +328,22 @@ def wrap_in_details(summary_text: str) -> str:
     return f"<details><summary>展开</summary>{summary_text}</details>"
 
 
+def write_papers_atomically(papers_md: str, lines: List[str]) -> None:
+    """完整写入同目录临时文件后替换，失败或超时不会截断原有论文。"""
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=os.path.dirname(papers_md),
+            prefix=".papers-", suffix=".tmp", delete=False,
+        ) as f:
+            temp_path = f.name
+            f.writelines(lines)
+        os.replace(temp_path, papers_md)
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            os.unlink(temp_path)
+
+
 def update_papers_md() -> Tuple[int, int]:
     """
     /**
@@ -346,8 +365,6 @@ def update_papers_md() -> Tuple[int, int]:
     header = lines[:2]
     body = lines[2:]
 
-    client = get_client()
-
     entries_to_update: List[Tuple[int, str, str, str]] = []
     for idx, line in enumerate(body):
         if not line.strip().startswith("|"):
@@ -361,6 +378,17 @@ def update_papers_md() -> Tuple[int, int]:
         entries_to_update.append((idx, date_str, title, link))
 
     need_count = len(entries_to_update)
+    if not need_count:
+        return 0, 0
+
+    try:
+        client = get_client()
+    except Exception as e:
+        print(f"警告: 摘要客户端初始化失败，保留「待生成」: {type(e).__name__}")
+        return need_count, 0
+    if client is None:
+        return need_count, 0
+
     success_count = 0
     batch_size = int(os.getenv("BATCH_WRITE_SIZE", "5"))
     updates_since_last_write = 0
@@ -370,37 +398,28 @@ def update_papers_md() -> Tuple[int, int]:
     for idx, date_str, title, link in progress_bar:
         try:
             summary_text = generate_summary_for_link(client, link)
-            if not summary_text:
-                print(f"警告: 生成摘要为空，跳过: {link}")
-                continue
-            new_summary_cell = wrap_in_details(summary_text)
-            new_line = rebuild_line(date_str, title, link, new_summary_cell)
-            # 更新内存中的行
-            body[idx] = new_line
-            success_count += 1
-            updates_since_last_write += 1
-            progress_bar.set_postfix({"成功": success_count})
-
-            # 批量写入：每处理 batch_size 篇就写一次文件
-            if updates_since_last_write >= batch_size:
-                try:
-                    with open(papers_md, "w", encoding="utf-8") as f:
-                        f.writelines(header + body)
-                    updates_since_last_write = 0
-                except Exception as e:
-                    print(f"警告: 写入文件失败: {repr(e)}")
-
         except Exception as e:
             print(f"生成摘要失败: {link}: {repr(e)}")
+            continue
+
+        if not summary_text:
+            print(f"警告: 生成摘要为空，保留「待生成」: {link}")
+            continue
+        new_summary_cell = wrap_in_details(summary_text)
+        new_line = rebuild_line(date_str, title, link, new_summary_cell)
+        body[idx] = new_line
+        success_count += 1
+        updates_since_last_write += 1
+        progress_bar.set_postfix({"成功": success_count})
+
+        # 写入故障应可见；原子替换保证磁盘上的完整数据仍可用于构建。
+        if updates_since_last_write >= batch_size:
+            write_papers_atomically(papers_md, header + body)
+            updates_since_last_write = 0
 
     # 最后写入一次，确保所有更改都保存
     if updates_since_last_write > 0:
-        try:
-            with open(papers_md, "w", encoding="utf-8") as f:
-                f.writelines(header + body)
-        except Exception as e:
-            print(f"错误: 最终写入文件失败: {repr(e)}")
-            raise
+        write_papers_atomically(papers_md, header + body)
 
     return need_count, success_count
 

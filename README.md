@@ -22,7 +22,7 @@ fork 自 [infinity4b/daily-arxiv-vla](https://github.com/infinity4b/daily-arxiv-
 
 ### 环境配置
 
-首先需要配置环境变量：
+如需生成 AI 摘要，可配置环境变量；抓取论文和构建网站不需要 API 密钥：
 
 ```bash
 # 复制示例配置文件
@@ -34,8 +34,8 @@ cp .env.example .env
 
 可配置的环境变量：
 
-**必需配置：**
-- `MODELSCOPE_ACCESS_TOKEN`: ModelScope API 密钥
+**AI 摘要配置（可选）：**
+- `MODELSCOPE_ACCESS_TOKEN`: ModelScope API 密钥；缺失时跳过摘要生成，保留「待生成」
 
 **可选配置：**
 - `MODELSCOPE_BASE_URL`: API 基础 URL（默认：https://api-inference.modelscope.cn/v1/）
@@ -86,16 +86,16 @@ python scripts/register_paper_image_fallbacks.py
 3. 后续每日 cron 会继续消化未生成的摘要（`generate_summaries.py` 按 `BATCH_WRITE_SIZE=5` 增量写盘）
 4. 达到想要的深度后把 `ARXIV_DAILY_RESULTS` 改回 `80`
 
-**不要一次性设成几百篇**：单次运行要生成同等数量的摘要，可能撞上 GitHub Actions 的 6 小时硬限。作业被杀时「提交更改」步骤不会执行，`papers.md` 不会落盘，下一轮会重复同样的超时。
+历史回填仍需单独规划抓取量。每日工作流会先提交抓取结果，再尝试摘要；摘要步骤最多运行 20 分钟，未完成条目保留「待生成」，后续运行继续补齐。
 
 ### 本地测试
 
 ```bash
-pip install -r requirements-dev.txt
-python3 -m pytest tests/test_topic_retarget.py -v
+pip install -r requirements.txt -r requirements-dev.txt
+python3 -m pytest tests -v
 ```
 
-测试只覆盖两类真实失效模式：检索式在多副本间漂移（会让首页标题渲染成一坨查询语法）、品牌改造漏改。测试用 `ast` 提取 `arxiv_crawler.py` 的常量而非 import 它，因此**无需安装 `arxiv` 等运行时依赖**。
+测试覆盖检索式一致性、主题标识、缺少密钥、摘要服务异常/空响应、恢复重试、原子写入失败及正常生成。每日流程测试使用模拟服务、临时 Git 远端和真实站点构建，验证标题、日期、链接及已有摘要都能保留，无需真实 API 密钥或外网请求。PR 会自动运行这些测试。
 
 ### 构建网站
 
@@ -151,7 +151,7 @@ npx serve site
 ### 2. 配置环境变量
 
 在仓库设置中添加以下Secret：
-- `MODELSCOPE_ACCESS_TOKEN`: 你的ModelScope API密钥（必需）
+- `MODELSCOPE_ACCESS_TOKEN`: 你的 ModelScope API 密钥（可选，仅用于摘要）
 
 如需启用 Google Analytics 4，在 `Settings → Secrets and variables → Actions → Variables` 中新增仓库变量 `GA_MEASUREMENT_ID`，值填写类似 `G-XXXXXXXXXX` 的 Measurement ID。当前工作流会自动把它注入网站构建；也兼容在 **Secrets** 中配置同名变量。不设置或格式不正确时不会加载 GA。Measurement ID 会出现在客户端 HTML 中，因此优先使用 **Variables** 即可。
 
@@ -161,7 +161,6 @@ npx serve site
 - name: 运行 arXiv 爬虫
   run: python scripts/arxiv_crawler.py
   env:
-    MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
     ARXIV_DAILY_RESULTS: "30"            # 可选：修改每日抓取数量
 ```
 
@@ -180,22 +179,24 @@ npx serve site
 每次推送到 `master` 或 `main` 分支时，GitHub Actions 会自动：
 
 1. 检出代码
-2. 爬取新论文并生成摘要
+2. 爬取新论文并立即提交 `papers.md`，再尝试生成摘要
 3. 抓取最新论文的首图
 4. 对无法直接下载原图的论文执行 Playwright 截图兜底
-5. 运行构建脚本
+5. 运行构建脚本并提交摘要和网站产物
 6. 部署到 GitHub Pages
 
 ### 4. 定时任务
 
 GitHub Actions 还会在每日中午12点自动执行：
 
-1. 爬取ArXiv上的新论文
-2. 为待生成的论文生成AI摘要
+1. 爬取 arXiv 上的新论文并立即提交标题、日期、链接及「待生成」占位
+2. 尝试为待生成的论文生成 AI 摘要
 3. 抓取最新论文的首图
 4. 对无法直接下载原图的论文执行 Playwright 截图兜底
-5. 提交更改到仓库
-6. 重新构建和部署网站
+5. 构建网站并提交摘要和网站产物
+6. 部署网站
+
+摘要不是发布的前置条件：缺少密钥、服务失败或步骤超时均保留未完成条目的「待生成」状态，继续构建和发布。CI 中每完成一篇摘要就原子写入一次；已有摘要不会重新生成。服务恢复后，下一次每日运行会补齐，也可在 Actions 的部署工作流中选择 **Run workflow** 手动运行。该机制不改变抓取范围，也不执行历史论文回填。
 
 ### 5. 访问网站
 
