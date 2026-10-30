@@ -1,6 +1,7 @@
 name: 部署到 GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master, main ]
   schedule:
@@ -46,19 +47,42 @@ jobs:
         run: |
           python scripts/arxiv_crawler.py
         env:
-          MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
           ARXIV_DAILY_RESULTS: 80
           ARXIV_PAGE_SIZE: 10
           ARXIV_DELAY_SECONDS: 15
           ARXIV_RETRY_BASE_SECONDS: 60
           ARXIV_MAX_RETRIES: 4
 
+      # 先持久化抓取结果；后续摘要、图片或构建失败也不会丢失新论文。
+      - name: 保存新论文数据
+        id: save_papers
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add papers.md
+          if git diff --staged --quiet; then
+            echo "没有新论文需要提交"
+          else
+            CURRENT_DATE=$(date '+%Y-%m-%d')
+            git commit -m "自动更新：保存新论文 - $CURRENT_DATE [skip ci]"
+            git push
+          fi
+
       - name: 生成论文摘要
+        id: summaries
+        continue-on-error: true
+        timeout-minutes: 20
         run: |
           python scripts/generate_summaries.py
         env:
           MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
+          # 超时前已完成的摘要逐篇保存；未完成的仍为「待生成」。
+          BATCH_WRITE_SIZE: 1
           MODELSCOPE_MODELS: moonshotai/Kimi-K3,deepseek-ai/DeepSeek-V4-Flash-0731,Tencent-Hunyuan/Hy3,stepfun-ai/Step-3.7-Flash,ZhipuAI/GLM-5.2,deepseek-ai/DeepSeek-V4-Pro
+
+      - name: 提示摘要降级
+        if: steps.summaries.outcome == 'failure'
+        run: echo "::warning::摘要步骤失败或超时；新论文已保存，未完成摘要将在后续运行中重试。"
 
       - name: 抓取论文首图
         run: |
@@ -93,6 +117,7 @@ jobs:
           GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID || secrets.GA_MEASUREMENT_ID }}
 
       - name: 提交更改
+        id: save_site
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -102,7 +127,7 @@ jobs:
             echo "没有更改需要提交"
           else
             CURRENT_DATE=$(date '+%Y-%m-%d')
-            git commit -m "自动更新：爬取新论文并生成摘要 - $CURRENT_DATE [skip ci]"
+            git commit -m "自动更新：保存摘要和网站 - $CURRENT_DATE [skip ci]"
             git push
           fi
           
