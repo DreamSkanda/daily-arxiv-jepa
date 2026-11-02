@@ -1,5 +1,17 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-30 | Hierarchical World Models with Implicit Dynamics | http://arxiv.org/abs/2610.42146 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | CausalWAM: Learning the Causes of Actions in World Action Models | http://arxiv.org/abs/2610.42096 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation | http://arxiv.org/abs/2610.41654 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | Cross-Embodiment Motion Planning by Coupling Body-Agnostic World Model with Differentiable Ego-Dynamics | http://arxiv.org/abs/2610.41330 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | SPT-Flow: One Integration, Many Futures in Continuous-Time World Models | http://arxiv.org/abs/2610.41273 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Before We Adapt: The Zero-Shot Generalization Bottleneck in Continual World Models | http://arxiv.org/abs/2610.41041 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Dreams Are Cheaper Than Flights: Curated World-Model Data Improves Aerial Detection | http://arxiv.org/abs/2610.41030 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Density-Guided Bootstrap Boundaries for Latent World-Model Reinforcement Learning | http://arxiv.org/abs/2610.41022 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | UFMF: Radar-Guided Kinematic Priors for Real-Time 4D Occupancy Forecasting | http://arxiv.org/abs/2610.40947 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models | http://arxiv.org/abs/2610.40935 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Agentic World Modeling for Agent Test-time Scaling without Environment Replica | http://arxiv.org/abs/2610.40927 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Beyond Plausible Prediction: Safety Sufficiency in Web World Models | http://arxiv.org/abs/2610.40798 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-29 | world2vec: Mechanistic world models through latent dynamics learning | http://arxiv.org/abs/2610.40637 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-29 | L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory | http://arxiv.org/abs/2610.40614 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-29 | Fight World Model: Customizable Combat through Visual Interaction Proxies | http://arxiv.org/abs/2610.40607 | <details><summary>展开</summary>待生成</details> |
