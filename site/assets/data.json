@@ -1,5 +1,950 @@
 [
   {
+    "date": "2026-11-02",
+    "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
+    "link": "http://arxiv.org/abs/2611.03626",
+    "arxiv_id": "2611.03626",
+    "detail_path": "papers/2611.03626/",
+    "cover_path": "covers/2611.03626/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03626.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03626.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Toward Uncertainty-Aware, Physics-Grounded Human World Models",
+    "link": "http://arxiv.org/abs/2611.03428",
+    "arxiv_id": "2611.03428",
+    "detail_path": "papers/2611.03428/",
+    "cover_path": "covers/2611.03428/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03428.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03428.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "An intelligent satellite must do nothing well",
+    "link": "http://arxiv.org/abs/2611.02922",
+    "arxiv_id": "2611.02922",
+    "detail_path": "papers/2611.02922/",
+    "cover_path": "covers/2611.02922/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.02853",
+    "arxiv_id": "2611.02853",
+    "detail_path": "papers/2611.02853/",
+    "cover_path": "covers/2611.02853/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02853.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02853.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Predictive Safety Guardrails Do Not Always Make LLM Agents Safer",
+    "link": "http://arxiv.org/abs/2611.02815",
+    "arxiv_id": "2611.02815",
+    "detail_path": "papers/2611.02815/",
+    "cover_path": "covers/2611.02815/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02815.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02815.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
+    "link": "http://arxiv.org/abs/2611.02807",
+    "arxiv_id": "2611.02807",
+    "detail_path": "papers/2611.02807/",
+    "cover_path": "covers/2611.02807/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+    "link": "http://arxiv.org/abs/2611.02782",
+    "arxiv_id": "2611.02782",
+    "detail_path": "papers/2611.02782/",
+    "cover_path": "covers/2611.02782/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02782.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02782.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up",
+    "link": "http://arxiv.org/abs/2611.02699",
+    "arxiv_id": "2611.02699",
+    "detail_path": "papers/2611.02699/",
+    "cover_path": "covers/2611.02699/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02699.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02699.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Human-Oriented World Model",
+    "link": "http://arxiv.org/abs/2611.02690",
+    "arxiv_id": "2611.02690",
+    "detail_path": "papers/2611.02690/",
+    "cover_path": "covers/2611.02690/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02690.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02690.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.02526",
+    "arxiv_id": "2611.02526",
+    "detail_path": "papers/2611.02526/",
+    "cover_path": "covers/2611.02526/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02526.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02526.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Cross-Domain Joint-Embedding Pretraining For Heterogeneous Industrial Time Series",
+    "link": "http://arxiv.org/abs/2611.02489",
+    "arxiv_id": "2611.02489",
+    "detail_path": "papers/2611.02489/",
+    "cover_path": "covers/2611.02489/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02489.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02489.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "AgiWorld: An Agentic Video World Model for Building Persistent Worlds",
+    "link": "http://arxiv.org/abs/2611.02341",
+    "arxiv_id": "2611.02341",
+    "detail_path": "papers/2611.02341/",
+    "cover_path": "covers/2611.02341/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02341.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02341.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift",
+    "link": "http://arxiv.org/abs/2611.02218",
+    "arxiv_id": "2611.02218",
+    "detail_path": "papers/2611.02218/",
+    "cover_path": "covers/2611.02218/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02218.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02218.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "RubricWorld: World Model-Guided Rubric Optimization for LLM Graders",
+    "link": "http://arxiv.org/abs/2611.01986",
+    "arxiv_id": "2611.01986",
+    "detail_path": "papers/2611.01986/",
+    "cover_path": "covers/2611.01986/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01986.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01986.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "The (Butter)fly Dream: Linear Separability of World-Model Rollouts in a Connectome-Constrained Visual Model",
+    "link": "http://arxiv.org/abs/2611.01866",
+    "arxiv_id": "2611.01866",
+    "detail_path": "papers/2611.01866/",
+    "cover_path": "covers/2611.01866/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01866.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01866.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining",
+    "link": "http://arxiv.org/abs/2611.01844",
+    "arxiv_id": "2611.01844",
+    "detail_path": "papers/2611.01844/",
+    "cover_path": "covers/2611.01844/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01844.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01844.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+    "link": "http://arxiv.org/abs/2611.01815",
+    "arxiv_id": "2611.01815",
+    "detail_path": "papers/2611.01815/",
+    "cover_path": "covers/2611.01815/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01815.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01815.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence",
+    "link": "http://arxiv.org/abs/2611.01677",
+    "arxiv_id": "2611.01677",
+    "detail_path": "papers/2611.01677/",
+    "cover_path": "covers/2611.01677/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01677.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01677.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions",
+    "link": "http://arxiv.org/abs/2611.01666",
+    "arxiv_id": "2611.01666",
+    "detail_path": "papers/2611.01666/",
+    "cover_path": "covers/2611.01666/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01666.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01666.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts",
+    "link": "http://arxiv.org/abs/2611.01600",
+    "arxiv_id": "2611.01600",
+    "detail_path": "papers/2611.01600/",
+    "cover_path": "covers/2611.01600/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01600.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01600.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Recoverability-Aware Evaluation of Diffusion Video Inpainting and Object Removal",
+    "link": "http://arxiv.org/abs/2611.01578",
+    "arxiv_id": "2611.01578",
+    "detail_path": "papers/2611.01578/",
+    "cover_path": "covers/2611.01578/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits",
+    "link": "http://arxiv.org/abs/2611.01139",
+    "arxiv_id": "2611.01139",
+    "detail_path": "papers/2611.01139/",
+    "cover_path": "covers/2611.01139/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model",
+    "link": "http://arxiv.org/abs/2611.01039",
+    "arxiv_id": "2611.01039",
+    "detail_path": "papers/2611.01039/",
+    "cover_path": "covers/2611.01039/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "GURU: A Hierarchical Neuro-Symbolic Multi-Agent System for Verification-Aware Automation of Mission-Critical Digital Engineering and Operations",
+    "link": "http://arxiv.org/abs/2611.01001",
+    "arxiv_id": "2611.01001",
+    "detail_path": "papers/2611.01001/",
+    "cover_path": "covers/2611.01001/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking",
+    "link": "http://arxiv.org/abs/2611.00951",
+    "arxiv_id": "2611.00951",
+    "detail_path": "papers/2611.00951/",
+    "cover_path": "covers/2611.00951/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Old Is Not False: Valid-Time Memory for Interactive Video World Models",
+    "link": "http://arxiv.org/abs/2611.00758",
+    "arxiv_id": "2611.00758",
+    "detail_path": "papers/2611.00758/",
+    "cover_path": "covers/2611.00758/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Roz: A Taste Test for World Model Latents",
+    "link": "http://arxiv.org/abs/2611.00612",
+    "arxiv_id": "2611.00612",
+    "detail_path": "papers/2611.00612/",
+    "cover_path": "covers/2611.00612/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "X-World 1.6: Building Controllable Virtual Cities with World Models",
+    "link": "http://arxiv.org/abs/2611.00596",
+    "arxiv_id": "2611.00596",
+    "detail_path": "papers/2611.00596/",
+    "cover_path": "covers/2611.00596/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation",
+    "link": "http://arxiv.org/abs/2611.00513",
+    "arxiv_id": "2611.00513",
+    "detail_path": "papers/2611.00513/",
+    "cover_path": "covers/2611.00513/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation",
+    "link": "http://arxiv.org/abs/2611.00455",
+    "arxiv_id": "2611.00455",
+    "detail_path": "papers/2611.00455/",
+    "cover_path": "covers/2611.00455/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Spoofing the Latent State: Imperceptible Goal-Image Attacks Derail Planning in LeWorldModel",
+    "link": "http://arxiv.org/abs/2611.00427",
+    "arxiv_id": "2611.00427",
+    "detail_path": "papers/2611.00427/",
+    "cover_path": "covers/2611.00427/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "TAP-Out: Tracking Any Point in 360° via Outpainting",
+    "link": "http://arxiv.org/abs/2611.00406",
+    "arxiv_id": "2611.00406",
+    "detail_path": "papers/2611.00406/",
+    "cover_path": "covers/2611.00406/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "IsoAlign: Isoform-Aware DNA-Protein Alignment via Joint-Embedding Predictive Architectures",
+    "link": "http://arxiv.org/abs/2611.00241",
+    "arxiv_id": "2611.00241",
+    "detail_path": "papers/2611.00241/",
+    "cover_path": "covers/2611.00241/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
+    "link": "http://arxiv.org/abs/2611.00177",
+    "arxiv_id": "2611.00177",
+    "detail_path": "papers/2611.00177/",
+    "cover_path": "covers/2611.00177/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+    "link": "http://arxiv.org/abs/2611.00172",
+    "arxiv_id": "2611.00172",
+    "detail_path": "papers/2611.00172/",
+    "cover_path": "covers/2611.00172/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
     "date": "2026-10-30",
     "title": "Hierarchical World Models with Implicit Dynamics",
     "link": "http://arxiv.org/abs/2610.42146",
