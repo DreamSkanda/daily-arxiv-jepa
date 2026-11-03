@@ -1,5 +1,40 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-02 | Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data | http://arxiv.org/abs/2611.03626 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Toward Uncertainty-Aware, Physics-Grounded Human World Models | http://arxiv.org/abs/2611.03428 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | An intelligent satellite must do nothing well | http://arxiv.org/abs/2611.02922 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving | http://arxiv.org/abs/2611.02853 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Predictive Safety Guardrails Do Not Always Make LLM Agents Safer | http://arxiv.org/abs/2611.02815 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation | http://arxiv.org/abs/2611.02807 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models | http://arxiv.org/abs/2611.02782 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up | http://arxiv.org/abs/2611.02699 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Human-Oriented World Model | http://arxiv.org/abs/2611.02690 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving | http://arxiv.org/abs/2611.02526 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Cross-Domain Joint-Embedding Pretraining For Heterogeneous Industrial Time Series | http://arxiv.org/abs/2611.02489 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | AgiWorld: An Agentic Video World Model for Building Persistent Worlds | http://arxiv.org/abs/2611.02341 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | Beyond Ensemble Disagreement: Predictive STL Monitoring of RL Locomotion under Distribution Shift | http://arxiv.org/abs/2611.02218 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | RubricWorld: World Model-Guided Rubric Optimization for LLM Graders | http://arxiv.org/abs/2611.01986 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | The (Butter)fly Dream: Linear Separability of World-Model Rollouts in a Connectome-Constrained Visual Model | http://arxiv.org/abs/2611.01866 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining | http://arxiv.org/abs/2611.01844 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models? | http://arxiv.org/abs/2611.01815 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence | http://arxiv.org/abs/2611.01677 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions | http://arxiv.org/abs/2611.01666 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts | http://arxiv.org/abs/2611.01600 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-01 | Recoverability-Aware Evaluation of Diffusion Video Inpainting and Object Removal | http://arxiv.org/abs/2611.01578 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | World Models Need Not Be Right to Rank Policies Right: Relative Bounds and Audit Limits | http://arxiv.org/abs/2611.01139 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model | http://arxiv.org/abs/2611.01039 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | GURU: A Hierarchical Neuro-Symbolic Multi-Agent System for Verification-Aware Automation of Mission-Critical Digital Engineering and Operations | http://arxiv.org/abs/2611.01001 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking | http://arxiv.org/abs/2611.00951 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | Old Is Not False: Valid-Time Memory for Interactive Video World Models | http://arxiv.org/abs/2611.00758 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | Roz: A Taste Test for World Model Latents | http://arxiv.org/abs/2611.00612 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | X-World 1.6: Building Controllable Virtual Cities with World Models | http://arxiv.org/abs/2611.00596 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-31 | WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation | http://arxiv.org/abs/2611.00513 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | TacMind: Benchmarking and Modeling Tactile Interaction States for Robotic Manipulation | http://arxiv.org/abs/2611.00455 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | Spoofing the Latent State: Imperceptible Goal-Image Attacks Derail Planning in LeWorldModel | http://arxiv.org/abs/2611.00427 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | TAP-Out: Tracking Any Point in 360° via Outpainting | http://arxiv.org/abs/2611.00406 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | IsoAlign: Isoform-Aware DNA-Protein Alignment via Joint-Embedding Predictive Architectures | http://arxiv.org/abs/2611.00241 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation | http://arxiv.org/abs/2611.00177 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings | http://arxiv.org/abs/2611.00172 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-30 | Hierarchical World Models with Implicit Dynamics | http://arxiv.org/abs/2610.42146 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-30 | CausalWAM: Learning the Causes of Actions in World Action Models | http://arxiv.org/abs/2610.42096 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-30 | $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation | http://arxiv.org/abs/2610.41654 | <details><summary>展开</summary>待生成</details> |
