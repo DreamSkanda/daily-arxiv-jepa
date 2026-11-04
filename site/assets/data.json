@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-11-03",
+    "title": "YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction",
+    "link": "http://arxiv.org/abs/2611.05280",
+    "arxiv_id": "2611.05280",
+    "detail_path": "papers/2611.05280/",
+    "cover_path": "covers/2611.05280/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05280.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05280.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.05072",
+    "arxiv_id": "2611.05072",
+    "detail_path": "papers/2611.05072/",
+    "cover_path": "covers/2611.05072/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05072.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05072.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training",
+    "link": "http://arxiv.org/abs/2611.04873",
+    "arxiv_id": "2611.04873",
+    "detail_path": "papers/2611.04873/",
+    "cover_path": "covers/2611.04873/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04873.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04873.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations",
+    "link": "http://arxiv.org/abs/2611.04870",
+    "arxiv_id": "2611.04870",
+    "detail_path": "papers/2611.04870/",
+    "cover_path": "covers/2611.04870/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04870.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04870.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Ground-Wing: A Parametric 3D Wing-in-Ground-Effect Dataset for Benchmarking Neural Surrogate Models",
+    "link": "http://arxiv.org/abs/2611.04571",
+    "arxiv_id": "2611.04571",
+    "detail_path": "papers/2611.04571/",
+    "cover_path": "covers/2611.04571/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04571.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04571.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "A research world model of power engineering learns its dynamics and reveals what-ifs",
+    "link": "http://arxiv.org/abs/2611.04566",
+    "arxiv_id": "2611.04566",
+    "detail_path": "papers/2611.04566/",
+    "cover_path": "covers/2611.04566/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04566.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04566.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation",
+    "link": "http://arxiv.org/abs/2611.04492",
+    "arxiv_id": "2611.04492",
+    "detail_path": "papers/2611.04492/",
+    "cover_path": "covers/2611.04492/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence",
+    "link": "http://arxiv.org/abs/2611.04371",
+    "arxiv_id": "2611.04371",
+    "detail_path": "papers/2611.04371/",
+    "cover_path": "covers/2611.04371/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04371.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04371.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Generalizable AI-Generated Image Detection with Embedding-Space Explanations",
+    "link": "http://arxiv.org/abs/2611.04111",
+    "arxiv_id": "2611.04111",
+    "detail_path": "papers/2611.04111/",
+    "cover_path": "covers/2611.04111/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04111.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04111.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials",
+    "link": "http://arxiv.org/abs/2611.04073",
+    "arxiv_id": "2611.04073",
+    "detail_path": "papers/2611.04073/",
+    "cover_path": "covers/2611.04073/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04073.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04073.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models",
+    "link": "http://arxiv.org/abs/2611.04028",
+    "arxiv_id": "2611.04028",
+    "detail_path": "papers/2611.04028/",
+    "cover_path": "covers/2611.04028/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04028.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04028.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Physical Experience Builds Continual Spatial World Models",
+    "link": "http://arxiv.org/abs/2611.04016",
+    "arxiv_id": "2611.04016",
+    "detail_path": "papers/2611.04016/",
+    "cover_path": "covers/2611.04016/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04016.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04016.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Decision Transformer with Task-Aware Representations for Offline Meta-Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2611.04010",
+    "arxiv_id": "2611.04010",
+    "detail_path": "papers/2611.04010/",
+    "cover_path": "covers/2611.04010/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04010.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04010.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy",
+    "link": "http://arxiv.org/abs/2611.04006",
+    "arxiv_id": "2611.04006",
+    "detail_path": "papers/2611.04006/",
+    "cover_path": "covers/2611.04006/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04006.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04006.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "FlowBench: Counterfactual Imagination Training for Spatial Intelligence",
+    "link": "http://arxiv.org/abs/2611.03937",
+    "arxiv_id": "2611.03937",
+    "detail_path": "papers/2611.03937/",
+    "cover_path": "covers/2611.03937/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03937.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03937.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
     "date": "2026-11-02",
     "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
     "link": "http://arxiv.org/abs/2611.03626",
@@ -546,8 +951,8 @@
     "arxiv_id": "2611.01578",
     "detail_path": "papers/2611.01578/",
     "cover_path": "covers/2611.01578/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01578.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01578.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -573,8 +978,8 @@
     "arxiv_id": "2611.01139",
     "detail_path": "papers/2611.01139/",
     "cover_path": "covers/2611.01139/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01139.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01139.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -600,8 +1005,8 @@
     "arxiv_id": "2611.01039",
     "detail_path": "papers/2611.01039/",
     "cover_path": "covers/2611.01039/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.01039.webp",
+    "paper_image_full_path": "assets/paper-images/2611.01039.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
