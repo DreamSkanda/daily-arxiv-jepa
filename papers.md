@@ -1,5 +1,20 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-03 | YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction | http://arxiv.org/abs/2611.05280 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving | http://arxiv.org/abs/2611.05072 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training | http://arxiv.org/abs/2611.04873 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations | http://arxiv.org/abs/2611.04870 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Ground-Wing: A Parametric 3D Wing-in-Ground-Effect Dataset for Benchmarking Neural Surrogate Models | http://arxiv.org/abs/2611.04571 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | A research world model of power engineering learns its dynamics and reveals what-ifs | http://arxiv.org/abs/2611.04566 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Hybrid Particle-Voxel Dynamics for Multimodal 3D World Simulation | http://arxiv.org/abs/2611.04492 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence | http://arxiv.org/abs/2611.04371 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Generalizable AI-Generated Image Detection with Embedding-Space Explanations | http://arxiv.org/abs/2611.04111 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials | http://arxiv.org/abs/2611.04073 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Compression Forcing: Hierarchical History Tokenization Enables Flexible World Models | http://arxiv.org/abs/2611.04028 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Physical Experience Builds Continual Spatial World Models | http://arxiv.org/abs/2611.04016 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Decision Transformer with Task-Aware Representations for Offline Meta-Reinforcement Learning | http://arxiv.org/abs/2611.04010 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Controlling Action-Head Co-Adaptation to VLM Representation Anisotropy | http://arxiv.org/abs/2611.04006 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | FlowBench: Counterfactual Imagination Training for Spatial Intelligence | http://arxiv.org/abs/2611.03937 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-02 | Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data | http://arxiv.org/abs/2611.03626 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-02 | Toward Uncertainty-Aware, Physics-Grounded Human World Models | http://arxiv.org/abs/2611.03428 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-02 | An intelligent satellite must do nothing well | http://arxiv.org/abs/2611.02922 | <details><summary>展开</summary>待生成</details> |
