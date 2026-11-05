@@ -1,5 +1,329 @@
 [
   {
+    "date": "2026-11-04",
+    "title": "Motion-guided Contrastive Regularization For Latent World Models",
+    "link": "http://arxiv.org/abs/2611.06901",
+    "arxiv_id": "2611.06901",
+    "detail_path": "papers/2611.06901/",
+    "cover_path": "covers/2611.06901/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06901.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06901.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models",
+    "link": "http://arxiv.org/abs/2611.06653",
+    "arxiv_id": "2611.06653",
+    "detail_path": "papers/2611.06653/",
+    "cover_path": "covers/2611.06653/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06653.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06653.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "MKD2World: A Typed Spatial MarkDown World Model For Web Agents",
+    "link": "http://arxiv.org/abs/2611.06544",
+    "arxiv_id": "2611.06544",
+    "detail_path": "papers/2611.06544/",
+    "cover_path": "covers/2611.06544/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06544.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06544.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "CAPE-JEPA - Cross-modal Adversarial Probabilistic Embedding JEPA",
+    "link": "http://arxiv.org/abs/2611.06247",
+    "arxiv_id": "2611.06247",
+    "detail_path": "papers/2611.06247/",
+    "cover_path": "covers/2611.06247/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06247.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06247.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "ReactWorld: Structuring Interaction Responses for Embodied Video Generation",
+    "link": "http://arxiv.org/abs/2611.06120",
+    "arxiv_id": "2611.06120",
+    "detail_path": "papers/2611.06120/",
+    "cover_path": "covers/2611.06120/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06120.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06120.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Drift-adaptive Representation Preservation for Domain-Incremental Learning",
+    "link": "http://arxiv.org/abs/2611.06093",
+    "arxiv_id": "2611.06093",
+    "detail_path": "papers/2611.06093/",
+    "cover_path": "covers/2611.06093/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06093.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06093.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds",
+    "link": "http://arxiv.org/abs/2611.06061",
+    "arxiv_id": "2611.06061",
+    "detail_path": "papers/2611.06061/",
+    "cover_path": "covers/2611.06061/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06061.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06061.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models",
+    "link": "http://arxiv.org/abs/2611.05847",
+    "arxiv_id": "2611.05847",
+    "detail_path": "papers/2611.05847/",
+    "cover_path": "covers/2611.05847/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05847.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05847.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations",
+    "link": "http://arxiv.org/abs/2611.05577",
+    "arxiv_id": "2611.05577",
+    "detail_path": "papers/2611.05577/",
+    "cover_path": "covers/2611.05577/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05577.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05577.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "ChangeJEPA: Predict Before You Compare for Remote Sensing Change Detection",
+    "link": "http://arxiv.org/abs/2611.05570",
+    "arxiv_id": "2611.05570",
+    "detail_path": "papers/2611.05570/",
+    "cover_path": "covers/2611.05570/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05570.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05570.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model",
+    "link": "http://arxiv.org/abs/2611.05448",
+    "arxiv_id": "2611.05448",
+    "detail_path": "papers/2611.05448/",
+    "cover_path": "covers/2611.05448/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05448.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05448.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model",
+    "link": "http://arxiv.org/abs/2611.05443",
+    "arxiv_id": "2611.05443",
+    "detail_path": "papers/2611.05443/",
+    "cover_path": "covers/2611.05443/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05443.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05443.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
     "date": "2026-11-03",
     "title": "YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction",
     "link": "http://arxiv.org/abs/2611.05280",
@@ -1059,8 +1383,8 @@
     "arxiv_id": "2611.00951",
     "detail_path": "papers/2611.00951/",
     "cover_path": "covers/2611.00951/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.00951.webp",
+    "paper_image_full_path": "assets/paper-images/2611.00951.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -1086,8 +1410,8 @@
     "arxiv_id": "2611.00758",
     "detail_path": "papers/2611.00758/",
     "cover_path": "covers/2611.00758/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.00758.webp",
+    "paper_image_full_path": "assets/paper-images/2611.00758.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -1113,8 +1437,8 @@
     "arxiv_id": "2611.00612",
     "detail_path": "papers/2611.00612/",
     "cover_path": "covers/2611.00612/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.00612.webp",
+    "paper_image_full_path": "assets/paper-images/2611.00612.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -1140,8 +1464,8 @@
     "arxiv_id": "2611.00596",
     "detail_path": "papers/2611.00596/",
     "cover_path": "covers/2611.00596/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.00596.webp",
+    "paper_image_full_path": "assets/paper-images/2611.00596.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
