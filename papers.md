@@ -1,5 +1,17 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-04 | Motion-guided Contrastive Regularization For Latent World Models | http://arxiv.org/abs/2611.06901 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models | http://arxiv.org/abs/2611.06653 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | MKD2World: A Typed Spatial MarkDown World Model For Web Agents | http://arxiv.org/abs/2611.06544 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | CAPE-JEPA - Cross-modal Adversarial Probabilistic Embedding JEPA | http://arxiv.org/abs/2611.06247 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | ReactWorld: Structuring Interaction Responses for Embodied Video Generation | http://arxiv.org/abs/2611.06120 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | Drift-adaptive Representation Preservation for Domain-Incremental Learning | http://arxiv.org/abs/2611.06093 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds | http://arxiv.org/abs/2611.06061 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | Time-to-Goal: Learned Temporal Metrics for Long-Horizon Planning with JEPA World Models | http://arxiv.org/abs/2611.05847 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations | http://arxiv.org/abs/2611.05577 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | ChangeJEPA: Predict Before You Compare for Remote Sensing Change Detection | http://arxiv.org/abs/2611.05570 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model | http://arxiv.org/abs/2611.05448 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model | http://arxiv.org/abs/2611.05443 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-03 | YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction | http://arxiv.org/abs/2611.05280 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-03 | Trajectory Evaluation via Rollout-Free World Model for End-to-end Autonomous Driving | http://arxiv.org/abs/2611.05072 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-03 | Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training | http://arxiv.org/abs/2611.04873 | <details><summary>展开</summary>待生成</details> |
