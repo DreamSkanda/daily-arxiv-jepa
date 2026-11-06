@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-05 | Learning a patient world model for health system simulation in intensive care | http://arxiv.org/abs/2611.08392 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | GPWM: Modeling the World as 3D Particle Motion | http://arxiv.org/abs/2611.08338 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | La-JEPA: Compact Robot Policies with Latent World Modeling | http://arxiv.org/abs/2611.08156 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching | http://arxiv.org/abs/2611.08128 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation | http://arxiv.org/abs/2611.07939 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving | http://arxiv.org/abs/2611.07912 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation | http://arxiv.org/abs/2611.07873 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State | http://arxiv.org/abs/2611.07867 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | Learning Robotic World Models with Semantic and Visual Feedback | http://arxiv.org/abs/2611.07850 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | MAC-v2: Long-horizon model-based value expansion from pixels | http://arxiv.org/abs/2611.07245 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-04 | Motion-guided Contrastive Regularization For Latent World Models | http://arxiv.org/abs/2611.06901 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-04 | Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models | http://arxiv.org/abs/2611.06653 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-04 | MKD2World: A Typed Spatial MarkDown World Model For Web Agents | http://arxiv.org/abs/2611.06544 | <details><summary>展开</summary>待生成</details> |
