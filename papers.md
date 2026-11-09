@@ -1,5 +1,11 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-06 | Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning | http://arxiv.org/abs/2611.09625 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | A Stochastic Latent Variable Generalization of Joint-Embedding Predictive Architectures | http://arxiv.org/abs/2611.09302 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | Toward the Era of Agentic Embodied Intelligence | http://arxiv.org/abs/2611.09124 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | ProtoCouncil: Multi-Encoder Anatomical Prototypes for Prostate Cancer Detection in Micro-Ultrasound | http://arxiv.org/abs/2611.09058 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | LEF-JEPA: Denoising-Trained Latent Energy Fields for Spatial Representation Learning | http://arxiv.org/abs/2611.08989 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | FATHOM: World-Model-Guided Diffusion Action-Trajectory Selection for Sparse-Marker AUV Tracking | http://arxiv.org/abs/2611.08898 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-05 | Learning a patient world model for health system simulation in intensive care | http://arxiv.org/abs/2611.08392 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-05 | GPWM: Modeling the World as 3D Particle Motion | http://arxiv.org/abs/2611.08338 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-05 | La-JEPA: Compact Robot Policies with Latent World Modeling | http://arxiv.org/abs/2611.08156 | <details><summary>展开</summary>待生成</details> |
