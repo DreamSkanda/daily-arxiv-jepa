@@ -1,5 +1,896 @@
 [
   {
+    "date": "2026-11-09",
+    "title": "DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander",
+    "link": "http://arxiv.org/abs/2611.12824",
+    "arxiv_id": "2611.12824",
+    "detail_path": "papers/2611.12824/",
+    "cover_path": "covers/2611.12824/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12824.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12824.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "$Σ$-LeWM: Learning World Models via S-Information for Robot Control",
+    "link": "http://arxiv.org/abs/2611.12732",
+    "arxiv_id": "2611.12732",
+    "detail_path": "papers/2611.12732/",
+    "cover_path": "covers/2611.12732/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12732.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12732.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Library of Hands: Fix the Hands, Not the World Model",
+    "link": "http://arxiv.org/abs/2611.12678",
+    "arxiv_id": "2611.12678",
+    "detail_path": "papers/2611.12678/",
+    "cover_path": "covers/2611.12678/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12678.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12678.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+    "link": "http://arxiv.org/abs/2611.12557",
+    "arxiv_id": "2611.12557",
+    "detail_path": "papers/2611.12557/",
+    "cover_path": "covers/2611.12557/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12557.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12557.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "QCC-WM: Linking Macro-State Dynamics and Visual Generation via Quotient Causal Construction",
+    "link": "http://arxiv.org/abs/2611.12353",
+    "arxiv_id": "2611.12353",
+    "detail_path": "papers/2611.12353/",
+    "cover_path": "covers/2611.12353/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12353.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12353.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
+    "link": "http://arxiv.org/abs/2611.12324",
+    "arxiv_id": "2611.12324",
+    "detail_path": "papers/2611.12324/",
+    "cover_path": "covers/2611.12324/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12324.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12324.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Learning to Act with World Models by Valuing What Comes Next",
+    "link": "http://arxiv.org/abs/2611.12200",
+    "arxiv_id": "2611.12200",
+    "detail_path": "papers/2611.12200/",
+    "cover_path": "covers/2611.12200/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12200.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12200.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Good Views Are Not Enough: Global Counterexamples for Gaussian-Regularized JEPAs",
+    "link": "http://arxiv.org/abs/2611.12137",
+    "arxiv_id": "2611.12137",
+    "detail_path": "papers/2611.12137/",
+    "cover_path": "covers/2611.12137/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12137.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12137.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Benchmarking language models and agents for scientific reasoning in evolving materials laboratories",
+    "link": "http://arxiv.org/abs/2611.12014",
+    "arxiv_id": "2611.12014",
+    "detail_path": "papers/2611.12014/",
+    "cover_path": "covers/2611.12014/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "An Evaluation of Tabular Foundation Models as Training-Free World Models",
+    "link": "http://arxiv.org/abs/2611.11921",
+    "arxiv_id": "2611.11921",
+    "detail_path": "papers/2611.11921/",
+    "cover_path": "covers/2611.11921/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11921.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11921.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
+    "link": "http://arxiv.org/abs/2611.11912",
+    "arxiv_id": "2611.11912",
+    "detail_path": "papers/2611.11912/",
+    "cover_path": "covers/2611.11912/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11912.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11912.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "ShopMind: A Mental World Model for Personalized and Realistic E-commerce User Simulation",
+    "link": "http://arxiv.org/abs/2611.11897",
+    "arxiv_id": "2611.11897",
+    "detail_path": "papers/2611.11897/",
+    "cover_path": "covers/2611.11897/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11897.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11897.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens",
+    "link": "http://arxiv.org/abs/2611.11887",
+    "arxiv_id": "2611.11887",
+    "detail_path": "papers/2611.11887/",
+    "cover_path": "covers/2611.11887/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11887.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11887.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Action Representation for Spatial Generalization in Robot World Models",
+    "link": "http://arxiv.org/abs/2611.11869",
+    "arxiv_id": "2611.11869",
+    "detail_path": "papers/2611.11869/",
+    "cover_path": "covers/2611.11869/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Planners Exploit Deterministic Error: Dithered Low-Bit World Models",
+    "link": "http://arxiv.org/abs/2611.11780",
+    "arxiv_id": "2611.11780",
+    "detail_path": "papers/2611.11780/",
+    "cover_path": "covers/2611.11780/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11780.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11780.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking",
+    "link": "http://arxiv.org/abs/2611.11697",
+    "arxiv_id": "2611.11697",
+    "detail_path": "papers/2611.11697/",
+    "cover_path": "covers/2611.11697/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11697.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11697.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation",
+    "link": "http://arxiv.org/abs/2611.11605",
+    "arxiv_id": "2611.11605",
+    "detail_path": "papers/2611.11605/",
+    "cover_path": "covers/2611.11605/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11605.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11605.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation",
+    "link": "http://arxiv.org/abs/2611.11521",
+    "arxiv_id": "2611.11521",
+    "detail_path": "papers/2611.11521/",
+    "cover_path": "covers/2611.11521/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11521.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11521.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Breaking survivorship bias in driving world models",
+    "link": "http://arxiv.org/abs/2611.11516",
+    "arxiv_id": "2611.11516",
+    "detail_path": "papers/2611.11516/",
+    "cover_path": "covers/2611.11516/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11516.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11516.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "ForeAct: Geometry-Guided Action Learning from World Representations",
+    "link": "http://arxiv.org/abs/2611.11500",
+    "arxiv_id": "2611.11500",
+    "detail_path": "papers/2611.11500/",
+    "cover_path": "covers/2611.11500/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11500.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11500.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "DeepSoMo: Deformable Object Motion Estimation under Proprioceptive Partial Observability via Predictive Latent Dynamics",
+    "link": "http://arxiv.org/abs/2611.11242",
+    "arxiv_id": "2611.11242",
+    "detail_path": "papers/2611.11242/",
+    "cover_path": "covers/2611.11242/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+    "link": "http://arxiv.org/abs/2611.11166",
+    "arxiv_id": "2611.11166",
+    "detail_path": "papers/2611.11166/",
+    "cover_path": "covers/2611.11166/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "SurgWorld: Learning Surgical Representations Beyond Observation via Latent Prediction",
+    "link": "http://arxiv.org/abs/2611.11140",
+    "arxiv_id": "2611.11140",
+    "detail_path": "papers/2611.11140/",
+    "cover_path": "covers/2611.11140/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset",
+    "link": "http://arxiv.org/abs/2611.11085",
+    "arxiv_id": "2611.11085",
+    "detail_path": "papers/2611.11085/",
+    "cover_path": "covers/2611.11085/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures",
+    "link": "http://arxiv.org/abs/2611.10806",
+    "arxiv_id": "2611.10806",
+    "detail_path": "papers/2611.10806/",
+    "cover_path": "covers/2611.10806/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+    "link": "http://arxiv.org/abs/2611.10771",
+    "arxiv_id": "2611.10771",
+    "detail_path": "papers/2611.10771/",
+    "cover_path": "covers/2611.10771/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning",
+    "link": "http://arxiv.org/abs/2611.10660",
+    "arxiv_id": "2611.10660",
+    "detail_path": "papers/2611.10660/",
+    "cover_path": "covers/2611.10660/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "The Delta Gap: Cellular World Models for Perturbation Response Prediction Are Far Harder Than Global Correlation Implies",
+    "link": "http://arxiv.org/abs/2611.10658",
+    "arxiv_id": "2611.10658",
+    "detail_path": "papers/2611.10658/",
+    "cover_path": "covers/2611.10658/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Action Transfer Across Character Body Plans in Latent-Action World Models: An Empirical Study of Animated Characters",
+    "link": "http://arxiv.org/abs/2611.10523",
+    "arxiv_id": "2611.10523",
+    "detail_path": "papers/2611.10523/",
+    "cover_path": "covers/2611.10523/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams",
+    "link": "http://arxiv.org/abs/2611.10435",
+    "arxiv_id": "2611.10435",
+    "detail_path": "papers/2611.10435/",
+    "cover_path": "covers/2611.10435/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Tiresias: Towards Language-Conditioned World Models",
+    "link": "http://arxiv.org/abs/2611.10392",
+    "arxiv_id": "2611.10392",
+    "detail_path": "papers/2611.10392/",
+    "cover_path": "covers/2611.10392/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation",
+    "link": "http://arxiv.org/abs/2611.10151",
+    "arxiv_id": "2611.10151",
+    "detail_path": "papers/2611.10151/",
+    "cover_path": "covers/2611.10151/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "From Video to Digital Twin: An Exploratory Study of World Models and Gaussian Splatting on In-the-Wild Video",
+    "link": "http://arxiv.org/abs/2611.10013",
+    "arxiv_id": "2611.10013",
+    "detail_path": "papers/2611.10013/",
+    "cover_path": "covers/2611.10013/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-06",
     "title": "Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning",
     "link": "http://arxiv.org/abs/2611.09625",
