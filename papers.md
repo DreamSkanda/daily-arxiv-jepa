@@ -1,5 +1,38 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-09 | DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander | http://arxiv.org/abs/2611.12824 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | $Σ$-LeWM: Learning World Models via S-Information for Robot Control | http://arxiv.org/abs/2611.12732 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Library of Hands: Fix the Hands, Not the World Model | http://arxiv.org/abs/2611.12678 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | WanderBench: Can World Models Explore Dynamic Worlds from Video? | http://arxiv.org/abs/2611.12557 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | QCC-WM: Linking Macro-State Dynamics and Visual Generation via Quotient Causal Construction | http://arxiv.org/abs/2611.12353 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time | http://arxiv.org/abs/2611.12324 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Learning to Act with World Models by Valuing What Comes Next | http://arxiv.org/abs/2611.12200 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Good Views Are Not Enough: Global Counterexamples for Gaussian-Regularized JEPAs | http://arxiv.org/abs/2611.12137 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Benchmarking language models and agents for scientific reasoning in evolving materials laboratories | http://arxiv.org/abs/2611.12014 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | An Evaluation of Tabular Foundation Models as Training-Free World Models | http://arxiv.org/abs/2611.11921 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting | http://arxiv.org/abs/2611.11912 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | ShopMind: A Mental World Model for Personalized and Realistic E-commerce User Simulation | http://arxiv.org/abs/2611.11897 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | How Many Candidates Does a One-Step World Model Need? A Random-Codebook Account of Nearest-of-m Training on Frozen DINO Tokens | http://arxiv.org/abs/2611.11887 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Action Representation for Spatial Generalization in Robot World Models | http://arxiv.org/abs/2611.11869 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Planners Exploit Deterministic Error: Dithered Low-Bit World Models | http://arxiv.org/abs/2611.11780 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking | http://arxiv.org/abs/2611.11697 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | ScanDreamer: A Map-Grounded World Model for Quadrotor Navigation | http://arxiv.org/abs/2611.11605 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation | http://arxiv.org/abs/2611.11521 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | Breaking survivorship bias in driving world models | http://arxiv.org/abs/2611.11516 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | ForeAct: Geometry-Guided Action Learning from World Representations | http://arxiv.org/abs/2611.11500 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | DeepSoMo: Deformable Object Motion Estimation under Proprioceptive Partial Observability via Predictive Latent Dynamics | http://arxiv.org/abs/2611.11242 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight | http://arxiv.org/abs/2611.11166 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | SurgWorld: Learning Surgical Representations Beyond Observation via Latent Prediction | http://arxiv.org/abs/2611.11140 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-08 | ObjectWorld: Scaling Object-Centric World Models with A Large-Scale 3D Full-Object Flow Dataset | http://arxiv.org/abs/2611.11085 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-07 | WARP-JEPA: World-Model-in-the-Loop Amortized Rollout Planning for Frozen Hierarchical Joint-Embedding Predictive Architectures | http://arxiv.org/abs/2611.10806 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-07 | WorldFoundry: Towards Unified Infrastructure for World Intelligence | http://arxiv.org/abs/2611.10771 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-07 | Dynamics-Informed Action Learning for Goal-Conditioned Latent Planning | http://arxiv.org/abs/2611.10660 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-07 | The Delta Gap: Cellular World Models for Perturbation Response Prediction Are Far Harder Than Global Correlation Implies | http://arxiv.org/abs/2611.10658 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-07 | Action Transfer Across Character Body Plans in Latent-Action World Models: An Empirical Study of Animated Characters | http://arxiv.org/abs/2611.10523 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-07 | Multi-Objective Adaptation After Deployment: A Position on World Models for Remote Robot Teams | http://arxiv.org/abs/2611.10435 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-07 | Tiresias: Towards Language-Conditioned World Models | http://arxiv.org/abs/2611.10392 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation | http://arxiv.org/abs/2611.10151 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | From Video to Digital Twin: An Exploratory Study of World Models and Gaussian Splatting on In-the-Wild Video | http://arxiv.org/abs/2611.10013 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-06 | Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning | http://arxiv.org/abs/2611.09625 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-06 | A Stochastic Latent Variable Generalization of Joint-Embedding Predictive Architectures | http://arxiv.org/abs/2611.09302 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-06 | Toward the Era of Agentic Embodied Intelligence | http://arxiv.org/abs/2611.09124 | <details><summary>展开</summary>待生成</details> |
