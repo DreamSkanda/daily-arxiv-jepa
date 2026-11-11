@@ -1,5 +1,17 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-10 | RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval | http://arxiv.org/abs/2611.14496 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | OnlyAct: Extracting Action Representations from Foundation Models for World Models | http://arxiv.org/abs/2611.14420 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning | http://arxiv.org/abs/2611.14419 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | An Energy-Based Perspective on Machine Learning | http://arxiv.org/abs/2611.14383 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models | http://arxiv.org/abs/2611.14365 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning | http://arxiv.org/abs/2611.14048 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning | http://arxiv.org/abs/2611.13782 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Few-Shot Residual Adaptation of Pretrained Latent World Models | http://arxiv.org/abs/2611.13592 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Market-Conditioned JEPA: Learning from Unpredictable Market Shocks | http://arxiv.org/abs/2611.13572 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM | http://arxiv.org/abs/2611.13528 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing | http://arxiv.org/abs/2611.13229 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Building World Models from Intrinsic Motivation | http://arxiv.org/abs/2611.13113 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-09 | DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander | http://arxiv.org/abs/2611.12824 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-09 | $Σ$-LeWM: Learning World Models via S-Information for Robot Control | http://arxiv.org/abs/2611.12732 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-09 | Library of Hands: Fix the Hands, Not the World Model | http://arxiv.org/abs/2611.12678 | <details><summary>展开</summary>待生成</details> |
