@@ -1,5 +1,329 @@
 [
   {
+    "date": "2026-11-10",
+    "title": "RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval",
+    "link": "http://arxiv.org/abs/2611.14496",
+    "arxiv_id": "2611.14496",
+    "detail_path": "papers/2611.14496/",
+    "cover_path": "covers/2611.14496/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14496.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14496.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+    "link": "http://arxiv.org/abs/2611.14420",
+    "arxiv_id": "2611.14420",
+    "detail_path": "papers/2611.14420/",
+    "cover_path": "covers/2611.14420/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14420.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14420.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+    "link": "http://arxiv.org/abs/2611.14419",
+    "arxiv_id": "2611.14419",
+    "detail_path": "papers/2611.14419/",
+    "cover_path": "covers/2611.14419/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14419.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14419.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "An Energy-Based Perspective on Machine Learning",
+    "link": "http://arxiv.org/abs/2611.14383",
+    "arxiv_id": "2611.14383",
+    "detail_path": "papers/2611.14383/",
+    "cover_path": "covers/2611.14383/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14383.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14383.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+    "link": "http://arxiv.org/abs/2611.14365",
+    "arxiv_id": "2611.14365",
+    "detail_path": "papers/2611.14365/",
+    "cover_path": "covers/2611.14365/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14365.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14365.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+    "link": "http://arxiv.org/abs/2611.14048",
+    "arxiv_id": "2611.14048",
+    "detail_path": "papers/2611.14048/",
+    "cover_path": "covers/2611.14048/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14048.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14048.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2611.13782",
+    "arxiv_id": "2611.13782",
+    "detail_path": "papers/2611.13782/",
+    "cover_path": "covers/2611.13782/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13782.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13782.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Few-Shot Residual Adaptation of Pretrained Latent World Models",
+    "link": "http://arxiv.org/abs/2611.13592",
+    "arxiv_id": "2611.13592",
+    "detail_path": "papers/2611.13592/",
+    "cover_path": "covers/2611.13592/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13592.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13592.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Market-Conditioned JEPA: Learning from Unpredictable Market Shocks",
+    "link": "http://arxiv.org/abs/2611.13572",
+    "arxiv_id": "2611.13572",
+    "detail_path": "papers/2611.13572/",
+    "cover_path": "covers/2611.13572/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13572.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13572.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
+    "link": "http://arxiv.org/abs/2611.13528",
+    "arxiv_id": "2611.13528",
+    "detail_path": "papers/2611.13528/",
+    "cover_path": "covers/2611.13528/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13528.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13528.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing",
+    "link": "http://arxiv.org/abs/2611.13229",
+    "arxiv_id": "2611.13229",
+    "detail_path": "papers/2611.13229/",
+    "cover_path": "covers/2611.13229/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13229.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13229.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Building World Models from Intrinsic Motivation",
+    "link": "http://arxiv.org/abs/2611.13113",
+    "arxiv_id": "2611.13113",
+    "detail_path": "papers/2611.13113/",
+    "cover_path": "covers/2611.13113/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13113.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13113.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-09",
     "title": "DreamLander: A 6-DOF World Model based Reinforcement Learning Planetary Lander",
     "link": "http://arxiv.org/abs/2611.12824",
@@ -546,8 +870,8 @@
     "arxiv_id": "2611.11242",
     "detail_path": "papers/2611.11242/",
     "cover_path": "covers/2611.11242/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11242.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11242.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -573,8 +897,8 @@
     "arxiv_id": "2611.11166",
     "detail_path": "papers/2611.11166/",
     "cover_path": "covers/2611.11166/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11166.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11166.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -600,8 +924,8 @@
     "arxiv_id": "2611.11140",
     "detail_path": "papers/2611.11140/",
     "cover_path": "covers/2611.11140/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11140.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11140.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -627,8 +951,8 @@
     "arxiv_id": "2611.11085",
     "detail_path": "papers/2611.11085/",
     "cover_path": "covers/2611.11085/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.11085.webp",
+    "paper_image_full_path": "assets/paper-images/2611.11085.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -654,8 +978,8 @@
     "arxiv_id": "2611.10806",
     "detail_path": "papers/2611.10806/",
     "cover_path": "covers/2611.10806/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.10806.webp",
+    "paper_image_full_path": "assets/paper-images/2611.10806.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
@@ -681,8 +1005,8 @@
     "arxiv_id": "2611.10771",
     "detail_path": "papers/2611.10771/",
     "cover_path": "covers/2611.10771/",
-    "paper_image_path": "",
-    "paper_image_full_path": "",
+    "paper_image_path": "assets/paper-images/thumbs/2611.10771.webp",
+    "paper_image_full_path": "assets/paper-images/2611.10771.webp",
     "preview_text": "待生成",
     "research_unit": "",
     "hook_text": "待生成",
