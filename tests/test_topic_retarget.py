@@ -241,3 +241,13 @@ def test_env_drift_turns_query_into_site_title(monkeypatch):
     assert label == drifted
     assert "ti:" in label and "abs:" in label
     assert label != TOPIC_LABEL
+
+
+def test_full_size_paper_image_keeps_local_and_remote_paths(monkeypatch):
+    bs = load_build_site()
+    asset = "assets/paper-images/1234.56789.png"
+    monkeypatch.setattr(bs, "PAPER_IMAGE_REMOTE_BASE", "")
+    assert bs.resolve_full_image_src(asset, "../../") == "../../" + asset
+    monkeypatch.setattr(bs, "PAPER_IMAGE_REMOTE_BASE", "https://example.com/site")
+    assert bs.resolve_full_image_src(asset, "../../") == "https://example.com/site/" + asset
+    assert bs.resolve_full_image_src("", "../../") == ""
