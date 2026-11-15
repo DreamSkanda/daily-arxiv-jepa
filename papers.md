@@ -1,5 +1,32 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-12 | Spatial Foundry: A Multimodal Dataset for Spatial Intelligence | http://arxiv.org/abs/2611.17318 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | HiVE-VQA: Hierarchical Interaction via Volumetric Embedding for Video Quality Assessment | http://arxiv.org/abs/2611.17146 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Your Vision Foundation Model Is Secretly an EEG Foundation Model | http://arxiv.org/abs/2611.17031 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | InertiaMPDD: Multimodal Personalized Depression Detection via Emotional Inertia-Inspired Dynamics Modeling | http://arxiv.org/abs/2611.16647 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Rethinking Actions: Continuity-Aware Priors for World-Model Planning | http://arxiv.org/abs/2611.16645 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Asymmetric Multimodal Learning with Decomposed JEPAs | http://arxiv.org/abs/2611.16639 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving | http://arxiv.org/abs/2611.16579 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Context-Predictive Low-Rank Adaptation for Face Presentation Attack Detection | http://arxiv.org/abs/2611.16534 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | PhysCapBench: A Cross-Domain Benchmark for Physically Grounded Video Captioning | http://arxiv.org/abs/2611.16424 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU | http://arxiv.org/abs/2611.16422 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Same-State Pairs Make One JEPA Proof of the Platonic Representation Hypothesis Vacuous | http://arxiv.org/abs/2611.16182 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Latent Imagination for Parameterized Action Spaces | http://arxiv.org/abs/2611.15744 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | What World Model Does Active Object Search Need? A Study under Imperfect Detection | http://arxiv.org/abs/2611.15689 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models | http://arxiv.org/abs/2611.15602 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | An Approach to Hinton's Mother-Child Proposal: Neural Networks Learning and Preserving Care in a Finite World | http://arxiv.org/abs/2611.15523 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Driving World Models Move the Camera, Not the Scene | http://arxiv.org/abs/2611.15260 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | AFTER: A World Model with Adaptive Fast--Slow Timescales for Error-Driven Retention | http://arxiv.org/abs/2611.15215 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Multi-View 3D Reconstruction Using V-JEPA Features | http://arxiv.org/abs/2611.15143 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Duo: A Reciprocal World Model for Full-Duplex Interaction | http://arxiv.org/abs/2611.15131 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Toward Cross-Rubric Surgical Skill Assessment via Joint Embedding Prediction | http://arxiv.org/abs/2611.15125 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Prediction or Persistence? What Future-Prediction Scores Miss About World Models | http://arxiv.org/abs/2611.15082 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Does Your World Model Know Actions Have Consequences? | http://arxiv.org/abs/2611.15048 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Fast Inference-Time Policy Refinement via Action-Affine World Models | http://arxiv.org/abs/2611.15011 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | From Forecasting to World Modeling: Can Temporal Foundation Models Recover Causal Response? | http://arxiv.org/abs/2611.15009 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | The Posterior-Prior Epistemic Gap: When World Model Imagination Fails to Carry Task-Relevant Signals | http://arxiv.org/abs/2611.14955 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks | http://arxiv.org/abs/2611.14880 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model | http://arxiv.org/abs/2611.14815 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-10 | RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval | http://arxiv.org/abs/2611.14496 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-10 | OnlyAct: Extracting Action Representations from Foundation Models for World Models | http://arxiv.org/abs/2611.14420 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-10 | Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning | http://arxiv.org/abs/2611.14419 | <details><summary>展开</summary>待生成</details> |
