@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -27,7 +27,7 @@ jobs:
       - name: 设置 Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
@@ -93,6 +93,8 @@ jobs:
           python scripts/build_paper_image_fallback_queue.py --max-items 20
 
       - name: Playwright 截图兜底
+        timeout-minutes: 30
+        continue-on-error: true
         run: |
           npm run paper-image:fallbacks
 
@@ -115,6 +117,7 @@ jobs:
           python scripts/build_site.py
         env:
           GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID || secrets.GA_MEASUREMENT_ID }}
+          PAPER_IMAGE_REMOTE_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/site
 
       - name: 提交更改
         id: save_site
@@ -131,21 +134,32 @@ jobs:
             git push
           fi
           
+      # Full-size images remain in the repository; Pages keeps thumbnails and stable page routes.
+      - name: 准备精简部署产物
+        run: |
+          rsync -a --delete \
+            --exclude='/assets/paper-images/*.*' \
+            --exclude='/assets/paper-images.json' \
+            site/ _pages/
+
       - name: 设置 Pages
         uses: actions/configure-pages@v5
         
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v4
         with:
-          path: './site'
+          path: './_pages'
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
+    timeout-minutes: 40
     steps:
       - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000
