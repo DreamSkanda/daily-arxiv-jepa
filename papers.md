@@ -1,5 +1,11 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-13 | Cracks in Embeddings: Robustness and Stability of JEPA-Based Chest X-Ray Representations | http://arxiv.org/abs/2611.17905 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations | http://arxiv.org/abs/2611.17831 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models | http://arxiv.org/abs/2611.17775 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Joint World Action Models through Differentiable Trajectory Optimization | http://arxiv.org/abs/2611.17626 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Where to Predict in Retinal OCT? Anatomy-Guided Target Selection for I-JEPA | http://arxiv.org/abs/2611.17586 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Learning Latent Goal Costs for Visual World-Model Planning with an Expanding Curriculum | http://arxiv.org/abs/2611.17529 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-12 | Spatial Foundry: A Multimodal Dataset for Spatial Intelligence | http://arxiv.org/abs/2611.17318 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-12 | HiVE-VQA: Hierarchical Interaction via Volumetric Embedding for Video Quality Assessment | http://arxiv.org/abs/2611.17146 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-12 | Your Vision Foundation Model Is Secretly an EEG Foundation Model | http://arxiv.org/abs/2611.17031 | <details><summary>展开</summary>待生成</details> |
