@@ -1,5 +1,9 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-13 | When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support | http://arxiv.org/abs/2611.18458 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | WeatherDreamer: Learning a World Model from Multimodal Earth Observations | http://arxiv.org/abs/2611.18393 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | AG-JEPA: Anatomically Guided Joint Embedding Predictive Architecture for Neurodegenerative Representation Learning | http://arxiv.org/abs/2611.18097 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Toward Universal Translatability: On the Statistical Ontology of Generative AI | http://arxiv.org/abs/2611.17963 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | Cracks in Embeddings: Robustness and Stability of JEPA-Based Chest X-Ray Representations | http://arxiv.org/abs/2611.17905 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations | http://arxiv.org/abs/2611.17831 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models | http://arxiv.org/abs/2611.17775 | <details><summary>展开</summary>待生成</details> |
