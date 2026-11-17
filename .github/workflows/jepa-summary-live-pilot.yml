@@ -1,0 +1,56 @@
+name: JEPA three-paper ModelScope pilot
+on:
+  push:
+    branches: [codex/jepa-summary-live-pilot]
+    paths: [.github/workflows/jepa-summary-live-pilot.yml]
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Generate three full-paper summaries in a temporary file
+        env:
+          MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
+          MODELSCOPE_MODELS: ZhipuAI/GLM-5.3-Flash,deepseek-ai/DeepSeek-V4-Pro-0813
+          SUMMARY_MAX_UPDATES: '3'
+          BATCH_WRITE_SIZE: '1'
+        run: |
+          python -u - <<'PY'
+          import os
+          import re
+          import tempfile
+          import time
+          from pathlib import Path
+          from scripts import generate_summaries as generator
+
+          if not os.environ.get("MODELSCOPE_ACCESS_TOKEN", "").strip():
+              raise SystemExit("Missing ModelScope repository secret")
+          ids = ("2611.21596", "2611.21517", "2611.21479")
+          source = Path("papers.md").read_text(encoding="utf-8").splitlines(keepends=True)
+          selected = [
+              row for row in source[2:]
+              if any(re.search(r"/abs/" + re.escape(pid) + r"(?:v[0-9]+)?\s*\|", row) for pid in ids)
+              and "待生成" in row
+          ]
+          if len(selected) != len(ids):
+              raise SystemExit(f"Expected {len(ids)} pending rows, found {len(selected)}")
+          with tempfile.TemporaryDirectory() as temp:
+              path = Path(temp) / "papers.md"
+              path.write_text("".join(source[:2] + selected), encoding="utf-8")
+              generator.get_papers_md_path = lambda: str(path)
+              start = time.monotonic()
+              total, updated = generator.update_papers_md()
+              remaining = path.read_text(encoding="utf-8").count("待生成")
+              print(f"PILOT RESULT: total={total} saved={updated} pending={remaining} elapsed={time.monotonic()-start:.1f}s")
+              if total != len(ids) or remaining != total - updated or not updated:
+                  raise SystemExit("No summaries saved or inconsistent counts")
+          PY
