@@ -1,5 +1,36 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-16 | SADL: On the Demand-Supply Geometry of Representation Collapse | http://arxiv.org/abs/2611.21596 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models | http://arxiv.org/abs/2611.21517 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | LynnReal-Hand: Unlocking World Interaction with Hand Control | http://arxiv.org/abs/2611.21479 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | EviBridge: Encoding Predictive Visual Evidence for Proactive Interaction | http://arxiv.org/abs/2611.20916 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | SciWorldBench: Do Video World Models Really Understand Scientific Experiments? | http://arxiv.org/abs/2611.20899 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | Auditing World-Model Explanations in Retail Forecasting: Faithfulness, Accuracy and Price Response | http://arxiv.org/abs/2611.20811 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | JEPTERA: A Platform Agnostic JEPA-Assisted Model Predictive Planner for Urban UAV Navigation | http://arxiv.org/abs/2611.20593 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | PerturbJEPA: Joint-Embedding Predictive Learning of Cellular Perturbation Responses | http://arxiv.org/abs/2611.20575 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | WTR-Drive: World-Task Decomposition with Structured Risk Supervision for End-to-End Driving | http://arxiv.org/abs/2611.20510 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | VISTA: A Framework for Vision-Informed Semantic Traffic Awareness | http://arxiv.org/abs/2611.20458 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute | http://arxiv.org/abs/2611.20452 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | SAFER: Navigating the Exploration-Exploitation Dilemma in World-Model-Based Planning for Autonomous Driving | http://arxiv.org/abs/2611.20107 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | Latent World Modeling for Point-Cloud Video Pretraining | http://arxiv.org/abs/2611.20090 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | Value and Policy Calibration from Execution Feedback for Socially Compatible Driving | http://arxiv.org/abs/2611.19969 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | PanDWM: Panoramic 4D Driving World Models | http://arxiv.org/abs/2611.19857 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | The Flip Test: Video World Models Fail to Learn the World State | http://arxiv.org/abs/2611.19822 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | The Sense Paradigm for World Models | http://arxiv.org/abs/2611.19796 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | JEPA4R: Embodied JEPA World Models with 4D Point Planning | http://arxiv.org/abs/2611.19771 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-15 | Score-Based Stochastic Closure Modeling via Offline Indirect Learning and Online Data Assimilation | http://arxiv.org/abs/2611.19676 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-14 | ResWAM: Learning What Changes, Not What Stays, for World-Action Models | http://arxiv.org/abs/2611.19559 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-14 | Func-JEPA: Learning a Sobolev Space of Functions as Latent Vectors | http://arxiv.org/abs/2611.19542 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-14 | Successive Convexification in Learned World Models for Safe Offline Planning | http://arxiv.org/abs/2611.19466 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-14 | Macro Control and Capability Evaluation of Black-Box World Models: A Two-Regime Framework for LLM-Agent Markets | http://arxiv.org/abs/2611.19311 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-14 | GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models | http://arxiv.org/abs/2611.19247 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-14 | WA-JEPA: Goal-Aware Predictive Feedback Action Refinement for a World-Action Model | http://arxiv.org/abs/2611.19183 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Large language models as oncology world models | http://arxiv.org/abs/2611.18994 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Probing Where Surprise Happens: Localized Violation-of-Expectation Evaluation of Video World Models | http://arxiv.org/abs/2611.18979 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | SLICES: A Benchmark and Evaluation Framework for Self-Supervised Learning on Sparse ICU Time Series | http://arxiv.org/abs/2611.18868 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Recovered or Memorized? Investigating Dynamical Consistency and Faithfulness in World Model Latents | http://arxiv.org/abs/2611.18807 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | Frame First, Decode Once: Object-Centric Coordinates and Single-Pass Decoding for System-1 World Models | http://arxiv.org/abs/2611.18761 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-11 | TyphoonWorld: A Residual Token World Model for Probabilistic Forecasting of Typhoon Imagery | http://arxiv.org/abs/2611.18740 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support | http://arxiv.org/abs/2611.18458 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | WeatherDreamer: Learning a World Model from Multimodal Earth Observations | http://arxiv.org/abs/2611.18393 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | AG-JEPA: Anatomically Guided Joint Embedding Predictive Architecture for Neurodegenerative Representation Learning | http://arxiv.org/abs/2611.18097 | <details><summary>展开</summary>待生成</details> |
