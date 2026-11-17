@@ -1,0 +1,78 @@
+name: ModelScope single-paper smoke test
+
+on:
+  push:
+    branches: [codex/jepa-modelscope-one-paper]
+    paths: [.github/workflows/modelscope-one-paper.yml]
+
+permissions: {}
+
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - name: Try one public paper; report model and result only
+        env:
+          MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
+        run: |
+          python3 -u - <<'PY'
+          import json
+          import os
+          import re
+          import sys
+          import urllib.error
+          import urllib.request
+
+          token = os.environ.get("MODELSCOPE_ACCESS_TOKEN")
+          if not token:
+              sys.exit("Repository secret MODELSCOPE_ACCESS_TOKEN was not available")
+          # Compact paraphrase of the public abstract at https://arxiv.org/abs/2611.21596
+          paper = (
+              "SADL: On the Demand-Supply Geometry of Representation Collapse. "
+              "In joint-embedding predictive architectures, regularizing the projector output may "
+              "not prevent encoder collapse. A shared component dominates encoder outputs and is "
+              "removed by a batch-normalized projector. Supply And Demand Loss constrains the "
+              "encoder when the distances it preserves are insufficient for the projector's "
+              "target distances, without additional parameters. In LeWorldModel and INTACT "
+              "experiments the authors report reducing collapse from 50% to 0% over ten seeds."
+          )
+          for model in ("ZhipuAI/GLM-5.3-Flash", "deepseek-ai/DeepSeek-V4-Pro-0813"):
+              print(f"Trying {model} on arXiv:2611.21596")
+              body = {
+                  "model": model,
+                  "messages": [{"role": "user", "content": "请用两句简体中文概括下面这篇论文的核心方法和主要结果。只输出摘要。\n" + paper}],
+                  "max_tokens": 2200,
+                  "stream": False,
+              }
+              request = urllib.request.Request(
+                  "https://api-inference.modelscope.cn/v1/chat/completions",
+                  data=json.dumps(body).encode(),
+                  headers={"Authorization": "Bearer " + token, "Content-Type": "application/json"},
+                  method="POST",
+              )
+              try:
+                  with urllib.request.urlopen(request, timeout=85) as response:
+                      data = json.load(response)
+                  answer = data["choices"][0]["message"].get("content") or ""
+              except urllib.error.HTTPError as exc:
+                  msg = exc.read(4096).decode(errors="replace").lower()
+                  if "no provider" in msg:
+                      reason = "no provider"
+                  elif exc.code == 429 or "quota" in msg or "配额" in msg:
+                      reason = "rate limit or quota"
+                  elif exc.code in (401, 403):
+                      reason = "authentication or account restriction"
+                  else:
+                      reason = "request rejected"
+                  print(f"{model}: HTTP {exc.code} ({reason})")
+                  continue
+              except (OSError, ValueError, KeyError, IndexError, TypeError) as exc:
+                  print(f"{model}: {type(exc).__name__}")
+                  continue
+              if isinstance(answer, str) and len(re.findall(r"[\u4e00-\u9fff]", answer)) >= 12:
+                  print(f"SUCCESS: {model} returned a Chinese summary for arXiv:2611.21596")
+                  sys.exit(0)
+              print(f"{model}: did not return a usable Chinese summary")
+          sys.exit("Neither model returned a usable Chinese summary")
+          PY
