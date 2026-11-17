@@ -49,6 +49,7 @@ def summaries(monkeypatch, tmp_path):
     monkeypatch.setenv("API_MAX_RETRIES", "1")
     monkeypatch.setenv("HTTP_MAX_RETRIES", "1")
     monkeypatch.setenv("BATCH_WRITE_SIZE", "1")
+    monkeypatch.delenv("SUMMARY_MAX_UPDATES", raising=False)
     # No test may make real arXiv or ModelScope requests.
     monkeypatch.setattr(module.requests, "get", Mock(return_value=Mock(text="<article>Paper</article>")))
     client = Mock()
@@ -155,6 +156,25 @@ def test_one_failed_paper_does_not_discard_other_summaries(summaries, monkeypatc
     assert OLD_ROW in saved
     assert saved.count("待生成") == 1
     assert "成功摘要" in saved
+
+
+def test_success_cap_backfills_oldest_and_leaves_other_rows_unchanged(summaries, monkeypatch):
+    module, papers, _ = summaries
+    monkeypatch.setenv("MODELSCOPE_ACCESS_TOKEN", "fake-test-token")
+    monkeypatch.setenv("SUMMARY_MAX_UPDATES", "1")
+    monkeypatch.setenv("BATCH_WRITE_SIZE", "5")  # also exercise the final flush after a break
+    first = NEW_ROW.replace("2026-10-30", "2026-10-28").replace("2610.00001", "2610.00002")
+    failed = NEW_ROW.replace("2026-10-30", "2026-10-27").replace("2610.00001", "2610.00003")
+    papers.write_text(HEADER + NEW_ROW + first + failed + OLD_ROW, encoding="utf-8")
+    generate = Mock(side_effect=["", "成功摘要"])
+    monkeypatch.setattr(module, "generate_summary_for_link", generate)
+
+    assert module.update_papers_md() == (3, 1)
+    assert [call.args[1] for call in generate.call_args_list] == [
+        "https://arxiv.org/abs/2610.00003", "https://arxiv.org/abs/2610.00002",
+    ]
+    saved = papers.read_text(encoding="utf-8")
+    assert saved == HEADER + NEW_ROW + first.replace("待生成", "成功摘要") + failed + OLD_ROW
 
 
 def test_failed_atomic_replace_preserves_entire_file(summaries, monkeypatch):
