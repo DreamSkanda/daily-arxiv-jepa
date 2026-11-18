@@ -1,5 +1,30 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-17 | Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D | http://arxiv.org/abs/2611.23118 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model | http://arxiv.org/abs/2611.22998 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning | http://arxiv.org/abs/2611.22981 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives | http://arxiv.org/abs/2611.22954 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Code World Model 2.0: Towards Infinite Controllable Video Generation | http://arxiv.org/abs/2611.22925 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving | http://arxiv.org/abs/2611.22880 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Evolve in Panorama, Render in View: Panoramic World State Evolution for Video World Models | http://arxiv.org/abs/2611.22733 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving | http://arxiv.org/abs/2611.22691 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction | http://arxiv.org/abs/2611.22686 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather | http://arxiv.org/abs/2611.22669 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning | http://arxiv.org/abs/2611.22561 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling | http://arxiv.org/abs/2611.22543 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Testing World Models on Actions They Have Never Seen: Held-Out Plans, Forecast Accuracy and Price Rules in Retail | http://arxiv.org/abs/2611.22537 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Towards Data-Efficient, Real-Time World Models | http://arxiv.org/abs/2611.22497 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Progress Predicts Policy | http://arxiv.org/abs/2611.22491 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Escaping Latent Traps by Remembering: Training-Free Episodic Kernel Repulsion for World-Model Planning | http://arxiv.org/abs/2611.22470 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness | http://arxiv.org/abs/2611.22432 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | FailureGen: Scalable Robot Failure Data Generation with World Models | http://arxiv.org/abs/2611.22367 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Inertial Video World Models | http://arxiv.org/abs/2611.22314 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Perception into Imagination: Executable Memory for World Models | http://arxiv.org/abs/2611.22294 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space | http://arxiv.org/abs/2611.22077 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | DreamFAR: Real-Time and Long-Horizon Interaction with Diverse Objects | http://arxiv.org/abs/2611.22001 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | WM-Quant: Rollout-Aware Post-Training Quantization for JEPA-Style World Models | http://arxiv.org/abs/2611.21882 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | Can a World Model Predict a Deepfake Video? A Consistency Margin Prior for Deepfake Detection | http://arxiv.org/abs/2611.21846 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models | http://arxiv.org/abs/2611.21782 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-16 | SADL: On the Demand-Supply Geometry of Representation Collapse | http://arxiv.org/abs/2611.21596 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-16 | Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models | http://arxiv.org/abs/2611.21517 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-16 | LynnReal-Hand: Unlocking World Interaction with Hand Control | http://arxiv.org/abs/2611.21479 | <details><summary>展开</summary>待生成</details> |
