@@ -1,5 +1,680 @@
 [
   {
+    "date": "2026-11-17",
+    "title": "Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D",
+    "link": "http://arxiv.org/abs/2611.23118",
+    "arxiv_id": "2611.23118",
+    "detail_path": "papers/2611.23118/",
+    "cover_path": "covers/2611.23118/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.23118.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.23118.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model",
+    "link": "http://arxiv.org/abs/2611.22998",
+    "arxiv_id": "2611.22998",
+    "detail_path": "papers/2611.22998/",
+    "cover_path": "covers/2611.22998/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22998.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22998.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning",
+    "link": "http://arxiv.org/abs/2611.22981",
+    "arxiv_id": "2611.22981",
+    "detail_path": "papers/2611.22981/",
+    "cover_path": "covers/2611.22981/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22981.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22981.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives",
+    "link": "http://arxiv.org/abs/2611.22954",
+    "arxiv_id": "2611.22954",
+    "detail_path": "papers/2611.22954/",
+    "cover_path": "covers/2611.22954/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22954.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22954.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+    "link": "http://arxiv.org/abs/2611.22925",
+    "arxiv_id": "2611.22925",
+    "detail_path": "papers/2611.22925/",
+    "cover_path": "covers/2611.22925/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22925.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22925.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.22880",
+    "arxiv_id": "2611.22880",
+    "detail_path": "papers/2611.22880/",
+    "cover_path": "covers/2611.22880/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22880.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22880.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Evolve in Panorama, Render in View: Panoramic World State Evolution for Video World Models",
+    "link": "http://arxiv.org/abs/2611.22733",
+    "arxiv_id": "2611.22733",
+    "detail_path": "papers/2611.22733/",
+    "cover_path": "covers/2611.22733/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22733.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22733.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.22691",
+    "arxiv_id": "2611.22691",
+    "detail_path": "papers/2611.22691/",
+    "cover_path": "covers/2611.22691/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22691.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22691.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction",
+    "link": "http://arxiv.org/abs/2611.22686",
+    "arxiv_id": "2611.22686",
+    "detail_path": "papers/2611.22686/",
+    "cover_path": "covers/2611.22686/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22686.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22686.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather",
+    "link": "http://arxiv.org/abs/2611.22669",
+    "arxiv_id": "2611.22669",
+    "detail_path": "papers/2611.22669/",
+    "cover_path": "covers/2611.22669/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22669.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22669.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning",
+    "link": "http://arxiv.org/abs/2611.22561",
+    "arxiv_id": "2611.22561",
+    "detail_path": "papers/2611.22561/",
+    "cover_path": "covers/2611.22561/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22561.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22561.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling",
+    "link": "http://arxiv.org/abs/2611.22543",
+    "arxiv_id": "2611.22543",
+    "detail_path": "papers/2611.22543/",
+    "cover_path": "covers/2611.22543/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22543.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22543.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Testing World Models on Actions They Have Never Seen: Held-Out Plans, Forecast Accuracy and Price Rules in Retail",
+    "link": "http://arxiv.org/abs/2611.22537",
+    "arxiv_id": "2611.22537",
+    "detail_path": "papers/2611.22537/",
+    "cover_path": "covers/2611.22537/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22537.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22537.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Towards Data-Efficient, Real-Time World Models",
+    "link": "http://arxiv.org/abs/2611.22497",
+    "arxiv_id": "2611.22497",
+    "detail_path": "papers/2611.22497/",
+    "cover_path": "covers/2611.22497/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22497.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22497.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Progress Predicts Policy",
+    "link": "http://arxiv.org/abs/2611.22491",
+    "arxiv_id": "2611.22491",
+    "detail_path": "papers/2611.22491/",
+    "cover_path": "covers/2611.22491/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22491.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22491.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Escaping Latent Traps by Remembering: Training-Free Episodic Kernel Repulsion for World-Model Planning",
+    "link": "http://arxiv.org/abs/2611.22470",
+    "arxiv_id": "2611.22470",
+    "detail_path": "papers/2611.22470/",
+    "cover_path": "covers/2611.22470/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22470.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22470.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
+    "link": "http://arxiv.org/abs/2611.22432",
+    "arxiv_id": "2611.22432",
+    "detail_path": "papers/2611.22432/",
+    "cover_path": "covers/2611.22432/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22432.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22432.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "FailureGen: Scalable Robot Failure Data Generation with World Models",
+    "link": "http://arxiv.org/abs/2611.22367",
+    "arxiv_id": "2611.22367",
+    "detail_path": "papers/2611.22367/",
+    "cover_path": "covers/2611.22367/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22367.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22367.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Inertial Video World Models",
+    "link": "http://arxiv.org/abs/2611.22314",
+    "arxiv_id": "2611.22314",
+    "detail_path": "papers/2611.22314/",
+    "cover_path": "covers/2611.22314/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22314.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22314.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Perception into Imagination: Executable Memory for World Models",
+    "link": "http://arxiv.org/abs/2611.22294",
+    "arxiv_id": "2611.22294",
+    "detail_path": "papers/2611.22294/",
+    "cover_path": "covers/2611.22294/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22294.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.22294.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space",
+    "link": "http://arxiv.org/abs/2611.22077",
+    "arxiv_id": "2611.22077",
+    "detail_path": "papers/2611.22077/",
+    "cover_path": "covers/2611.22077/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "DreamFAR: Real-Time and Long-Horizon Interaction with Diverse Objects",
+    "link": "http://arxiv.org/abs/2611.22001",
+    "arxiv_id": "2611.22001",
+    "detail_path": "papers/2611.22001/",
+    "cover_path": "covers/2611.22001/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "WM-Quant: Rollout-Aware Post-Training Quantization for JEPA-Style World Models",
+    "link": "http://arxiv.org/abs/2611.21882",
+    "arxiv_id": "2611.21882",
+    "detail_path": "papers/2611.21882/",
+    "cover_path": "covers/2611.21882/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Can a World Model Predict a Deepfake Video? A Consistency Margin Prior for Deepfake Detection",
+    "link": "http://arxiv.org/abs/2611.21846",
+    "arxiv_id": "2611.21846",
+    "detail_path": "papers/2611.21846/",
+    "cover_path": "covers/2611.21846/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models",
+    "link": "http://arxiv.org/abs/2611.21782",
+    "arxiv_id": "2611.21782",
+    "detail_path": "papers/2611.21782/",
+    "cover_path": "covers/2611.21782/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-16",
     "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
     "link": "http://arxiv.org/abs/2611.21596",
