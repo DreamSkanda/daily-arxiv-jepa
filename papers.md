@@ -1,5 +1,35 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-18 | $Z$-sight: Unifying Vision-Language-Action and Latent World Modeling | http://arxiv.org/abs/2611.24940 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Render the Robot, Generate the World: One Video World Model Across Embodiments | http://arxiv.org/abs/2611.24925 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | WorldRuler: Interactive World Modeling under Configurable Rules | http://arxiv.org/abs/2611.24869 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving | http://arxiv.org/abs/2611.24840 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play | http://arxiv.org/abs/2611.24836 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Reconstruction vs. Prediction Pre-Training of Discrete Video Representations for Continuous Control | http://arxiv.org/abs/2611.24781 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Counterfactual World Models: JEPAs That Reason About "What If" | http://arxiv.org/abs/2611.24778 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | HandWorldBench: A Unified Benchmark for Hand-Centric World Models | http://arxiv.org/abs/2611.24731 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Comparing Each Generation with Independent Siblings Gives Video World Model Post-Training a Proper Objective for Outcome Frequencies | http://arxiv.org/abs/2611.24512 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | When to Refine: Selective Search for Frozen Visual World Models | http://arxiv.org/abs/2611.24470 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model | http://arxiv.org/abs/2611.24457 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Risk-Triggered Search: Behavior-Preserving Safe Control | http://arxiv.org/abs/2611.24409 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model | http://arxiv.org/abs/2611.24408 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models | http://arxiv.org/abs/2611.24384 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning | http://arxiv.org/abs/2611.24244 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | ProbeShare: Probing a Few, Sharing Across Many for Fast World-Model Planning | http://arxiv.org/abs/2611.24229 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models | http://arxiv.org/abs/2611.24222 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | WM^MLLM: Turning MLLMs into World Models | http://arxiv.org/abs/2611.24193 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Worth Another Look:Constrained World-Model Planning for Visual Inspection | http://arxiv.org/abs/2611.24187 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Efficient World-Model Planning via Physics-Guided Search Distillation | http://arxiv.org/abs/2611.24171 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Embodied Graph: A Relational World Model for Long-Horizon Tasks | http://arxiv.org/abs/2611.24115 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models | http://arxiv.org/abs/2611.24074 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | JEPA Dots: Dual-Latent World Model for Language-Guided Robot Control | http://arxiv.org/abs/2611.24062 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning | http://arxiv.org/abs/2611.23974 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation | http://arxiv.org/abs/2611.23953 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | GTA: Generative Tower of Agents for Scalable Holonic Scene Generation | http://arxiv.org/abs/2611.23727 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-18 | Measuring the Conservatism of Latent Safety Filters for World Models | http://arxiv.org/abs/2611.23685 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models | http://arxiv.org/abs/2611.23620 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | JEPA as a Transferable Optimizer: Learning and Understanding Black-Box Optimization from Reward-Agnostic Pretraining | http://arxiv.org/abs/2611.23608 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | DOCK: Dual-Stream-Inspired Self-Supervised Object-Centric Representations Grounded in Robot Kinematics | http://arxiv.org/abs/2611.23578 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-17 | Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D | http://arxiv.org/abs/2611.23118 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-17 | Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model | http://arxiv.org/abs/2611.22998 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-17 | SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning | http://arxiv.org/abs/2611.22981 | <details><summary>展开</summary>待生成</details> |
