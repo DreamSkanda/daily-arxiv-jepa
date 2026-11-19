@@ -1,5 +1,867 @@
 [
   {
+    "date": "2026-11-18",
+    "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+    "link": "http://arxiv.org/abs/2611.24940",
+    "arxiv_id": "2611.24940",
+    "detail_path": "papers/2611.24940/",
+    "cover_path": "covers/2611.24940/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24940.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24940.webp",
+    "preview_text": "介绍了 𝒵-sight，一个统一的机器人基础模型，将视觉-语言-动作（VLA）与生成式潜在世界建模相结合。 旨在解决现有世界动作模型计算成本高昂，以及基于潜在空间的策略通常与 VLM 原生特征空间解耦的问题。 通过直接在 VLM 感知当前状态的视觉 token 空间中预测未来，实现了无需像素重建或外部编码器的高效动作生成。",
+    "research_unit": "论文作者为 Yuliang Guo，所属研究机构在提供的原文中未明确标明。",
+    "hook_text": "介绍了 𝒵-sight，一个统一的机器人基础模型，将视觉-语言-动作（VLA）与生成式潜在世界建模相结合。",
+    "key_points": [
+      "介绍了 𝒵-sight，一个统一的机器人基础模型，将视觉-语言-动作（VLA）与生成式潜在世界建模相结合。",
+      "旨在解决现有世界动作模型计算成本高昂，以及基于潜在空间的策略通常与 VLM 原生特征空间解耦的问题。",
+      "通过直接在 VLM 感知当前状态的视觉 token 空间中预测未来，实现了无需像素重建或外部编码器的高效动作生成。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+    "link": "http://arxiv.org/abs/2611.24925",
+    "arxiv_id": "2611.24925",
+    "detail_path": "papers/2611.24925/",
+    "cover_path": "covers/2611.24925/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24925.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24925.webp",
+    "preview_text": "论文提出了 Doppel，一种与具身智能体无关的视频世界模型，旨在跨不同机器人本体学习共享的动力学模型。 模型的核心思想是沿建议的动作轨迹渲染出未来的机器人状态，并将其作为视觉条件输入，使世界模型能够专注于预测环境的响应和物体运动。 研究旨在解决现有视频世界模型需要联合学习机器人运动与环境变化、且难以跨不同几何结构和动作空间泛化的问题。",
+    "research_unit": "论文作者包括 Yash Jangir, Karan Mirakhor, Renos Zabounidi…",
+    "hook_text": "论文提出了 Doppel，一种与具身智能体无关的视频世界模型，旨在跨不同机器人本体学习共享的动力学模型。",
+    "key_points": [
+      "论文提出了 Doppel，一种与具身智能体无关的视频世界模型，旨在跨不同机器人本体学习共享的动力学模型。",
+      "模型的核心思想是沿建议的动作轨迹渲染出未来的机器人状态，并将其作为视觉条件输入，使世界模型能够专注于预测环境的响应和物体运动。",
+      "研究旨在解决现有视频世界模型需要联合学习机器人运动与环境变化、且难以跨不同几何结构和动作空间泛化的问题。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+    "link": "http://arxiv.org/abs/2611.24869",
+    "arxiv_id": "2611.24869",
+    "detail_path": "papers/2611.24869/",
+    "cover_path": "covers/2611.24869/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24869.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24869.webp",
+    "preview_text": "提出 WorldRuler 框架，用于在用户自定义规则下进行交互式视频世界建模，解决规则状态持久化和规则到视觉实现两大核心挑战 规则状态持久化要求在保存和加载过程中联合保留规则定义、依赖关系和世界状态；规则到视觉实现要求在指定对象和属性上准确实现规则引起的变化，尤其当受影响对象不可见时 通过可执行的 3D 规则图将规则执行、视频生成和感知反馈连接为闭环系统，构建了配套的 RuleVerse 数据集进行训练和评估",
+    "research_unit": "Alaya Lab",
+    "hook_text": "提出 WorldRuler 框架，用于在用户自定义规则下进行交互式视频世界建模，解决规则状态持久化和规则到视觉实现两大核心挑战",
+    "key_points": [
+      "提出 WorldRuler 框架，用于在用户自定义规则下进行交互式视频世界建模，解决规则状态持久化和规则到视觉实现两大核心挑战",
+      "规则状态持久化要求在保存和加载过程中联合保留规则定义、依赖关系和世界状态；规则到视觉实现要求在指定对象和属性上准确实现规则引起的变化，尤其当受影响对象不可见时",
+      "通过可执行的 3D 规则图将规则执行、视频生成和感知反馈连接为闭环系统，构建了配套的 RuleVerse 数据集进行训练和评估"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.24840",
+    "arxiv_id": "2611.24840",
+    "detail_path": "papers/2611.24840/",
+    "cover_path": "covers/2611.24840/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24840.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24840.webp",
+    "preview_text": "研究自动驾驶世界模型中动作条件语义预测（action-conditioned semantic forecasting）的动作依赖性问题，即模型预测是否真正使用了输入的动作信息 现有评估仅关注预测保真度和下游规划性能，很少验证预测是否依赖于条件动作；由于驾驶数据中自车运动高度自相关，模型可能仅靠历史信息就获得高精度而忽略动作输入 提出通过测试时动作干预（action interventions）直接衡量模型对动作的依赖程度，并在合成环境和真实数据上验证",
+    "research_unit": "University of Central Florida, USA（作者：Binay Kumar S…",
+    "hook_text": "研究自动驾驶世界模型中动作条件语义预测（action-conditioned semantic forecasting）的动作依赖性问题，即模型预测是否真正使用了输入的动作信息",
+    "key_points": [
+      "研究自动驾驶世界模型中动作条件语义预测（action-conditioned semantic forecasting）的动作依赖性问题，即模型预测是否真正使用了输入的动作信息",
+      "现有评估仅关注预测保真度和下游规划性能，很少验证预测是否依赖于条件动作；由于驾驶数据中自车运动高度自相关，模型可能仅靠历史信息就获得高精度而忽略动作输入",
+      "提出通过测试时动作干预（action interventions）直接衡量模型对动作的依赖程度，并在合成环境和真实数据上验证"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play",
+    "link": "http://arxiv.org/abs/2611.24836",
+    "arxiv_id": "2611.24836",
+    "detail_path": "papers/2611.24836/",
+    "cover_path": "covers/2611.24836/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24836.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24836.webp",
+    "preview_text": "论文旨在解决机器人操作学习中对昂贵动作标注机器人数据的依赖问题，提出从无动作标签的人类视频中学习并改进策略 提出 DiWALI 框架，利用逆动力学模型从连续帧推断潜在动作，无需动作标签即可训练世界模型，并通过单独训练的解码器将其映射为可执行的机器人指令 在该世界模型中，利用基于潜在动作的扩散策略进行行为克隆，并通过想象力中的强化学习进一步微调，结合人类和机器人的游戏数据进行训练",
+    "research_unit": "University of Freiburg（Department of Computer Scien…",
+    "hook_text": "论文旨在解决机器人操作学习中对昂贵动作标注机器人数据的依赖问题，提出从无动作标签的人类视频中学习并改进策略",
+    "key_points": [
+      "论文旨在解决机器人操作学习中对昂贵动作标注机器人数据的依赖问题，提出从无动作标签的人类视频中学习并改进策略",
+      "提出 DiWALI 框架，利用逆动力学模型从连续帧推断潜在动作，无需动作标签即可训练世界模型，并通过单独训练的解码器将其映射为可执行的机器人指令",
+      "在该世界模型中，利用基于潜在动作的扩散策略进行行为克隆，并通过想象力中的强化学习进一步微调，结合人类和机器人的游戏数据进行训练"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Reconstruction vs. Prediction Pre-Training of Discrete Video Representations for Continuous Control",
+    "link": "http://arxiv.org/abs/2611.24781",
+    "arxiv_id": "2611.24781",
+    "detail_path": "papers/2611.24781/",
+    "cover_path": "covers/2611.24781/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24781.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24781.webp",
+    "preview_text": "研究自监督视频编码器的两种预训练目标（重建与预测）如何塑造连续控制任务中的下游动态表示。 通过训练两个具有共享 FSQ 瓶颈的相同 ViViT Model 1 编码器，分别采用自编码器和 V-JEPA 目标，以隔离预训练目标的影响。 探讨这两种目标在状态信息保留、单步预测和长期自回归 rollout 中的权衡关系。",
+    "research_unit": "University of Helsinki",
+    "hook_text": "研究自监督视频编码器的两种预训练目标（重建与预测）如何塑造连续控制任务中的下游动态表示。",
+    "key_points": [
+      "研究自监督视频编码器的两种预训练目标（重建与预测）如何塑造连续控制任务中的下游动态表示。",
+      "通过训练两个具有共享 FSQ 瓶颈的相同 ViViT Model 1 编码器，分别采用自编码器和 V-JEPA 目标，以隔离预训练目标的影响。",
+      "探讨这两种目标在状态信息保留、单步预测和长期自回归 rollout 中的权衡关系。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Counterfactual World Models: JEPAs That Reason About \"What If\"",
+    "link": "http://arxiv.org/abs/2611.24778",
+    "arxiv_id": "2611.24778",
+    "detail_path": "papers/2611.24778/",
+    "cover_path": "covers/2611.24778/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24778.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24778.webp",
+    "preview_text": "论文研究世界模型在存在不可观测扰动（如水流）的情况下如何进行反事实推理，即“如果当时采取了不同的动作，在相同的扰动下结果会怎样？” 证明了仅基于事实转移数据训练的世界模型无法自行回答个体反事实问题，无论其数据量或模型容量多大。 提出基于物理假设“自然不飞跃”的残差重用方法，使世界模型能够在不需要反事实数据、额外参数或重新训练的情况下进行个体反事实预测。",
+    "research_unit": "Brown University",
+    "hook_text": "论文研究世界模型在存在不可观测扰动（如水流）的情况下如何进行反事实推理，即“如果当时采取了不同的动作，在相同的扰动下结果会怎样？”",
+    "key_points": [
+      "论文研究世界模型在存在不可观测扰动（如水流）的情况下如何进行反事实推理，即“如果当时采取了不同的动作，在相同的扰动下结果会怎样？”",
+      "证明了仅基于事实转移数据训练的世界模型无法自行回答个体反事实问题，无论其数据量或模型容量多大。",
+      "提出基于物理假设“自然不飞跃”的残差重用方法，使世界模型能够在不需要反事实数据、额外参数或重新训练的情况下进行个体反事实预测。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
+    "link": "http://arxiv.org/abs/2611.24731",
+    "arxiv_id": "2611.24731",
+    "detail_path": "papers/2611.24731/",
+    "cover_path": "covers/2611.24731/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24731.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24731.webp",
+    "preview_text": "论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力 旨在解决当前手部中心世界模型评估缺乏统一标准的问题，特别是运动控制与交互结果预测之间存在的脱节现象 基准从六个维度进行评估：视觉质量、手部保真度、外观一致性、指令跟随、物理一致性和时间连贯性",
+    "research_unit": "Zhongguancun Academy",
+    "hook_text": "论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力",
+    "key_points": [
+      "论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力",
+      "旨在解决当前手部中心世界模型评估缺乏统一标准的问题，特别是运动控制与交互结果预测之间存在的脱节现象",
+      "基准从六个维度进行评估：视觉质量、手部保真度、外观一致性、指令跟随、物理一致性和时间连贯性"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Comparing Each Generation with Independent Siblings Gives Video World Model Post-Training a Proper Objective for Outcome Frequencies",
+    "link": "http://arxiv.org/abs/2611.24512",
+    "arxiv_id": "2611.24512",
+    "detail_path": "papers/2611.24512/",
+    "cover_path": "covers/2611.24512/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24512.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24512.webp",
+    "preview_text": "视频世界模型作为模拟器，在面对单一初始帧可能导致多种物理结果的场景时，其重复生成的结果频率应匹配真实数据分布。 现有物理后训练方法将每次生成与单一记录未来比较，导致期望得分关于模型分布呈线性，最终使模型总是偏向最可能的结果，丧失多样性。 论文旨在解决上述多样性丧失问题，使视频世界模型在提升单视频质量的同时，生成的结果频率能够准确逼近真实数据分布。",
+    "research_unit": "University of Southern California",
+    "hook_text": "视频世界模型作为模拟器，在面对单一初始帧可能导致多种物理结果的场景时，其重复生成的结果频率应匹配真实数据分布。",
+    "key_points": [
+      "视频世界模型作为模拟器，在面对单一初始帧可能导致多种物理结果的场景时，其重复生成的结果频率应匹配真实数据分布。",
+      "现有物理后训练方法将每次生成与单一记录未来比较，导致期望得分关于模型分布呈线性，最终使模型总是偏向最可能的结果，丧失多样性。",
+      "论文旨在解决上述多样性丧失问题，使视频世界模型在提升单视频质量的同时，生成的结果频率能够准确逼近真实数据分布。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "When to Refine: Selective Search for Frozen Visual World Models",
+    "link": "http://arxiv.org/abs/2611.24470",
+    "arxiv_id": "2611.24470",
+    "detail_path": "papers/2611.24470/",
+    "cover_path": "covers/2611.24470/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24470.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24470.webp",
+    "preview_text": "论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题 提出Selective CEM Refinement (SCR)，一种学习规则，在CEM第5次迭代后决定是否继续10次额外迭代 门控机制通过测量动作块移动、成本下降和精英分散度来判断是否需要继续搜索，无需额外的世界模型展开",
+    "research_unit": "University of Oxford",
+    "hook_text": "论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题",
+    "key_points": [
+      "论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题",
+      "提出Selective CEM Refinement (SCR)，一种学习规则，在CEM第5次迭代后决定是否继续10次额外迭代",
+      "门控机制通过测量动作块移动、成本下降和精英分散度来判断是否需要继续搜索，无需额外的世界模型展开"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model",
+    "link": "http://arxiv.org/abs/2611.24457",
+    "arxiv_id": "2611.24457",
+    "detail_path": "papers/2611.24457/",
+    "cover_path": "covers/2611.24457/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24457.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24457.webp",
+    "preview_text": "提出了 ShoWorld，一个形状保真的多假设占用世界模型，用于自动驾驶中的 4D 语义占用预测 解决了现有占用世界模型在预测动态物体时由于运动不确定性导致的路径平均化，以及重复体素化导致的形状退化问题 将运动和形状表示解耦，通过多假设运动预测和概率加权融合保留多种可能的未来，并利用子体素点表示减少运动过程中的形状失真",
+    "research_unit": "论文未在可见部分明确列出作者所属的具体研究机构",
+    "hook_text": "提出了 ShoWorld，一个形状保真的多假设占用世界模型，用于自动驾驶中的 4D 语义占用预测",
+    "key_points": [
+      "提出了 ShoWorld，一个形状保真的多假设占用世界模型，用于自动驾驶中的 4D 语义占用预测",
+      "解决了现有占用世界模型在预测动态物体时由于运动不确定性导致的路径平均化，以及重复体素化导致的形状退化问题",
+      "将运动和形状表示解耦，通过多假设运动预测和概率加权融合保留多种可能的未来，并利用子体素点表示减少运动过程中的形状失真"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Risk-Triggered Search: Behavior-Preserving Safe Control",
+    "link": "http://arxiv.org/abs/2611.24409",
+    "arxiv_id": "2611.24409",
+    "detail_path": "papers/2611.24409/",
+    "cover_path": "covers/2611.24409/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24409.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24409.webp",
+    "preview_text": "论文提出风险触发搜索方法，用于在冻结的视觉世界模型中实现保持行为的安全控制。 针对预训练视觉控制器的终端邻近目标无法防止中间过程违规（如穿越禁区或碰撞滑动）的问题，通过内部预测动作条件下的过程风险来指导安全干预。 旨在在不改变安全标称行为的前提下，进行选择性计算分配，并解决欧几里得距离最小化修改导致智能体停滞的问题。",
+    "research_unit": "浙江大学（Zhejiang University）",
+    "hook_text": "论文提出风险触发搜索方法，用于在冻结的视觉世界模型中实现保持行为的安全控制。",
+    "key_points": [
+      "论文提出风险触发搜索方法，用于在冻结的视觉世界模型中实现保持行为的安全控制。",
+      "针对预训练视觉控制器的终端邻近目标无法防止中间过程违规（如穿越禁区或碰撞滑动）的问题，通过内部预测动作条件下的过程风险来指导安全干预。",
+      "旨在在不改变安全标称行为的前提下，进行选择性计算分配，并解决欧几里得距离最小化修改导致智能体停滞的问题。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
+    "link": "http://arxiv.org/abs/2611.24408",
+    "arxiv_id": "2611.24408",
+    "detail_path": "papers/2611.24408/",
+    "cover_path": "covers/2611.24408/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24408.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24408.webp",
+    "preview_text": "提出了 StrideWorld 基准，用于评估交互式视频世界模型的场景刚性（3D结构一致性）和动作一致性 解决现有基准因依赖待测视频自身拟合参考（如场景重建或轨迹缩放）而无法检测场景渐变变形和动作节奏变化的问题 通过在运动判定前固定参考标准，实现对模型场景几何稳定性和多动作组合控制精度的独立评估",
+    "research_unit": "Shanghai Jiao Tong University",
+    "hook_text": "提出了 StrideWorld 基准，用于评估交互式视频世界模型的场景刚性（3D结构一致性）和动作一致性",
+    "key_points": [
+      "提出了 StrideWorld 基准，用于评估交互式视频世界模型的场景刚性（3D结构一致性）和动作一致性",
+      "解决现有基准因依赖待测视频自身拟合参考（如场景重建或轨迹缩放）而无法检测场景渐变变形和动作节奏变化的问题",
+      "通过在运动判定前固定参考标准，实现对模型场景几何稳定性和多动作组合控制精度的独立评估"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models",
+    "link": "http://arxiv.org/abs/2611.24384",
+    "arxiv_id": "2611.24384",
+    "detail_path": "papers/2611.24384/",
+    "cover_path": "covers/2611.24384/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24384.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24384.webp",
+    "preview_text": "论文提出了一种用于目标检测任务的主动学习框架，旨在优化主动学习初始训练周期的数据选择 解决了传统主动学习方法在初始周期依赖随机采样导致模型性能不佳和标注成本高的问题 利用基础模型（YOLO-World）的特征聚类和目标性分数进行初始数据选择和图像细化，并在后续周期采用一致性采样",
+    "research_unit": "伊朗科技大学, 伊朗德黑兰",
+    "hook_text": "论文提出了一种用于目标检测任务的主动学习框架，旨在优化主动学习初始训练周期的数据选择",
+    "key_points": [
+      "论文提出了一种用于目标检测任务的主动学习框架，旨在优化主动学习初始训练周期的数据选择",
+      "解决了传统主动学习方法在初始周期依赖随机采样导致模型性能不佳和标注成本高的问题",
+      "利用基础模型（YOLO-World）的特征聚类和目标性分数进行初始数据选择和图像细化，并在后续周期采用一致性采样"
+    ],
+    "reading_minutes": 3,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning",
+    "link": "http://arxiv.org/abs/2611.24244",
+    "arxiv_id": "2611.24244",
+    "detail_path": "papers/2611.24244/",
+    "cover_path": "covers/2611.24244/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24244.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24244.webp",
+    "preview_text": "针对蜂窝连接无人机（UAV）在城市峡谷中执行任务时面临的碰撞风险与通信覆盖退化问题，提出了无需先验地图的无线电几何世界模型 CommDreamer 模型融合原始机载 3D LiDAR 点云、多小区蜂窝测量报告和无人机相对运动学信息，联合推断局部障碍物间隙和方向性 SINR 动态 利用潜在想象空间中的多步预测训练轻量级在线策略，使无人机能够预见信号盲区并避开障碍物与覆盖空洞",
+    "research_unit": "哈尔滨工业大学（深圳）空天组网与智能感知广东省重点实验室",
+    "hook_text": "针对蜂窝连接无人机（UAV）在城市峡谷中执行任务时面临的碰撞风险与通信覆盖退化问题，提出了无需先验地图的无线电几何世界模型 CommDreamer",
+    "key_points": [
+      "针对蜂窝连接无人机（UAV）在城市峡谷中执行任务时面临的碰撞风险与通信覆盖退化问题，提出了无需先验地图的无线电几何世界模型 CommDreamer",
+      "模型融合原始机载 3D LiDAR 点云、多小区蜂窝测量报告和无人机相对运动学信息，联合推断局部障碍物间隙和方向性 SINR 动态",
+      "利用潜在想象空间中的多步预测训练轻量级在线策略，使无人机能够预见信号盲区并避开障碍物与覆盖空洞"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "ProbeShare: Probing a Few, Sharing Across Many for Fast World-Model Planning",
+    "link": "http://arxiv.org/abs/2611.24229",
+    "arxiv_id": "2611.24229",
+    "detail_path": "papers/2611.24229/",
+    "cover_path": "covers/2611.24229/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24229.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24229.webp",
+    "preview_text": "论文针对使用冻结联合嵌入世界模型进行机器人视觉规划时，标准CEM规划器为每个候选动作序列独立执行完整rollout导致的冗余计算问题 提出ProbeShare方法，观察到同一规划步骤中的候选动作共享观测历史和相同的动作-特征映射，因此只需少量代表性探针预测即可重建大量候选的特征网格 通过场景条件化的几何感知加权机制，在保持预测精度的同时大幅加速闭环规划",
+    "research_unit": "浙江大学、西湖大学（Zejian Kang, Xiangru Huang）",
+    "hook_text": "论文针对使用冻结联合嵌入世界模型进行机器人视觉规划时，标准CEM规划器为每个候选动作序列独立执行完整rollout导致的冗余计算问题",
+    "key_points": [
+      "论文针对使用冻结联合嵌入世界模型进行机器人视觉规划时，标准CEM规划器为每个候选动作序列独立执行完整rollout导致的冗余计算问题",
+      "提出ProbeShare方法，观察到同一规划步骤中的候选动作共享观测历史和相同的动作-特征映射，因此只需少量代表性探针预测即可重建大量候选的特征网格",
+      "通过场景条件化的几何感知加权机制，在保持预测精度的同时大幅加速闭环规划"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models",
+    "link": "http://arxiv.org/abs/2611.24222",
+    "arxiv_id": "2611.24222",
+    "detail_path": "papers/2611.24222/",
+    "cover_path": "covers/2611.24222/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24222.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24222.webp",
+    "preview_text": "论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中\"动作强调\"机制存在的目标偏差问题 发现动作强调在预测已匹配记录的未来帧时仍会持续推动，导致预测过冲，这一偏差在核函数、平衡和非平衡 Wasserstein 漂移场中均存在 提出了 Mass-Share Accentuation (MSA) 方法，基于半松弛最优传输消除目标偏差，使引导在目标处消失，并在多个基准数据集上验证了有效性",
+    "research_unit": "KAIST（韩国科学技术院）为主要研究机构，作者 Md Abtahi Majeed Chowdhury…",
+    "hook_text": "论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中\"动作强调\"机制存在的目标偏差问题",
+    "key_points": [
+      "论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中\"动作强调\"机制存在的目标偏差问题",
+      "发现动作强调在预测已匹配记录的未来帧时仍会持续推动，导致预测过冲，这一偏差在核函数、平衡和非平衡 Wasserstein 漂移场中均存在",
+      "提出了 Mass-Share Accentuation (MSA) 方法，基于半松弛最优传输消除目标偏差，使引导在目标处消失，并在多个基准数据集上验证了有效性"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "WM^MLLM: Turning MLLMs into World Models",
+    "link": "http://arxiv.org/abs/2611.24193",
+    "arxiv_id": "2611.24193",
+    "detail_path": "papers/2611.24193/",
+    "cover_path": "covers/2611.24193/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24193.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24193.webp",
+    "preview_text": "论文提出了 WM^MLLM，这是首个基于多模态大语言模型（MLLMs）构建的交互式世界模型，旨在从单张图像生成持久、可编辑的世界。 针对现有视频世界模型中由于世界状态存在于生成器上下文中导致的重访视图漂移、早期编辑消失等问题（即缺乏返回性、局部性和持久性）。 将世界状态保持在生成器外部（作为全景图和修订历史），由 MLLMs 负责管理和写入状态，确保重访时精确还原、局部编辑不破坏外部区域、且每个请求都基于前一个结果。",
+    "research_unit": "论文作者所属机构在提供的 HTML 文本中未明确列出（作者包括 Baiang Li, Enze Xie…",
+    "hook_text": "论文提出了 WM^MLLM，这是首个基于多模态大语言模型（MLLMs）构建的交互式世界模型，旨在从单张图像生成持久、可编辑的世界。",
+    "key_points": [
+      "论文提出了 WM^MLLM，这是首个基于多模态大语言模型（MLLMs）构建的交互式世界模型，旨在从单张图像生成持久、可编辑的世界。",
+      "针对现有视频世界模型中由于世界状态存在于生成器上下文中导致的重访视图漂移、早期编辑消失等问题（即缺乏返回性、局部性和持久性）。",
+      "将世界状态保持在生成器外部（作为全景图和修订历史），由 MLLMs 负责管理和写入状态，确保重访时精确还原、局部编辑不破坏外部区域、且每个请求都基于前一个结果。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Worth Another Look:Constrained World-Model Planning for Visual Inspection",
+    "link": "http://arxiv.org/abs/2611.24187",
+    "arxiv_id": "2611.24187",
+    "detail_path": "papers/2611.24187/",
+    "cover_path": "covers/2611.24187/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24187.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24187.webp",
+    "preview_text": "论文研究野外机器人和环境监测中的视觉检测问题，目标是在严格的计算和传感预算约束下定位多个目标 将冻结检测器上的多类检测任务建模为部分可观测马尔可夫决策过程（POMDP）下的神经符号观测规划，将紧凑循环世界模型与精确符号可行性规则解耦 解决三个核心问题：穷举扫描浪费调用、近视策略在异构费率悬崖下失败、视口编辑的延迟奖励被贪心启发式剪枝",
+    "research_unit": "陕西科技大学（Shaanxi University of Science and Technology…",
+    "hook_text": "论文研究野外机器人和环境监测中的视觉检测问题，目标是在严格的计算和传感预算约束下定位多个目标",
+    "key_points": [
+      "论文研究野外机器人和环境监测中的视觉检测问题，目标是在严格的计算和传感预算约束下定位多个目标",
+      "将冻结检测器上的多类检测任务建模为部分可观测马尔可夫决策过程（POMDP）下的神经符号观测规划，将紧凑循环世界模型与精确符号可行性规则解耦",
+      "解决三个核心问题：穷举扫描浪费调用、近视策略在异构费率悬崖下失败、视口编辑的延迟奖励被贪心启发式剪枝"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Efficient World-Model Planning via Physics-Guided Search Distillation",
+    "link": "http://arxiv.org/abs/2611.24171",
+    "arxiv_id": "2611.24171",
+    "detail_path": "papers/2611.24171/",
+    "cover_path": "covers/2611.24171/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.24171.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24171.webp",
+    "preview_text": "自动驾驶中的世界模型通过预测未来场景演化来评估候选轨迹，但准确的预测并不保证轨迹在道路边界内可合规执行 当所有候选轨迹都违反道路边界时，传统的重排序无法选择出可行轨迹，论文旨在解决这一“候选池外”修正问题 提出了 Physics-Guided Search Distillation (PGSD) 框架，结合未来表征和执行反馈，通过单次验证进行高效且可验证的轨迹修正",
+    "research_unit": "Yanshan University",
+    "hook_text": "自动驾驶中的世界模型通过预测未来场景演化来评估候选轨迹，但准确的预测并不保证轨迹在道路边界内可合规执行",
+    "key_points": [
+      "自动驾驶中的世界模型通过预测未来场景演化来评估候选轨迹，但准确的预测并不保证轨迹在道路边界内可合规执行",
+      "当所有候选轨迹都违反道路边界时，传统的重排序无法选择出可行轨迹，论文旨在解决这一“候选池外”修正问题",
+      "提出了 Physics-Guided Search Distillation (PGSD) 框架，结合未来表征和执行反馈，通过单次验证进行高效且可验证的轨迹修正"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Embodied Graph: A Relational World Model for Long-Horizon Tasks",
+    "link": "http://arxiv.org/abs/2611.24115",
+    "arxiv_id": "2611.24115",
+    "detail_path": "papers/2611.24115/",
+    "cover_path": "covers/2611.24115/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "针对长时序具身和Web环境任务，提出基于稀疏关系图的世界模型方法，解决现有像素级世界模型在长horizon想象中误差累积导致的想象漂移问题 提出 Embodied Graph 作为关系状态抽象，支持结构化动态建模和长期想象，以及 Relational World Model (RWM) 直接在图状态上进行想象 在具身环境和Web交互两个领域验证方法有效性",
+    "research_unit": "论文HTML中未明确列出作者所属机构信息（HTML头部和正文未包含作者机构详情）",
+    "hook_text": "针对长时序具身和Web环境任务，提出基于稀疏关系图的世界模型方法，解决现有像素级世界模型在长horizon想象中误差累积导致的想象漂移问题",
+    "key_points": [
+      "针对长时序具身和Web环境任务，提出基于稀疏关系图的世界模型方法，解决现有像素级世界模型在长horizon想象中误差累积导致的想象漂移问题",
+      "提出 Embodied Graph 作为关系状态抽象，支持结构化动态建模和长期想象，以及 Relational World Model (RWM) 直接在图状态上进行想象",
+      "在具身环境和Web交互两个领域验证方法有效性"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models",
+    "link": "http://arxiv.org/abs/2611.24074",
+    "arxiv_id": "2611.24074",
+    "detail_path": "papers/2611.24074/",
+    "cover_path": "covers/2611.24074/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "本文提出 SemPhys 框架，旨在解决人形机器人在执行文本生成的动作时，因维持平衡而偏离参考轨迹导致语义信息丢失的问题 核心思想是直接在机器人物理执行后的完整动作轨迹上评估语义对齐，并通过可微分世界模型将语义反馈反向传播给动作生成器 目标是在保持物理稳定性的同时，最大化复杂连续指令（如转身后行走）的执行语义保真度",
+    "research_unit": "浙江大学",
+    "hook_text": "本文提出 SemPhys 框架，旨在解决人形机器人在执行文本生成的动作时，因维持平衡而偏离参考轨迹导致语义信息丢失的问题",
+    "key_points": [
+      "本文提出 SemPhys 框架，旨在解决人形机器人在执行文本生成的动作时，因维持平衡而偏离参考轨迹导致语义信息丢失的问题",
+      "核心思想是直接在机器人物理执行后的完整动作轨迹上评估语义对齐，并通过可微分世界模型将语义反馈反向传播给动作生成器",
+      "目标是在保持物理稳定性的同时，最大化复杂连续指令（如转身后行走）的执行语义保真度"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "JEPA Dots: Dual-Latent World Model for Language-Guided Robot Control",
+    "link": "http://arxiv.org/abs/2611.24062",
+    "arxiv_id": "2611.24062",
+    "detail_path": "papers/2611.24062/",
+    "cover_path": "covers/2611.24062/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "论文提出 JEPA Dots（Dynamics-Oriented Task Separation），一个用于语言引导机器人控制的紧凑型双潜在表征世界模型框架 解决的核心问题是：在JEPA世界模型中整合语言条件时，任务指令应影响动作选择但不改变固定动作在相同观测下的预测后果 通过将指令无关的动力学预测与语言条件的任务表征分离，实现联合世界-动作建模中的结构化条件分离",
+    "research_unit": "Z Robotics（Xianhao Pan、Chi Li、Hanchao Li、Luhui Hu）",
+    "hook_text": "论文提出 JEPA Dots（Dynamics-Oriented Task Separation），一个用于语言引导机器人控制的紧凑型双潜在表征世界模型框架",
+    "key_points": [
+      "论文提出 JEPA Dots（Dynamics-Oriented Task Separation），一个用于语言引导机器人控制的紧凑型双潜在表征世界模型框架",
+      "解决的核心问题是：在JEPA世界模型中整合语言条件时，任务指令应影响动作选择但不改变固定动作在相同观测下的预测后果",
+      "通过将指令无关的动力学预测与语言条件的任务表征分离，实现联合世界-动作建模中的结构化条件分离"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning",
+    "link": "http://arxiv.org/abs/2611.23974",
+    "arxiv_id": "2611.23974",
+    "detail_path": "papers/2611.23974/",
+    "cover_path": "covers/2611.23974/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出了 LaST1.0，一种统一的潜在世界-动作模型，旨在通过以控制为中心的时空推理来实现稳健的机器人操作。 将操作任务中的世界建模重新定义为潜在空间中以控制为中心的未来预测，利用未来腕部视图提取几何感知的潜在目标，专注于对精细控制至关重要的机器人与物体间的动态交互。 解决了现有世界-动作模型将大量计算资源用于重建与控制无关的外观细节（如纹理、光照、背景），从而导致在复杂场景中难以实现精细控制的问题。",
+    "research_unit": "香港中文大学",
+    "hook_text": "提出了 LaST1.0，一种统一的潜在世界-动作模型，旨在通过以控制为中心的时空推理来实现稳健的机器人操作。",
+    "key_points": [
+      "提出了 LaST1.0，一种统一的潜在世界-动作模型，旨在通过以控制为中心的时空推理来实现稳健的机器人操作。",
+      "将操作任务中的世界建模重新定义为潜在空间中以控制为中心的未来预测，利用未来腕部视图提取几何感知的潜在目标，专注于对精细控制至关重要的机器人与物体间的动态交互。",
+      "解决了现有世界-动作模型将大量计算资源用于重建与控制无关的外观细节（如纹理、光照、背景），从而导致在复杂场景中难以实现精细控制的问题。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation",
+    "link": "http://arxiv.org/abs/2611.23953",
+    "arxiv_id": "2611.23953",
+    "detail_path": "papers/2611.23953/",
+    "cover_path": "covers/2611.23953/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "本文旨在解决基因敲降后单个细胞未来外观演化轨迹和分裂时间的不确定性建模问题 现有方法主要预测终点或群体水平变化，未能联合建模个体细胞的生长轨迹和分裂时间 提出 MitoWorld，一个随机世界模型，在基因扰动下将单细胞周期建模为在潜在空间中连续演化并在分裂事件处终止的随机过程",
+    "research_unit": "Purdue University",
+    "hook_text": "本文旨在解决基因敲降后单个细胞未来外观演化轨迹和分裂时间的不确定性建模问题",
+    "key_points": [
+      "本文旨在解决基因敲降后单个细胞未来外观演化轨迹和分裂时间的不确定性建模问题",
+      "现有方法主要预测终点或群体水平变化，未能联合建模个体细胞的生长轨迹和分裂时间",
+      "提出 MitoWorld，一个随机世界模型，在基因扰动下将单细胞周期建模为在潜在空间中连续演化并在分裂事件处终止的随机过程"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "GTA: Generative Tower of Agents for Scalable Holonic Scene Generation",
+    "link": "http://arxiv.org/abs/2611.23727",
+    "arxiv_id": "2611.23727",
+    "detail_path": "papers/2611.23727/",
+    "cover_path": "covers/2611.23727/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "论文提出 GTA (Generative Tower of Agents) 框架，用于可扩展的 Holonic 场景生成，将每个层级的场景单元视为一个既独立又可组合的整体子 解决了现有方法在预定义层次结构或顺序工作流下难以扩展到更大场景、保留细粒度细节并适应开放世界设定的问题 通过高吞吐量的并行智能体执行，加速世界建模，同时保持结构良好的布局和细粒度资产细节，并生成场景引导的4D动态人物角色",
+    "research_unit": "UCLA",
+    "hook_text": "论文提出 GTA (Generative Tower of Agents) 框架，用于可扩展的 Holonic 场景生成，将每个层级的场景单元视为一个既独立又可组合的整体子",
+    "key_points": [
+      "论文提出 GTA (Generative Tower of Agents) 框架，用于可扩展的 Holonic 场景生成，将每个层级的场景单元视为一个既独立又可组合的整体子",
+      "解决了现有方法在预定义层次结构或顺序工作流下难以扩展到更大场景、保留细粒度细节并适应开放世界设定的问题",
+      "通过高吞吐量的并行智能体执行，加速世界建模，同时保持结构良好的布局和细粒度资产细节，并生成场景引导的4D动态人物角色"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Measuring the Conservatism of Latent Safety Filters for World Models",
+    "link": "http://arxiv.org/abs/2611.23685",
+    "arxiv_id": "2611.23685",
+    "detail_path": "papers/2611.23685/",
+    "cover_path": "covers/2611.23685/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models",
+    "link": "http://arxiv.org/abs/2611.23620",
+    "arxiv_id": "2611.23620",
+    "detail_path": "papers/2611.23620/",
+    "cover_path": "covers/2611.23620/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "JEPA as a Transferable Optimizer: Learning and Understanding Black-Box Optimization from Reward-Agnostic Pretraining",
+    "link": "http://arxiv.org/abs/2611.23608",
+    "arxiv_id": "2611.23608",
+    "detail_path": "papers/2611.23608/",
+    "cover_path": "covers/2611.23608/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "DOCK: Dual-Stream-Inspired Self-Supervised Object-Centric Representations Grounded in Robot Kinematics",
+    "link": "http://arxiv.org/abs/2611.23578",
+    "arxiv_id": "2611.23578",
+    "detail_path": "papers/2611.23578/",
+    "cover_path": "covers/2611.23578/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-17",
     "title": "Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D",
     "link": "http://arxiv.org/abs/2611.23118",

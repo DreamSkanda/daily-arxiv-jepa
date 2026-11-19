@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HandWorldBench: A Unified Benchmark for Hand-Centric World Models - JEPA / 世界模型 每日论文卡</title>
+    <meta name="description" content="论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力 旨在解决当前手部中心世界模型评估缺乏统一标准的问题，特别是运动控制与交互结果预测之间存在的脱节现象 基准从六个维度进行评估：视觉质量、手部保真度、外观一致性、指令跟随、物理一致性和时间连贯性" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EJ%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2611.24731">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">JEPA / 世界模型 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24731.webp" alt="HandWorldBench: A Unified Benchmark for Hand-Centric World Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">HandWorldBench: A Unified Benchmark for Hand-Centric World Models</h1>
+            <div class="detail-meta">2026-11-18 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.24731" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.24731" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.24731</span></div>
+            <p class="detail-summary">论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力 旨在解决当前手部中心世界模型评估缺乏统一标准的问题，特别是运动控制与交互结果预测之间存在的脱节现象 基准从六个维度进行评估：视觉质量、手部保真度、外观一致性、指令跟随、物理一致性和时间连贯性</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Zhongguancun Academy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+  </div>
+  <p class="reading-intro-hook">论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力</p>
+  <ul class="reading-intro-points"><li>论文提出了 HandWorldBench，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力</li><li>旨在解决当前手部中心世界模型评估缺乏统一标准的问题，特别是运动控制与交互结果预测之间存在的脱节现象</li><li>基准从六个维度进行评估：视觉质量、手部保真度、外观一致性、指令跟随、物理一致性和时间连贯性</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Zhongguancun Academy</strong></li><li><strong>Tsinghua University</strong></li><li><strong>Tianjin University</strong></li><li><strong>Manifold AI</strong></li><li><strong>Zhejiang University</strong></li><li><strong>University of Science and Technology of China</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出了 <strong>HandWorldBench</strong>，一个针对手部中心世界模型的统一基准，系统评估了人手、模拟灵巧手和真实灵巧手在生成视频和交互预测方面的能力</li><li>旨在解决当前手部中心世界模型评估缺乏统一标准的问题，特别是运动控制与交互结果预测之间存在的脱节现象</li><li>基准从六个维度进行评估：视觉质量、手部保真度、外观一致性、指令跟随、物理一致性和时间连贯性</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>构建了统一的评估基准，涵盖了跨不同手部形态的共享交互任务和六维评估维度</li><li>设计了数据筛选和标注流水线，从超过600小时的视频中提取了20,500个高质量第一人称交互片段，并手动挑选了500个片段作为评估集</li><li>在统一协议下对11个代表性模型进行了系统性评估，揭示了运动控制与交互预测之间的性能差距</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>开发了包含质量筛选和信号对齐检查的数据构建管道，以提取高质量的以手部为中心的交互视频片段</li><li>采用多种手部控制表示（如网格、关节、姿态）以适配不同模型的原生输入接口</li><li>利用视觉语言模型（VLM）辅助标注交互描述和任务标签，并通过人工验证细化物体状态变化和评估问题</li><li>建立了跨形态的共享结构语义和时空对应关系，并结合视觉几何测量与任务特定判断形成六维评估协议</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用自建的 <strong>HandWorldBench-Corpus</strong> 数据集，包含从600多小时视频中筛选出的 <strong>20,500</strong> 个高质量片段</li><li>最终评估集包含 <strong>500</strong> 个手动选择的视频片段，覆盖 <strong>7</strong> 个任务家族和 <strong>22</strong> 个任务类别</li><li>评估了 <strong>11</strong> 个代表性世界模型，包括 <strong>JointControlVideo</strong>、<strong>HunyuanVideo 1.5</strong>、<strong>Wan2.1</strong>、<strong>Wan2.2</strong>、<strong>EgoHOI</strong>、<strong>DWM</strong>、<strong>PAM</strong> 和 <strong>CogVideoX1.5</strong> 等</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境基于500个跨三种手部形态（人手、模拟灵巧手、真实灵巧手）的统一测试用例</li><li>主要评估指标包括 <strong>MUSIQ</strong>（视觉质量）、姿态控制、关键点覆盖率、外观一致性以及综合评分 <strong>HWBScore</strong>（0-100分）</li><li>关键实验结果表明，更强的手部姿态控制并不一定能转化为连贯的物体状态演变和持久性</li><li>发现部分专门的手部控制模型在灵巧手任务上的表现甚至不如通用的文本/图像到视频生成模型，如 <strong>HunyuanVideo 1.5</strong> 在多项指标和综合得分上表现优异</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2611.24778/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Counterfactual World Models: JEPAs That Reason About &quot;What If&quot;</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2611.24512/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Comparing Each Generation with Independent Siblings Gives Video World Model Post-Training a Proper Objective for Outcome Frequencies</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

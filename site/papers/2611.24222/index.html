@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models - JEPA / 世界模型 每日论文卡</title>
+    <meta name="description" content="论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中&quot;动作强调&quot;机制存在的目标偏差问题 发现动作强调在预测已匹配记录的未来帧时仍会持续推动，导致预测过冲，这一偏差在核函数、平衡和非平衡 Wasserstein 漂移场中均存在 提出了 Mass-Share Accentuation (MSA) 方法，基于半松弛最优传输消除目标偏差，使引导在目标处消失，并在多个基准数据集上验证了有效性" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EJ%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2611.24222">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">JEPA / 世界模型 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24222.webp" alt="Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中&quot;动作强调&quot;机制存在的目标偏差问题</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models</h1>
+            <div class="detail-meta">2026-11-18 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.24222" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.24222" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.24222</span></div>
+            <p class="detail-summary">论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中&quot;动作强调&quot;机制存在的目标偏差问题 发现动作强调在预测已匹配记录的未来帧时仍会持续推动，导致预测过冲，这一偏差在核函数、平衡和非平衡 Wasserstein 漂移场中均存在 提出了 Mass-Share Accentuation (MSA) 方法，基于半松弛最优传输消除目标偏差，使引导在目标处消失，并在多个基准数据集上验证了有效性</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">KAIST（韩国科学技术院）为主要研究机构，作者 Md Abtahi Majeed Chowdhury…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+  </div>
+  <p class="reading-intro-hook">论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中&quot;动作强调&quot;机制存在的目标偏差问题</p>
+  <ul class="reading-intro-points"><li>论文针对动作条件世界模型中动作跟随的引导问题，研究了 DriftWorld 模型中&quot;动作强调&quot;机制存在的目标偏差问题</li><li>发现动作强调在预测已匹配记录的未来帧时仍会持续推动，导致预测过冲，这一偏差在核函数、平衡和非平衡 Wasserstein 漂移场中均存在</li><li>提出了 Mass-Share Accentuation (MSA) 方法，基于半松弛最优传输消除目标偏差，使引导在目标处消失，并在多个基准数据集上验证了有效性</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>KAIST</strong>（韩国科学技术院）为主要研究机构，作者 Md Abtahi Majeed Chowdhury、Md Rifat Ur Rahman、Md Sakib Hossain Shovon、Jaesik Choi、Minhyuk Sung 均隶属于此机构</li><li><strong>Bangladesh University of Engineering and Technology</strong>（孟加拉国工程技术大学）也为作者所属机构之一</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文针对<strong>动作条件世界模型</strong>中动作跟随的引导问题，研究了 DriftWorld 模型中"动作强调"机制存在的<strong>目标偏差</strong>问题</li><li>发现动作强调在预测已匹配记录的未来帧时仍会持续推动，导致预测过冲，这一偏差在核函数、平衡和非平衡 Wasserstein 漂移场中均存在</li><li>提出了 <strong>Mass-Share Accentuation (MSA)</strong> 方法，基于半松弛最优传输消除目标偏差，使引导在目标处消失，并在多个基准数据集上验证了有效性</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>揭示了动作强调在核函数、平衡和非平衡 Wasserstein 漂移场中均存在目标偏差，并通过受控实验确认了过冲现象</li><li>提出了 <strong>MSA</strong> 方法，基于反事实半松弛最优传输构建偏差校正的强调机制，具有闭式解分配方案</li><li>从理论上证明了 MSA 场在运动方向上以记录未来为唯一不动点，对基础场无额外相对变形，且引导量随预测误差衰减</li><li>在 <strong>Push-T</strong>、<strong>Robomimic</strong> 和 <strong>BridgeV2</strong> 三个数据集上，MSA 在动作响应和运动保真度方面优于潜空间 DriftWorld 和 W-Flow 基线，且无额外推理成本</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>将当前帧视为与记录未来竞争的"反事实目的地"，而非简单的负样本，通过<strong>半松弛最优传输</strong>问题分配预测质量</li><li>使用闭式解计算每个预测分配给当前帧的质量份额，减去正确未来自身会分配的份额，使引导在目标处精确消失</li><li>将校正后的引导作为所有预测共享的单一平移向量施加，不改变 W-Flow 基础场的相对变形特性</li><li>在 <strong>DINOv2/v3</strong> 特征空间中逐位置计算传输成本，使用运动单位度量使参数在不同位置可比</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>Push-T</strong>、<strong>Robomimic</strong> 和 <strong>BridgeV2</strong> 三个数据集进行评估</li><li>特征空间基于 <strong>DINOv2/v3</strong> 预训练模型</li><li>使用 <strong>U-Net</strong> 架构作为生成器，条件化每帧的动作</li><li>论文未明确提及具体 GPU/TPU 等训练资源信息</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准包括动作排序（<strong>GPC-Rank</strong>）、响应斜率、运动区域误差等指标</li><li>在 <strong>Push-T</strong> 和 <strong>Robomimic</strong> 上，MSA 在动作排名、响应斜率和运动区域误差方面优于潜空间基线</li><li>在 <strong>BridgeV2</strong> 上验证了方法的可扩展性和有效性</li><li>受控实验验证了偏差消除的有效性：MSA 使预测精确落在记录未来帧上，而无偏差校正时存在过冲</li><li>MSA 在推理时无需额外计算成本，保持单次网络前向传播</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2611.24229/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">ProbeShare: Probing a Few, Sharing Across Many for Fast World-Model Planning</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2611.24193/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">WM^MLLM: Turning MLLMs into World Models</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

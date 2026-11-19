@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>When to Refine: Selective Search for Frozen Visual World Models - JEPA / 世界模型 每日论文卡</title>
+    <meta name="description" content="论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题 提出Selective CEM Refinement (SCR)，一种学习规则，在CEM第5次迭代后决定是否继续10次额外迭代 门控机制通过测量动作块移动、成本下降和精英分散度来判断是否需要继续搜索，无需额外的世界模型展开" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EJ%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2611.24470">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">JEPA / 世界模型 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.24470.webp" alt="When to Refine: Selective Search for Frozen Visual World Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">When to Refine: Selective Search for Frozen Visual World Models</h1>
+            <div class="detail-meta">2026-11-18 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.24470" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.24470" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.24470</span></div>
+            <p class="detail-summary">论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题 提出Selective CEM Refinement (SCR)，一种学习规则，在CEM第5次迭代后决定是否继续10次额外迭代 门控机制通过测量动作块移动、成本下降和精英分散度来判断是否需要继续搜索，无需额外的世界模型展开</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">University of Oxford</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+  </div>
+  <p class="reading-intro-hook">论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题</p>
+  <ul class="reading-intro-points"><li>论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题</li><li>提出Selective CEM Refinement (SCR)，一种学习规则，在CEM第5次迭代后决定是否继续10次额外迭代</li><li>门控机制通过测量动作块移动、成本下降和精英分散度来判断是否需要继续搜索，无需额外的世界模型展开</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>University of Oxford</strong></li><li>作者：Jingni Huang</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文研究使用冻结的视觉世界模型进行规划时，如何决定是否继续交叉熵方法（CEM）搜索的问题</li><li>提出<strong>Selective CEM Refinement (SCR)</strong>，一种学习规则，在CEM第5次迭代后决定是否继续10次额外迭代</li><li>门控机制通过测量动作块移动、成本下降和精英分散度来判断是否需要继续搜索，无需额外的世界模型展开</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出SCR方法，在学习的世界模型上实现选择性搜索，减少不必要的计算开销</li><li>设计了基于三个特征（第一动作块均值位移、精英成本改进、精英分散度）的逻辑门控机制</li><li>门控决策不需要额外的世界模型展开，计算开销极低</li><li>在PushT任务上，SCR在保留<strong>89.29%</strong>配对成功率的同时减少了<strong>23.81%</strong>的候选计划评估</li><li>证明了在重规划时再次应用门控可进一步减少<strong>15.79%</strong>的总候选评估</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用冻结的<strong>LeWorldModel (LeWM)</strong>作为视觉世界模型，通过预测终端表示与目标图像编码之间的平方欧氏距离来评分动作序列</li><li>基于CEM进行规划，每次迭代采样<strong>300</strong>个候选计划，保留<strong>30</strong>个精英</li><li>在第5次迭代后，门控读取三个特征：<strong>d5</strong>（第一动作块均值位移）、<strong>g5</strong>（完整计划精英成本改进）、<strong>s5</strong>（第一动作块精英分散度）</li><li>使用标准化后的三个特征通过逻辑回归计算继续搜索的概率，与阈值<strong>τ≈0.3966</strong>比较决定是否继续到第15次迭代</li><li>采用随机数填充协议确保公平比较，提前退出时会抽取并丢弃跳过迭代的随机张量</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>PushT</strong>数据集（<strong>lerobot/pusht_keypoints</strong>、<strong>pusht_expert_train</strong>）</li><li><strong>OGBench-Cube</strong>数据集（<strong>ogbench/cube_single_expert</strong>）</li><li>使用<strong>stable-worldmodel</strong>环境实现</li><li>冻结的LeWM模型约<strong>1500万</strong>参数</li><li>每次CEM迭代评分<strong>300</strong>个候选计划，保留<strong>30</strong>个精英</li><li>训练资源未明确提及</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>在<strong>PushT</strong>上评估，<strong>16</strong>个场景，<strong>2</strong>个规划种子，共<strong>32</strong>个试验</li><li>主要评估指标：经验成功率、候选计划评估数量、控制器时间</li><li>SCR在<strong>32</strong>个试验中成功<strong>25</strong>个，<strong>Fixed-15</strong>成功<strong>28</strong>个，<strong>89.29%</strong>配对成功率保留</li><li>SCR减少了<strong>23.81%</strong>的候选计划评估和<strong>17.22%</strong>的平均控制器时间</li><li>在相同预期候选工作负载下，SCR成功率比分析混合模型高<strong>5.36</strong>个百分点</li><li>在重规划时再次应用门控，额外产生<strong>9</strong>次提前退出，总候选评估减少<strong>15.79%</strong>，但成功率从<strong>27/32</strong>降至<strong>25/32</strong></li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2611.24512/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Comparing Each Generation with Independent Siblings Gives Video World Model Post-Training a Proper Objective for Outcome Frequencies</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2611.24457/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
