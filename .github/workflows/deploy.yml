@@ -78,7 +78,8 @@ jobs:
           MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
           # 超时前已完成的摘要逐篇保存；未完成的仍为「待生成」。
           BATCH_WRITE_SIZE: 1
-          MODELSCOPE_MODELS: moonshotai/Kimi-K3,deepseek-ai/DeepSeek-V4-Flash-0731,Tencent-Hunyuan/Hy3,stepfun-ai/Step-3.7-Flash,ZhipuAI/GLM-5.2,deepseek-ai/DeepSeek-V4-Pro
+          SUMMARY_MAX_UPDATES: "5"
+          MODELSCOPE_MODELS: ZhipuAI/GLM-5.3-Flash,deepseek-ai/DeepSeek-V4-Pro-0813
 
       - name: 提示摘要降级
         if: steps.summaries.outcome == 'failure'

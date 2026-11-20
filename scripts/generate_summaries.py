@@ -389,6 +389,14 @@ def update_papers_md() -> Tuple[int, int]:
     if client is None:
         return need_count, 0
 
+    max_updates = int(os.getenv("SUMMARY_MAX_UPDATES", "0"))
+    if max_updates < 0:
+        raise ValueError("SUMMARY_MAX_UPDATES 必须是非负整数")
+    if max_updates:
+        # 对有限批次优先处理积压，避免每天新增论文把旧论文一直挤出队列。
+        entries_to_update.sort(key=lambda entry: entry[1])
+        print(f"本轮最多保存 {max_updates} 篇摘要，按论文日期从旧到新处理。")
+
     success_count = 0
     batch_size = int(os.getenv("BATCH_WRITE_SIZE", "5"))
     updates_since_last_write = 0
@@ -416,6 +424,9 @@ def update_papers_md() -> Tuple[int, int]:
         if updates_since_last_write >= batch_size:
             write_papers_atomically(papers_md, header + body)
             updates_since_last_write = 0
+
+        if max_updates and success_count >= max_updates:
+            break
 
     # 最后写入一次，确保所有更改都保存
     if updates_since_last_write > 0:
