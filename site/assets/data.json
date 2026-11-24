@@ -1,5 +1,2078 @@
 [
   {
+    "date": "2026-11-23",
+    "title": "DexLatentWorld: 3D Cross-Embodiment Latent Action World Models for Zero-Shot Robotic Manipulation",
+    "link": "http://arxiv.org/abs/2611.30907",
+    "arxiv_id": "2611.30907",
+    "detail_path": "papers/2611.30907/",
+    "cover_path": "covers/2611.30907/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30907.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30907.webp",
+    "preview_text": "论文提出 DexLatentWorld，一个统一的 3D 潜在动作世界模型，直接从无动作标签的点云观测中学习连续动作表示 核心问题是现有世界模型依赖昂贵的动作标注数据，且通常绑定特定机器人本体，难以跨本体迁移 通过将人类操作演示重定向到不同机器人本体，利用对比学习对齐跨本体的运动表示，实现零样本跨本体机器人操作",
+    "research_unit": "Embodied Dexterity Lab (DexLab)，Imperial College Lo…",
+    "hook_text": "论文提出 DexLatentWorld，一个统一的 3D 潜在动作世界模型，直接从无动作标签的点云观测中学习连续动作表示",
+    "key_points": [
+      "论文提出 DexLatentWorld，一个统一的 3D 潜在动作世界模型，直接从无动作标签的点云观测中学习连续动作表示",
+      "核心问题是现有世界模型依赖昂贵的动作标注数据，且通常绑定特定机器人本体，难以跨本体迁移",
+      "通过将人类操作演示重定向到不同机器人本体，利用对比学习对齐跨本体的运动表示，实现零样本跨本体机器人操作"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "World Models as Native Latent Action Models",
+    "link": "http://arxiv.org/abs/2611.30898",
+    "arxiv_id": "2611.30898",
+    "detail_path": "papers/2611.30898/",
+    "cover_path": "covers/2611.30898/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30898.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30898.webp",
+    "preview_text": "论文提出Native LAM，将预训练的视频世界模型视为原生潜在动作模型，通过最小改动从世界模型中提取紧凑的潜在动作表示 解决现有潜在动作模型从头训练IDM和FDM时在像素重建与潜在容量/准确性之间的权衡问题，以及后验崩塌和潜在动作漂移等问题 进一步提出PAWlicy预训练范式，利用Native LAM作为动力学教师，在大规模视频上预训练视觉-语言-动作（VLA）策略",
+    "research_unit": "SenseTime Research, Singapore",
+    "hook_text": "论文提出Native LAM，将预训练的视频世界模型视为原生潜在动作模型，通过最小改动从世界模型中提取紧凑的潜在动作表示",
+    "key_points": [
+      "论文提出Native LAM，将预训练的视频世界模型视为原生潜在动作模型，通过最小改动从世界模型中提取紧凑的潜在动作表示",
+      "解决现有潜在动作模型从头训练IDM和FDM时在像素重建与潜在容量/准确性之间的权衡问题，以及后验崩塌和潜在动作漂移等问题",
+      "进一步提出PAWlicy预训练范式，利用Native LAM作为动力学教师，在大规模视频上预训练视觉-语言-动作（VLA）策略"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "AeroJEPA: A Two-Stage Framework for Aerosol Forecasting with Joint-Embedding Predictive Learning",
+    "link": "http://arxiv.org/abs/2611.30891",
+    "arxiv_id": "2611.30891",
+    "detail_path": "papers/2611.30891/",
+    "cover_path": "covers/2611.30891/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30891.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30891.webp",
+    "preview_text": "提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架 旨在解决分析初始化预测对历史观测利用有限，以及逐点回归导致局部变化平滑和空间结构约束不足的问题 阶段I融合历史观测、模型背景和气象信息预测初始未来状态、气象条件和多尺度结构；阶段II利用预测的气象场和空间结构进行状态细化和浓度场生成",
+    "research_unit": "东南大学自动化学院 (School of Automation, Southeast Universi…",
+    "hook_text": "提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架",
+    "key_points": [
+      "提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架",
+      "旨在解决分析初始化预测对历史观测利用有限，以及逐点回归导致局部变化平滑和空间结构约束不足的问题",
+      "阶段I融合历史观测、模型背景和气象信息预测初始未来状态、气象条件和多尺度结构；阶段II利用预测的气象场和空间结构进行状态细化和浓度场生成"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?",
+    "link": "http://arxiv.org/abs/2611.30836",
+    "arxiv_id": "2611.30836",
+    "detail_path": "papers/2611.30836/",
+    "cover_path": "covers/2611.30836/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30836.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30836.webp",
+    "preview_text": "论文提出 MakeSense，一个多模态融合框架，旨在解决具身视觉系统中的“负融合”问题，即增加传感器反而导致预测误差增加的现象 该框架通过在私有流中保留传感器特定证据，并通过共享瓶颈令牌结合信息，同时支持在传感器缺失或退化条件下的稳定感知 在训练时，模型对同一样本的完整传感器视图和随机子集视图进行成对融合，对因增加传感器而导致的误差增加进行惩罚",
+    "research_unit": "国立成功大学，台湾台南",
+    "hook_text": "论文提出 MakeSense，一个多模态融合框架，旨在解决具身视觉系统中的“负融合”问题，即增加传感器反而导致预测误差增加的现象",
+    "key_points": [
+      "论文提出 MakeSense，一个多模态融合框架，旨在解决具身视觉系统中的“负融合”问题，即增加传感器反而导致预测误差增加的现象",
+      "该框架通过在私有流中保留传感器特定证据，并通过共享瓶颈令牌结合信息，同时支持在传感器缺失或退化条件下的稳定感知",
+      "在训练时，模型对同一样本的完整传感器视图和随机子集视图进行成对融合，对因增加传感器而导致的误差增加进行惩罚"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning",
+    "link": "http://arxiv.org/abs/2611.30666",
+    "arxiv_id": "2611.30666",
+    "detail_path": "papers/2611.30666/",
+    "cover_path": "covers/2611.30666/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30666.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30666.webp",
+    "preview_text": "论文提出 Zhengrong-PoleWM（Zhengrong Pole-based Action-Response World Model），一种直接视觉世界模型，将潜在轨迹分解为初始状态锚点、自由响应和由动作创新触发的因果延迟响应 解决现有直接动作前缀预测器中动作效应在查询时间维度上缺乏时间结构共享的问题，即如何在一个直接视觉预测器内组织动作效应的时间结构 面向无奖励的离线图像目标规划任务，通过终端嵌入距离驱动采样优化规划",
+    "research_unit": "Beijing Freedo Technology Co., Ltd.（北京自由度科技有限公司），北京…",
+    "hook_text": "论文提出 Zhengrong-PoleWM（Zhengrong Pole-based Action-Response World Model），一种直接视觉世界模型，将潜在轨迹分解为初始状态锚点、自由响应和由动作创新触发的因果延迟响应",
+    "key_points": [
+      "论文提出 Zhengrong-PoleWM（Zhengrong Pole-based Action-Response World Model），一种直接视觉世界模型，将潜在轨迹分解为初始状态锚点、自由响应和由动作创新触发的因果延迟响应",
+      "解决现有直接动作前缀预测器中动作效应在查询时间维度上缺乏时间结构共享的问题，即如何在一个直接视觉预测器内组织动作效应的时间结构",
+      "面向无奖励的离线图像目标规划任务，通过终端嵌入距离驱动采样优化规划"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "ActField: Learning Action Effects as Continuous-Time Latent Dynamics",
+    "link": "http://arxiv.org/abs/2611.30659",
+    "arxiv_id": "2611.30659",
+    "detail_path": "papers/2611.30659/",
+    "cover_path": "covers/2611.30659/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30659.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30659.webp",
+    "preview_text": "提出 ActField，一个连续时间的 JEPA 世界模型，通过动作条件向量场在物理时间上积分来显式建模潜在状态演化 解决现有离散时间 JEPA 世界模型未显式表示动作驱动演化过程的局限性，无法准确捕捉动作执行期间视觉变化的累积效应 将动作无关演化与动作引发的变化分离，并通过参考条件表示和多步动力学损失支持准确的长时程预测",
+    "research_unit": "Hong Kong Polytechnic University（香港理工大学）",
+    "hook_text": "提出 ActField，一个连续时间的 JEPA 世界模型，通过动作条件向量场在物理时间上积分来显式建模潜在状态演化",
+    "key_points": [
+      "提出 ActField，一个连续时间的 JEPA 世界模型，通过动作条件向量场在物理时间上积分来显式建模潜在状态演化",
+      "解决现有离散时间 JEPA 世界模型未显式表示动作驱动演化过程的局限性，无法准确捕捉动作执行期间视觉变化的累积效应",
+      "将动作无关演化与动作引发的变化分离，并通过参考条件表示和多步动力学损失支持准确的长时程预测"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Write, Evolve, Read: Streaming Cameras into a Persistent World State for 4D Occupancy Forecasting",
+    "link": "http://arxiv.org/abs/2611.30573",
+    "arxiv_id": "2611.30573",
+    "detail_path": "papers/2611.30573/",
+    "cover_path": "covers/2611.30573/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30573.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30573.webp",
+    "preview_text": "论文聚焦于基于相机的 4D 占用预测 任务，旨在预测驾驶场景未来几秒的 3D 语义占用情况 研究发现当前基于相机的世界模型在“未改变空间”上表现不佳，即无法有效保持已经观测到的场景内容，而非在预测变化方面存在不足 提出 PersistWorld 模型，将相机帧流式传输到锚定在场景中的持久化 3D 世界状态 中，通过单次写入替代从历史帧重建，并与预测任务端到端联合学习",
+    "research_unit": "吉林大学 (Jilin University)",
+    "hook_text": "论文聚焦于基于相机的 4D 占用预测 任务，旨在预测驾驶场景未来几秒的 3D 语义占用情况",
+    "key_points": [
+      "论文聚焦于基于相机的 4D 占用预测 任务，旨在预测驾驶场景未来几秒的 3D 语义占用情况",
+      "研究发现当前基于相机的世界模型在“未改变空间”上表现不佳，即无法有效保持已经观测到的场景内容，而非在预测变化方面存在不足",
+      "提出 PersistWorld 模型，将相机帧流式传输到锚定在场景中的持久化 3D 世界状态 中，通过单次写入替代从历史帧重建，并与预测任务端到端联合学习"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "VeriTouch: Verified Visuo-Tactile World Models that Improve Robot Policy Learning",
+    "link": "http://arxiv.org/abs/2611.30572",
+    "arxiv_id": "2611.30572",
+    "detail_path": "papers/2611.30572/",
+    "cover_path": "covers/2611.30572/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30572.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30572.webp",
+    "preview_text": "论文提出VeriTouch框架，通过生成和验证合成视觉-触觉轨迹来改进机器人策略学习，解决真实世界触觉数据收集成本高、仿真环境建模困难的问题 框架包含三个核心组件：世界模型VeriGen（联合生成双视角视频和触觉序列）、多模态验证器VeriEval（过滤不可靠序列）、逆动力学模型VeriIDM（从验证视频中提取动作） 目标是在无需额外真实数据收集的情况下，通过扩展合成数据量显著提升接触丰富操控任务的策略性能",
+    "research_unit": "浙江大学（Zhejiang University）- 主要单位",
+    "hook_text": "论文提出VeriTouch框架，通过生成和验证合成视觉-触觉轨迹来改进机器人策略学习，解决真实世界触觉数据收集成本高、仿真环境建模困难的问题",
+    "key_points": [
+      "论文提出VeriTouch框架，通过生成和验证合成视觉-触觉轨迹来改进机器人策略学习，解决真实世界触觉数据收集成本高、仿真环境建模困难的问题",
+      "框架包含三个核心组件：世界模型VeriGen（联合生成双视角视频和触觉序列）、多模态验证器VeriEval（过滤不可靠序列）、逆动力学模型VeriIDM（从验证视频中提取动作）",
+      "目标是在无需额外真实数据收集的情况下，通过扩展合成数据量显著提升接触丰富操控任务的策略性能"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Assembly-JEPA: Using World Models for Fine-Grained Industrial Image Verification",
+    "link": "http://arxiv.org/abs/2611.30530",
+    "arxiv_id": "2611.30530",
+    "detail_path": "papers/2611.30530/",
+    "cover_path": "covers/2611.30530/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30530.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30530.webp",
+    "preview_text": "提出基于联合嵌入预测架构（JEPA）的自监督工业装配验证框架 Assembly-JEPA，利用世界模型预测装配动作前后的状态转换。 通过比较预测的装配后状态表示与实际观察到的状态表示，将预测误差作为装配正确性的验证指标。 解决工业装配中由于视觉变化大、标注缺陷数据有限以及错误细粒度导致的自动化验证难题。",
+    "research_unit": "Deggendorf Institute of Technology (Deggendorf, Ger…",
+    "hook_text": "提出基于联合嵌入预测架构（JEPA）的自监督工业装配验证框架 Assembly-JEPA，利用世界模型预测装配动作前后的状态转换。",
+    "key_points": [
+      "提出基于联合嵌入预测架构（JEPA）的自监督工业装配验证框架 Assembly-JEPA，利用世界模型预测装配动作前后的状态转换。",
+      "通过比较预测的装配后状态表示与实际观察到的状态表示，将预测误差作为装配正确性的验证指标。",
+      "解决工业装配中由于视觉变化大、标注缺陷数据有限以及错误细粒度导致的自动化验证难题。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "JEPA-ICL: Progress-Aligned Latent Plans for In-Context Robotic Manipulation",
+    "link": "http://arxiv.org/abs/2611.30516",
+    "arxiv_id": "2611.30516",
+    "detail_path": "papers/2611.30516/",
+    "cover_path": "covers/2611.30516/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30516.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30516.webp",
+    "preview_text": "提出 JEPA-ICL，一个将预测规划与演示学习相耦合的视觉-语言-动作框架 解决机器人在形态、外观和执行速度存在差异时，难以从人类演示中识别与当前进度相关指导的问题 通过在 JEPA 特征空间中预测剩余子任务的有序未来状态，捕获尚未完成的进度，从而同时指导动作生成并定位演示中的相关阶段",
+    "research_unit": "Mohamed bin Zayed University of Artificial Intellig…",
+    "hook_text": "提出 JEPA-ICL，一个将预测规划与演示学习相耦合的视觉-语言-动作框架",
+    "key_points": [
+      "提出 JEPA-ICL，一个将预测规划与演示学习相耦合的视觉-语言-动作框架",
+      "解决机器人在形态、外观和执行速度存在差异时，难以从人类演示中识别与当前进度相关指导的问题",
+      "通过在 JEPA 特征空间中预测剩余子任务的有序未来状态，捕获尚未完成的进度，从而同时指导动作生成并定位演示中的相关阶段"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "ColonoWorld: Camera-Controlled Full-Procedure Colonoscopy Video Generation",
+    "link": "http://arxiv.org/abs/2611.30372",
+    "arxiv_id": "2611.30372",
+    "detail_path": "papers/2611.30372/",
+    "cover_path": "covers/2611.30372/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30372.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30372.webp",
+    "preview_text": "论文提出了 ColonoWorld，一种基于相机轨迹和粗略 3D 结肠管模型条件化的结肠镜检查世界模型，用于生成全流程（盲肠至直肠）的结肠镜视频。 解决了现有相机控制生成器在结肠运动中丢失解剖结构，以及内窥镜生成器缺乏相机控制和病变位置控制能力的问题。 模型能够在指定位置和时间放置息肉、器械、冲洗和窄带成像，并在未见过的结肠形状上保持解剖学一致性。",
+    "research_unit": "Seoul National University",
+    "hook_text": "论文提出了 ColonoWorld，一种基于相机轨迹和粗略 3D 结肠管模型条件化的结肠镜检查世界模型，用于生成全流程（盲肠至直肠）的结肠镜视频。",
+    "key_points": [
+      "论文提出了 ColonoWorld，一种基于相机轨迹和粗略 3D 结肠管模型条件化的结肠镜检查世界模型，用于生成全流程（盲肠至直肠）的结肠镜视频。",
+      "解决了现有相机控制生成器在结肠运动中丢失解剖结构，以及内窥镜生成器缺乏相机控制和病变位置控制能力的问题。",
+      "模型能够在指定位置和时间放置息肉、器械、冲洗和窄带成像，并在未见过的结肠形状上保持解剖学一致性。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Seeing Together, Acting Apart: Shared Environmental Understanding for Multi-Robot Navigation",
+    "link": "http://arxiv.org/abs/2611.30310",
+    "arxiv_id": "2611.30310",
+    "detail_path": "papers/2611.30310/",
+    "cover_path": "covers/2611.30310/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30310.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30310.webp",
+    "preview_text": "针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解 引入 Shared Environmental Understanding 概念，将多机器人的局部自我中心观察聚合为策略无关的共享潜在世界模型 将协作从策略空间转移到表示空间，使各机器人能利用共享环境上下文进行独立的去中心化决策",
+    "research_unit": "Future Media Computing Lab, USTC（中国科学技术大学未来媒体计算实验室）",
+    "hook_text": "针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解",
+    "key_points": [
+      "针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解",
+      "引入 Shared Environmental Understanding 概念，将多机器人的局部自我中心观察聚合为策略无关的共享潜在世界模型",
+      "将协作从策略空间转移到表示空间，使各机器人能利用共享环境上下文进行独立的去中心化决策"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "AxE: Benchmarking Agent-Environment Generalization of Video World Models via Grounded Events",
+    "link": "http://arxiv.org/abs/2611.30120",
+    "arxiv_id": "2611.30120",
+    "detail_path": "papers/2611.30120/",
+    "cover_path": "covers/2611.30120/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30120.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30120.webp",
+    "preview_text": "论文引入了 AxE Bench，用于评估视频世界模型在智能体和环境条件变化时的泛化能力 针对现有评估方法仅关注视觉质量、提示对齐或孤立物理合理性，而缺乏系统性泛化评估的问题，提出了基于配对原始条件与受控变体的评估框架 开发了一种基于接地事件的评估工具，将生成视频转换为时间定位事件并与参考事件在时间和语义上进行比较",
+    "research_unit": "北京大学",
+    "hook_text": "论文引入了 AxE Bench，用于评估视频世界模型在智能体和环境条件变化时的泛化能力",
+    "key_points": [
+      "论文引入了 AxE Bench，用于评估视频世界模型在智能体和环境条件变化时的泛化能力",
+      "针对现有评估方法仅关注视觉质量、提示对齐或孤立物理合理性，而缺乏系统性泛化评估的问题，提出了基于配对原始条件与受控变体的评估框架",
+      "开发了一种基于接地事件的评估工具，将生成视频转换为时间定位事件并与参考事件在时间和语义上进行比较"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "How Latent Transition Geometry Matters for Planning in World Models",
+    "link": "http://arxiv.org/abs/2611.30064",
+    "arxiv_id": "2611.30064",
+    "detail_path": "papers/2611.30064/",
+    "cover_path": "covers/2611.30064/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30064.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30064.webp",
+    "preview_text": "研究潜在转移几何如何影响世界模型中的多步规划，提出将潜在预测建模为动作条件的转移场，并通过曲率正则化作为受控干预手段 解决单步预测精度无法表征多步规划效用的问题，即候选动作序列产生的预测未来在多步传播后是否仍具有可区分性 在四个连续控制任务上系统分析曲率正则化对转移场、候选选择和闭环规划的影响",
+    "research_unit": "University of Surrey（作者 Xuanya Zhu, Xiatian Zhu）",
+    "hook_text": "研究潜在转移几何如何影响世界模型中的多步规划，提出将潜在预测建模为动作条件的转移场，并通过曲率正则化作为受控干预手段",
+    "key_points": [
+      "研究潜在转移几何如何影响世界模型中的多步规划，提出将潜在预测建模为动作条件的转移场，并通过曲率正则化作为受控干预手段",
+      "解决单步预测精度无法表征多步规划效用的问题，即候选动作序列产生的预测未来在多步传播后是否仍具有可区分性",
+      "在四个连续控制任务上系统分析曲率正则化对转移场、候选选择和闭环规划的影响"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "SWAM: State-aware World Action Model for Multi-Agent 3D Environments",
+    "link": "http://arxiv.org/abs/2611.30042",
+    "arxiv_id": "2611.30042",
+    "detail_path": "papers/2611.30042/",
+    "cover_path": "covers/2611.30042/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30042.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30042.webp",
+    "preview_text": "论文提出了 SWAM（State-aware World Action Model），一种用于多智能体 3D 环境的状态感知世界动作模型 该模型将智能体状态的演化与自回归视觉生成分离，解决了传统交互式世界模型仅依赖视觉历史无法可靠捕捉视野外非玩家角色（NPC）状态的问题 旨在不依赖显式场景几何表示的情况下，实现多智能体环境中角色在遮挡、长期不可见及重生后的外观与状态一致性",
+    "research_unit": "New York University",
+    "hook_text": "论文提出了 SWAM（State-aware World Action Model），一种用于多智能体 3D 环境的状态感知世界动作模型",
+    "key_points": [
+      "论文提出了 SWAM（State-aware World Action Model），一种用于多智能体 3D 环境的状态感知世界动作模型",
+      "该模型将智能体状态的演化与自回归视觉生成分离，解决了传统交互式世界模型仅依赖视觉历史无法可靠捕捉视野外非玩家角色（NPC）状态的问题",
+      "旨在不依赖显式场景几何表示的情况下，实现多智能体环境中角色在遮挡、长期不可见及重生后的外观与状态一致性"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "MOVER: Planning Beyond Motion",
+    "link": "http://arxiv.org/abs/2611.30022",
+    "arxiv_id": "2611.30022",
+    "detail_path": "papers/2611.30022/",
+    "cover_path": "covers/2611.30022/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30022.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30022.webp",
+    "preview_text": "论文提出 MOVER，一种用于残差BEV世界模型的互补事件路由机制，旨在更有效地利用时间变化弱的证据（如等待的行人、停止的车辆）进行规划 解决残差世界模型中时间恒定特征从残差路径中消失、但对规划仍重要的证据被忽略的问题 通过训练时教师模型测量历史删除敏感性与残差证据的互补性，蒸馏到学生路由器，在推理时不增加额外开销",
+    "research_unit": "University of Texas at Austin（作者：Xiangyu Li, Yu Jia…",
+    "hook_text": "论文提出 MOVER，一种用于残差BEV世界模型的互补事件路由机制，旨在更有效地利用时间变化弱的证据（如等待的行人、停止的车辆）进行规划",
+    "key_points": [
+      "论文提出 MOVER，一种用于残差BEV世界模型的互补事件路由机制，旨在更有效地利用时间变化弱的证据（如等待的行人、停止的车辆）进行规划",
+      "解决残差世界模型中时间恒定特征从残差路径中消失、但对规划仍重要的证据被忽略的问题",
+      "通过训练时教师模型测量历史删除敏感性与残差证据的互补性，蒸馏到学生路由器，在推理时不增加额外开销"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "One Latent World for Heterogeneous LiDARs: A Scan Pattern Agnostic 4D World Model via Direct Ray Decoding",
+    "link": "http://arxiv.org/abs/2611.30007",
+    "arxiv_id": "2611.30007",
+    "detail_path": "papers/2611.30007/",
+    "cover_path": "covers/2611.30007/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.30007.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30007.webp",
+    "preview_text": "论文提出了一种扫描模式无关的 4D LiDAR 世界模型，通过直接射线解码将场景表示与传感器观测解耦 解决了现有方法绑定单一扫描模式以及依赖中间 3D 表面或场渲染导致深度误差和错误返回的问题 允许单个生成的空间潜在场景被安装在同一位置的异构 LiDAR 传感器观测，无需重新生成",
+    "research_unit": "首尔大学",
+    "hook_text": "论文提出了一种扫描模式无关的 4D LiDAR 世界模型，通过直接射线解码将场景表示与传感器观测解耦",
+    "key_points": [
+      "论文提出了一种扫描模式无关的 4D LiDAR 世界模型，通过直接射线解码将场景表示与传感器观测解耦",
+      "解决了现有方法绑定单一扫描模式以及依赖中间 3D 表面或场渲染导致深度误差和错误返回的问题",
+      "允许单个生成的空间潜在场景被安装在同一位置的异构 LiDAR 传感器观测，无需重新生成"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "World Models Are the Right Foundation for Simulating Mars Terraforming",
+    "link": "http://arxiv.org/abs/2611.29856",
+    "arxiv_id": "2611.29856",
+    "detail_path": "papers/2611.29856/",
+    "cover_path": "covers/2611.29856/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.29856.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.29856.webp",
+    "preview_text": "本文是一篇立场论文，论证了物理正则化的循环状态空间世界模型是模拟火星地球化的最佳基础架构 火星地球化是一个长期的、动作条件化的控制问题，需要预测数百年来大气对干预措施的响应，现有基于物理的GCM过于昂贵，而数据驱动的气候模拟器缺乏动作条件化能力 论文旨在解决如何快速且大规模地模拟火星大气，以探索可能的干预策略空间，并呼吁机器学习界将行星工程视为一流研究域",
+    "research_unit": "Sameera S Kashyap：Department of Computer Science an…",
+    "hook_text": "本文是一篇立场论文，论证了物理正则化的循环状态空间世界模型是模拟火星地球化的最佳基础架构",
+    "key_points": [
+      "本文是一篇立场论文，论证了物理正则化的循环状态空间世界模型是模拟火星地球化的最佳基础架构",
+      "火星地球化是一个长期的、动作条件化的控制问题，需要预测数百年来大气对干预措施的响应，现有基于物理的GCM过于昂贵，而数据驱动的气候模拟器缺乏动作条件化能力",
+      "论文旨在解决如何快速且大规模地模拟火星大气，以探索可能的干预策略空间，并呼吁机器学习界将行星工程视为一流研究域"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Dynamics Forcing: Mitigating Error Accumulation in Causal Video World Models",
+    "link": "http://arxiv.org/abs/2611.29839",
+    "arxiv_id": "2611.29839",
+    "detail_path": "papers/2611.29839/",
+    "cover_path": "covers/2611.29839/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.29839.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.29839.webp",
+    "preview_text": "针对因果视频世界模型中的误差累积和捷径动力学问题，提出 Dynamics Forcing 训练方案 传统 teacher forcing 使用干净真实历史训练，但推理时使用模型自身输出作为历史，导致训练-推理差距，误差在长 rollout 中不断放大 论文目标：仅使用真实视频作为监督，通过改变历史呈现方式来缓解误差累积，无需教师模型、无需蒸馏、推理时无需额外模型",
+    "research_unit": "Astronex Robotics（作者 Xin Zhou）",
+    "hook_text": "针对因果视频世界模型中的误差累积和捷径动力学问题，提出 Dynamics Forcing 训练方案",
+    "key_points": [
+      "针对因果视频世界模型中的误差累积和捷径动力学问题，提出 Dynamics Forcing 训练方案",
+      "传统 teacher forcing 使用干净真实历史训练，但推理时使用模型自身输出作为历史，导致训练-推理差距，误差在长 rollout 中不断放大",
+      "论文目标：仅使用真实视频作为监督，通过改变历史呈现方式来缓解误差累积，无需教师模型、无需蒸馏、推理时无需额外模型"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "What Should World Models Plan Over? Learning Geometry-Aligned Representations of Body Motion",
+    "link": "http://arxiv.org/abs/2611.29759",
+    "arxiv_id": "2611.29759",
+    "detail_path": "papers/2611.29759/",
+    "cover_path": "covers/2611.29759/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.29759.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.29759.webp",
+    "preview_text": "论文提出了 MotionPort，一种学习低维身体运动潜在表示的方法，用于精确的动力学预测和有效的长视野规划。 针对现有世界模型规划器中“预测准确性高不等于规划有效”的不匹配问题，MotionPort 通过显式表示身体轨迹而非动作块，并按运动相似性组织搜索空间来解决该问题。 证明了将预测改进转化为实际物理执行成功的关键在于规划空间的几何结构，而非单一的预测精度。",
+    "research_unit": "University of Massachusetts Amherst, MA, USA",
+    "hook_text": "论文提出了 MotionPort，一种学习低维身体运动潜在表示的方法，用于精确的动力学预测和有效的长视野规划。",
+    "key_points": [
+      "论文提出了 MotionPort，一种学习低维身体运动潜在表示的方法，用于精确的动力学预测和有效的长视野规划。",
+      "针对现有世界模型规划器中“预测准确性高不等于规划有效”的不匹配问题，MotionPort 通过显式表示身体轨迹而非动作块，并按运动相似性组织搜索空间来解决该问题。",
+      "证明了将预测改进转化为实际物理执行成功的关键在于规划空间的几何结构，而非单一的预测精度。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments",
+    "link": "http://arxiv.org/abs/2611.29749",
+    "arxiv_id": "2611.29749",
+    "detail_path": "papers/2611.29749/",
+    "cover_path": "covers/2611.29749/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出CarlHOI框架，基于反事实预测想象，使多仿人机器人团队能在受限环境下（如窄通道、障碍墙）协同运输物体，无需重新训练底层控制策略 核心是构建关系潜在世界模型CarlWM，将仿人机器人、共享物体和障碍物显式表示为交互实体，通过反事实仿真rollout离线训练，想象不同航点命令下的集体未来 解决的问题：预训练协同运输策略难以适应未见环境约束，如需协调绕行和团队重新配置的场景",
+    "research_unit": "Purdue University（普渡大学）",
+    "hook_text": "提出CarlHOI框架，基于反事实预测想象，使多仿人机器人团队能在受限环境下（如窄通道、障碍墙）协同运输物体，无需重新训练底层控制策略",
+    "key_points": [
+      "提出CarlHOI框架，基于反事实预测想象，使多仿人机器人团队能在受限环境下（如窄通道、障碍墙）协同运输物体，无需重新训练底层控制策略",
+      "核心是构建关系潜在世界模型CarlWM，将仿人机器人、共享物体和障碍物显式表示为交互实体，通过反事实仿真rollout离线训练，想象不同航点命令下的集体未来",
+      "解决的问题：预训练协同运输策略难以适应未见环境约束，如需协调绕行和团队重新配置的场景"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "From States to Dynamics: Detecting Rule Violations in OthelloGPT",
+    "link": "http://arxiv.org/abs/2611.29715",
+    "arxiv_id": "2611.29715",
+    "detail_path": "papers/2611.29715/",
+    "cover_path": "covers/2611.29715/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "探究 OthelloGPT（仅基于黑白棋移动序列训练的 Transformer）如何在其激活空间中体现游戏规则及动态变化。 将黑白棋规则违规分为三类：R1（放置在空位）、R2（侧击对手棋子）和 R3（轮流出牌），并分析模型是否遵循这些规则。 提出有监督和无监督方法，通过模型内部激活来检测非法移动和规则违规。",
+    "research_unit": "Harvard College",
+    "hook_text": "探究 OthelloGPT（仅基于黑白棋移动序列训练的 Transformer）如何在其激活空间中体现游戏规则及动态变化。",
+    "key_points": [
+      "探究 OthelloGPT（仅基于黑白棋移动序列训练的 Transformer）如何在其激活空间中体现游戏规则及动态变化。",
+      "将黑白棋规则违规分为三类：R1（放置在空位）、R2（侧击对手棋子）和 R3（轮流出牌），并分析模型是否遵循这些规则。",
+      "提出有监督和无监督方法，通过模型内部激活来检测非法移动和规则违规。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "JEPA-Shield: Safe Diffusion Planning with Latent World Models via Conformal Shielding",
+    "link": "http://arxiv.org/abs/2611.29609",
+    "arxiv_id": "2611.29609",
+    "detail_path": "papers/2611.29609/",
+    "cover_path": "covers/2611.29609/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出 JEPA-Shield，将冻结的 JEPA 潜在世界模型连接到任务空间安全执行，解决基于图像的规划中物理约束满足问题 核心原则：在潜在空间预测，在物理空间评估约束，在接受动作轨迹前考虑预测误差 引入 VParkBench 视觉停车基准，包含几何车辆/拖挂车任务和可编辑高斯泼溅环境",
+    "research_unit": "University of Michigan — Department of Robotics & D…",
+    "hook_text": "提出 JEPA-Shield，将冻结的 JEPA 潜在世界模型连接到任务空间安全执行，解决基于图像的规划中物理约束满足问题",
+    "key_points": [
+      "提出 JEPA-Shield，将冻结的 JEPA 潜在世界模型连接到任务空间安全执行，解决基于图像的规划中物理约束满足问题",
+      "核心原则：在潜在空间预测，在物理空间评估约束，在接受动作轨迹前考虑预测误差",
+      "引入 VParkBench 视觉停车基准，包含几何车辆/拖挂车任务和可编辑高斯泼溅环境"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Detecting Is Not Choosing: What a World Model Needs to Keep a VLA Policy Safe",
+    "link": "http://arxiv.org/abs/2611.29553",
+    "arxiv_id": "2611.29553",
+    "detail_path": "papers/2611.29553/",
+    "cover_path": "covers/2611.29553/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "论文研究了视觉-语言-动作（VLA）策略在完成基准任务时经常违反安全约束的问题 探讨了在使用前瞻性安全过滤器选择安全候选动作时，世界模型需要具备何种能力以及多高的精度 通过将模拟器作为精确世界模型与学习到的隐式/显式模型进行对比，揭示了状态内动作排序的困难性以及对状态精度的严苛要求",
+    "research_unit": "Thanish Bolla（独立研究员，Independent Researcher）",
+    "hook_text": "论文研究了视觉-语言-动作（VLA）策略在完成基准任务时经常违反安全约束的问题",
+    "key_points": [
+      "论文研究了视觉-语言-动作（VLA）策略在完成基准任务时经常违反安全约束的问题",
+      "探讨了在使用前瞻性安全过滤器选择安全候选动作时，世界模型需要具备何种能力以及多高的精度",
+      "通过将模拟器作为精确世界模型与学习到的隐式/显式模型进行对比，揭示了状态内动作排序的困难性以及对状态精度的严苛要求"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "What Test-Time Training Corrects in Latent World Models? A Slow-Fast Approach",
+    "link": "http://arxiv.org/abs/2611.29453",
+    "arxiv_id": "2611.29453",
+    "detail_path": "papers/2611.29453/",
+    "cover_path": "covers/2611.29453/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "ClothCast: Generative Cloth World Modeling under Partial Observability",
+    "link": "http://arxiv.org/abs/2611.29369",
+    "arxiv_id": "2611.29369",
+    "detail_path": "papers/2611.29369/",
+    "cover_path": "covers/2611.29369/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "RadioWorld: Transferring World Models to Radio-Frequency Radiance Fields",
+    "link": "http://arxiv.org/abs/2611.29282",
+    "arxiv_id": "2611.29282",
+    "detail_path": "papers/2611.29282/",
+    "cover_path": "covers/2611.29282/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "DriveOddsBench: Are Driving Video World Models Aligned with Real-World Odds?",
+    "link": "http://arxiv.org/abs/2611.29275",
+    "arxiv_id": "2611.29275",
+    "detail_path": "papers/2611.29275/",
+    "cover_path": "covers/2611.29275/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+    "link": "http://arxiv.org/abs/2611.29259",
+    "arxiv_id": "2611.29259",
+    "detail_path": "papers/2611.29259/",
+    "cover_path": "covers/2611.29259/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Decoupling Perception from Generation for Agentic 3D CT Report Generation",
+    "link": "http://arxiv.org/abs/2611.29167",
+    "arxiv_id": "2611.29167",
+    "detail_path": "papers/2611.29167/",
+    "cover_path": "covers/2611.29167/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "SilentWAM: Planning in the Masked State of a Diffusion World Model",
+    "link": "http://arxiv.org/abs/2611.29125",
+    "arxiv_id": "2611.29125",
+    "detail_path": "papers/2611.29125/",
+    "cover_path": "covers/2611.29125/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "JEPA-Tuner: From Predictive Fine-Tuning to Asynchronous Execution of Vision-Language-Action Models",
+    "link": "http://arxiv.org/abs/2611.29096",
+    "arxiv_id": "2611.29096",
+    "detail_path": "papers/2611.29096/",
+    "cover_path": "covers/2611.29096/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "World Models for Ocean Engineering: A Critical Review of Maritime Autonomy, Adaptive Latent Prediction, Digital Twins, and Biodiversity Monitoring",
+    "link": "http://arxiv.org/abs/2611.28978",
+    "arxiv_id": "2611.28978",
+    "detail_path": "papers/2611.28978/",
+    "cover_path": "covers/2611.28978/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Learning Land-Surface Hydrology World Model from Satellite Observations",
+    "link": "http://arxiv.org/abs/2611.28963",
+    "arxiv_id": "2611.28963",
+    "detail_path": "papers/2611.28963/",
+    "cover_path": "covers/2611.28963/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "When Do Better Visual World Models Make Better Plans? Decision-Aligned Selection for Latent Planning",
+    "link": "http://arxiv.org/abs/2611.28919",
+    "arxiv_id": "2611.28919",
+    "detail_path": "papers/2611.28919/",
+    "cover_path": "covers/2611.28919/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Eidetic Code World Model",
+    "link": "http://arxiv.org/abs/2611.28878",
+    "arxiv_id": "2611.28878",
+    "detail_path": "papers/2611.28878/",
+    "cover_path": "covers/2611.28878/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "KineState-SWAM: A Surgical World Action Model with Explicit Kinematics and Causal Interaction Dynamics",
+    "link": "http://arxiv.org/abs/2611.28871",
+    "arxiv_id": "2611.28871",
+    "detail_path": "papers/2611.28871/",
+    "cover_path": "covers/2611.28871/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Learning How a Body Moves: Few-Shot Body Inference for Visual World Models of Animated Characters",
+    "link": "http://arxiv.org/abs/2611.28842",
+    "arxiv_id": "2611.28842",
+    "detail_path": "papers/2611.28842/",
+    "cover_path": "covers/2611.28842/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "ViTrust: Learning 3D Observation Trust for Deformable Physical World Models",
+    "link": "http://arxiv.org/abs/2611.28815",
+    "arxiv_id": "2611.28815",
+    "detail_path": "papers/2611.28815/",
+    "cover_path": "covers/2611.28815/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "ArgsWorld: Unifying 3DGS Scene Reconstruction, Generation and Extrapolation with Autoregressive Diffusion Transformer",
+    "link": "http://arxiv.org/abs/2611.28792",
+    "arxiv_id": "2611.28792",
+    "detail_path": "papers/2611.28792/",
+    "cover_path": "covers/2611.28792/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Imagine Smarter, Drive Faster: Efficient World Modeling for Decision-Aware Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.28779",
+    "arxiv_id": "2611.28779",
+    "detail_path": "papers/2611.28779/",
+    "cover_path": "covers/2611.28779/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "AERIN: Aerial Instance Navigation with a Visual World Model",
+    "link": "http://arxiv.org/abs/2611.28723",
+    "arxiv_id": "2611.28723",
+    "detail_path": "papers/2611.28723/",
+    "cover_path": "covers/2611.28723/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "RecallWorld: Episodic Memory for Persistent Embodied Video World Models",
+    "link": "http://arxiv.org/abs/2611.28666",
+    "arxiv_id": "2611.28666",
+    "detail_path": "papers/2611.28666/",
+    "cover_path": "covers/2611.28666/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Persuasion from Within: Model-Based Insider Attacks in Multi-Agent LLM Debate and Consensus",
+    "link": "http://arxiv.org/abs/2611.28660",
+    "arxiv_id": "2611.28660",
+    "detail_path": "papers/2611.28660/",
+    "cover_path": "covers/2611.28660/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "WorldWeave: Rethinking Embodied Navigation through Cross-Task World Modeling",
+    "link": "http://arxiv.org/abs/2611.28553",
+    "arxiv_id": "2611.28553",
+    "detail_path": "papers/2611.28553/",
+    "cover_path": "covers/2611.28553/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "PhysPPF: Learning Robotic Manipulation with Past, Present, and Future Physical Representations",
+    "link": "http://arxiv.org/abs/2611.28551",
+    "arxiv_id": "2611.28551",
+    "detail_path": "papers/2611.28551/",
+    "cover_path": "covers/2611.28551/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.28509",
+    "arxiv_id": "2611.28509",
+    "detail_path": "papers/2611.28509/",
+    "cover_path": "covers/2611.28509/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "State of Mind: Learning and Evaluating World Models of Naturalistic Brain Dynamics",
+    "link": "http://arxiv.org/abs/2611.28508",
+    "arxiv_id": "2611.28508",
+    "detail_path": "papers/2611.28508/",
+    "cover_path": "covers/2611.28508/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "VICA: Video Contextual Agreement for AIGC Video Detection and Localization",
+    "link": "http://arxiv.org/abs/2611.28485",
+    "arxiv_id": "2611.28485",
+    "detail_path": "papers/2611.28485/",
+    "cover_path": "covers/2611.28485/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Knowing What You Carry: Scalable Physics-Anchored World Models for Robotic Planning with Liquid Payloads",
+    "link": "http://arxiv.org/abs/2611.28387",
+    "arxiv_id": "2611.28387",
+    "detail_path": "papers/2611.28387/",
+    "cover_path": "covers/2611.28387/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "CausalNTP: A World-Model Recipe for Causal Next-Token Prediction under Noisy Training-data",
+    "link": "http://arxiv.org/abs/2611.28369",
+    "arxiv_id": "2611.28369",
+    "detail_path": "papers/2611.28369/",
+    "cover_path": "covers/2611.28369/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Two Actions from One State: Fork Futures Teach JEPA World Models to Compare",
+    "link": "http://arxiv.org/abs/2611.28350",
+    "arxiv_id": "2611.28350",
+    "detail_path": "papers/2611.28350/",
+    "cover_path": "covers/2611.28350/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Toward Adversarially Robust World Models",
+    "link": "http://arxiv.org/abs/2611.28345",
+    "arxiv_id": "2611.28345",
+    "detail_path": "papers/2611.28345/",
+    "cover_path": "covers/2611.28345/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Learning a Food World Model That Predicts the Next State from Production Data",
+    "link": "http://arxiv.org/abs/2611.28319",
+    "arxiv_id": "2611.28319",
+    "detail_path": "papers/2611.28319/",
+    "cover_path": "covers/2611.28319/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Scalable Beckmann Maps Improve One-step Generation",
+    "link": "http://arxiv.org/abs/2611.28286",
+    "arxiv_id": "2611.28286",
+    "detail_path": "papers/2611.28286/",
+    "cover_path": "covers/2611.28286/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Non-penetrating World Models",
+    "link": "http://arxiv.org/abs/2611.27963",
+    "arxiv_id": "2611.27963",
+    "detail_path": "papers/2611.27963/",
+    "cover_path": "covers/2611.27963/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage",
+    "link": "http://arxiv.org/abs/2611.27939",
+    "arxiv_id": "2611.27939",
+    "detail_path": "papers/2611.27939/",
+    "cover_path": "covers/2611.27939/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Beyond Visual Fidelity: Comparing Categorical and Continuous World Models",
+    "link": "http://arxiv.org/abs/2611.27870",
+    "arxiv_id": "2611.27870",
+    "detail_path": "papers/2611.27870/",
+    "cover_path": "covers/2611.27870/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking",
+    "link": "http://arxiv.org/abs/2611.27648",
+    "arxiv_id": "2611.27648",
+    "detail_path": "papers/2611.27648/",
+    "cover_path": "covers/2611.27648/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models",
+    "link": "http://arxiv.org/abs/2611.27645",
+    "arxiv_id": "2611.27645",
+    "detail_path": "papers/2611.27645/",
+    "cover_path": "covers/2611.27645/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "SOAR: Training-Free Rank-Consistent Rollout Compression for Latent World Model Planning",
+    "link": "http://arxiv.org/abs/2611.27639",
+    "arxiv_id": "2611.27639",
+    "detail_path": "papers/2611.27639/",
+    "cover_path": "covers/2611.27639/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Seeing Is Not Steering: Where Verifiable Reasoning Can Enter an End-to-End Driving Planner",
+    "link": "http://arxiv.org/abs/2611.27638",
+    "arxiv_id": "2611.27638",
+    "detail_path": "papers/2611.27638/",
+    "cover_path": "covers/2611.27638/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "GameScrub: Learning HUD Removal from Real Gameplay with Recovered Targets",
+    "link": "http://arxiv.org/abs/2611.27547",
+    "arxiv_id": "2611.27547",
+    "detail_path": "papers/2611.27547/",
+    "cover_path": "covers/2611.27547/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "PhiJEPA: Denoising Latent Predictions for Visual Representation Learning",
+    "link": "http://arxiv.org/abs/2611.27516",
+    "arxiv_id": "2611.27516",
+    "detail_path": "papers/2611.27516/",
+    "cover_path": "covers/2611.27516/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Beyond a Single Human Demonstration: Learning from Scored Trajectory Alternatives for End-to-End Driving",
+    "link": "http://arxiv.org/abs/2611.27515",
+    "arxiv_id": "2611.27515",
+    "detail_path": "papers/2611.27515/",
+    "cover_path": "covers/2611.27515/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Ego4Gen: Generating Geometry-Grounded Motion Tokens as a World-Action Interface",
+    "link": "http://arxiv.org/abs/2611.27513",
+    "arxiv_id": "2611.27513",
+    "detail_path": "papers/2611.27513/",
+    "cover_path": "covers/2611.27513/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Beyond Future Views: Exploring Future-State World Models for Vision-Language Navigation",
+    "link": "http://arxiv.org/abs/2611.27418",
+    "arxiv_id": "2611.27418",
+    "detail_path": "papers/2611.27418/",
+    "cover_path": "covers/2611.27418/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Learning Interaction Dynamics via Motion-Region Guidance for Robotic Video World Models",
+    "link": "http://arxiv.org/abs/2611.27344",
+    "arxiv_id": "2611.27344",
+    "detail_path": "papers/2611.27344/",
+    "cover_path": "covers/2611.27344/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Re-JEPA: Coupling Representation Prediction and Signal Reconstruction for State-Conditioned EMG Tracking",
+    "link": "http://arxiv.org/abs/2611.27299",
+    "arxiv_id": "2611.27299",
+    "detail_path": "papers/2611.27299/",
+    "cover_path": "covers/2611.27299/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "A world model for longitudinal health-trajectory prediction in older adults across multinational cohorts",
+    "link": "http://arxiv.org/abs/2611.28175",
+    "arxiv_id": "2611.28175",
+    "detail_path": "papers/2611.28175/",
+    "cover_path": "covers/2611.28175/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "PACE-WM: Parallel World Modeling with Action History for Visual Planning",
+    "link": "http://arxiv.org/abs/2611.27173",
+    "arxiv_id": "2611.27173",
+    "detail_path": "papers/2611.27173/",
+    "cover_path": "covers/2611.27173/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "PhysForce: Physics-aware Force Control for Interactive Video World Model",
+    "link": "http://arxiv.org/abs/2611.27164",
+    "arxiv_id": "2611.27164",
+    "detail_path": "papers/2611.27164/",
+    "cover_path": "covers/2611.27164/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Where Structure Enters a World Model: From Predictive Fit to Physical Rollout",
+    "link": "http://arxiv.org/abs/2611.27149",
+    "arxiv_id": "2611.27149",
+    "detail_path": "papers/2611.27149/",
+    "cover_path": "covers/2611.27149/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "A Plan or an Adversarial Example? A Round-Trip Check for Latent World Models",
+    "link": "http://arxiv.org/abs/2611.27124",
+    "arxiv_id": "2611.27124",
+    "detail_path": "papers/2611.27124/",
+    "cover_path": "covers/2611.27124/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Mind World Models: Joint Learning of Motor EEG Representations and Action-Conditioned World Dynamics",
+    "link": "http://arxiv.org/abs/2611.27029",
+    "arxiv_id": "2611.27029",
+    "detail_path": "papers/2611.27029/",
+    "cover_path": "covers/2611.27029/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-19",
     "title": "ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement",
     "link": "http://arxiv.org/abs/2611.26615",

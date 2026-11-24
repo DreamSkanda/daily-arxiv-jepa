@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seeing Together, Acting Apart: Shared Environmental Understanding for Multi-Robot Navigation - JEPA / 世界模型 每日论文卡</title>
+    <meta name="description" content="针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解 引入 Shared Environmental Understanding 概念，将多机器人的局部自我中心观察聚合为策略无关的共享潜在世界模型 将协作从策略空间转移到表示空间，使各机器人能利用共享环境上下文进行独立的去中心化决策" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EJ%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2611.30310">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">JEPA / 世界模型 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30310.webp" alt="Seeing Together, Acting Apart: Shared Environmental Understanding for Multi-Robot Navigation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Seeing Together, Acting Apart: Shared Environmental Understanding for Multi-Robot Navigation</h1>
+            <div class="detail-meta">2026-11-23 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.30310" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.30310" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.30310</span></div>
+            <p class="detail-summary">针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解 引入 Shared Environmental Understanding 概念，将多机器人的局部自我中心观察聚合为策略无关的共享潜在世界模型 将协作从策略空间转移到表示空间，使各机器人能利用共享环境上下文进行独立的去中心化决策</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Future Media Computing Lab, USTC（中国科学技术大学未来媒体计算实验室）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+  </div>
+  <p class="reading-intro-hook">针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解</p>
+  <ul class="reading-intro-points"><li>针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解</li><li>引入 Shared Environmental Understanding 概念，将多机器人的局部自我中心观察聚合为策略无关的共享潜在世界模型</li><li>将协作从策略空间转移到表示空间，使各机器人能利用共享环境上下文进行独立的去中心化决策</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Future Media Computing Lab, USTC</strong>（中国科学技术大学未来媒体计算实验室）</li><li><strong>LeapWing AI</strong></li><li><strong>MBZUAI</strong>（默罕默德·本·扎耶德人工智能大学）</li><li><strong>Shanghai AI Laboratory</strong>（上海人工智能实验室）</li><li><strong>Stanford University</strong>（斯坦福大学）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>针对多机器人系统通常依赖行为协调、轨迹共享或联合策略导致策略与通信高度耦合的问题，提出在决策前建立共享的环境理解</li><li>引入 <strong>Shared Environmental Understanding</strong> 概念，将多机器人的局部自我中心观察聚合为策略无关的共享潜在世界模型</li><li>将协作从策略空间转移到表示空间，使各机器人能利用共享环境上下文进行独立的去中心化决策</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Shared Environmental Understanding</strong> 概念，将多机器人协作从策略层面转移至表示层面</li><li>提出 <strong>SEER</strong> 框架，包含 <strong>SEER Pool</strong>（匿名共享记忆池）、<strong>SEER Retrieval</strong>（时空相似度检索）和 <strong>SEER-World</strong>（多视图潜在世界模型）</li><li>设计了策略无关的集成接口，将共享表示作为连续 Token 注入下游导航代理，不改变原有动作空间与决策机制</li><li>通过逆动力学分析（LIDA）验证了潜在表示能捕获与动作相关的环境结构</li><li>实验表明 SEER 在专用 VLN 代理和通用视觉语言模型代理上均能持续提升导航性能，并保留单代理能力</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>SEER Pool</strong>：将多机器人观测存储为匿名共享记忆，固定容量（如 1024 条记录）防止无限制增长</li><li><strong>SEER Retrieval</strong>：基于时间相似度（近期偏好）和空间相似度（SSIM 结构相关性）的加权采样，在固定预算（K=8）下检索相关上下文</li><li><strong>SEER-World</strong>：基于 V-JEPA 思想，使用编码器、停止梯度目标编码器和动作条件预测器，在潜在空间预测未来状态，通过 teacher-forcing 和 rollout 正则化损失训练</li><li><strong>下游集成</strong>：冻结的 SEER-World 模型为候选动作生成潜在预测，通过轻量级投影器转换为连续软 Token，插入到下游代理动作预测之前</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>VLN-CE</strong> 基准的 <strong>R2R</strong> 和 <strong>RxR</strong> 数据集进行评估</li><li>关联的模拟环境与 3D 数据集包括 <strong>Matterport3D</strong>、<strong>ScanNet</strong>、<strong>Habitat</strong>、<strong>HM3D-Sem</strong> 等</li><li>下游代理使用 <strong>Qwen 3.5 4B</strong> 和 <strong>StreamVLN</strong></li><li>论文未明确提及具体的模型参数量与训练硬件资源（GPU/TPU 等）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：<strong>VLN-CE</strong> 任务上的 <strong>R2R</strong> 和 <strong>RxR</strong> 数据集 <strong>Val-Unseen</strong> 分割</li><li>主要评估指标：导航误差（NE↓）、成功率（SR↑）、Oracle 成功率（OS↑）、路径加权成功率（SPL↑）、归一化动态时间规整（nDTW↑）</li><li>表示级评估指标：潜在逆动力学准确率（LIDA）</li><li>关键结果：SEER 增强后的代理在 <strong>R2R</strong> 和 <strong>RxR</strong> 上均显著提升了导航性能，且 LIDA 结果证明其学到的共享环境表示捕获了与导航动作相关的动态信息</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2611.30372/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">ColonoWorld: Camera-Controlled Full-Procedure Colonoscopy Video Generation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2611.30120/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">AxE: Benchmarking Agent-Environment Generalization of Video World Models via Grounded Events</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

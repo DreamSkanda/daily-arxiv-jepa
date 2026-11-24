@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AeroJEPA: A Two-Stage Framework for Aerosol Forecasting with Joint-Embedding Predictive Learning - JEPA / 世界模型 每日论文卡</title>
+    <meta name="description" content="提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架 旨在解决分析初始化预测对历史观测利用有限，以及逐点回归导致局部变化平滑和空间结构约束不足的问题 阶段I融合历史观测、模型背景和气象信息预测初始未来状态、气象条件和多尺度结构；阶段II利用预测的气象场和空间结构进行状态细化和浓度场生成" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EJ%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2611.30891">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">JEPA / 世界模型 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.30891.webp" alt="AeroJEPA: A Two-Stage Framework for Aerosol Forecasting with Joint-Embedding Predictive Learning" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">AeroJEPA: A Two-Stage Framework for Aerosol Forecasting with Joint-Embedding Predictive Learning</h1>
+            <div class="detail-meta">2026-11-23 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.30891" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.30891" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.30891</span></div>
+            <p class="detail-summary">提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架 旨在解决分析初始化预测对历史观测利用有限，以及逐点回归导致局部变化平滑和空间结构约束不足的问题 阶段I融合历史观测、模型背景和气象信息预测初始未来状态、气象条件和多尺度结构；阶段II利用预测的气象场和空间结构进行状态细化和浓度场生成</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">东南大学自动化学院 (School of Automation, Southeast Universi…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+  </div>
+  <p class="reading-intro-hook">提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架</p>
+  <ul class="reading-intro-points"><li>提出了 AeroJEPA，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架</li><li>旨在解决分析初始化预测对历史观测利用有限，以及逐点回归导致局部变化平滑和空间结构约束不足的问题</li><li>阶段I融合历史观测、模型背景和气象信息预测初始未来状态、气象条件和多尺度结构；阶段II利用预测的气象场和空间结构进行状态细化和浓度场生成</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>东南大学自动化学院</strong> (School of Automation, Southeast University)</li><li><strong>国防科技大学气象海洋学院</strong> (College of Meteorology and Oceanography, National University of Defense Technology)</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出了 <strong>AeroJEPA</strong>，一个用于区域表面PM2.5预测的两阶段联合嵌入预测框架</li><li>旨在解决分析初始化预测对历史观测利用有限，以及逐点回归导致局部变化平滑和空间结构约束不足的问题</li><li>阶段I融合历史观测、模型背景和气象信息预测初始未来状态、气象条件和多尺度结构；阶段II利用预测的气象场和空间结构进行状态细化和浓度场生成</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出一个整合历史观测和气象指导的区域气溶胶预测两阶段框架，将历史地面观测、模型背景和气象信息显式结合，并利用预测气象场作为浓度状态细化的条件</li><li>设计了学习和融合未来多尺度空间结构的机制，通过形态学引导编码和 <strong>JEPA</strong> 监督学习未来粗细尺度结构，并分别用于状态更新和解码</li><li>在网格场和独立站点级别评估预测性能，通过消融实验验证关键设计，并进行48小时递归预测案例研究以评估单步模型的反馈预测能力</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>采用两阶段预测架构：阶段I包含气象分支、PM2.5分支和结构分支，融合历史多源信息生成初始未来状态、气象预测和多尺度空间结构；阶段II进行结构引导的细化，将粗结构融入状态更新，细结构融入解码</li><li>引入基于 <strong>EMA</strong> 目标编码器的 <strong>JEPA</strong> (Joint-Embedding Predictive Learning) 监督，使用未来分析场的多尺度表征作为预测目标，提供空间结构约束</li><li>设计形态学引导的结构编码器，结合全空间路径和自适应频带选择路径（基于傅里叶频谱分解），增强局部形态变化的表示能力</li><li>在阶段II中，通过气象场交互（局部注意力机制）和 <strong>FiLM</strong> 调制实现气象条件对浓度状态的引导和细化</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的数据集：基于 <strong>WRF-Chem</strong> 模型输出和地面监测数据构建的区域PM2.5预测数据集，覆盖中国大部分地区（<strong>400×400</strong> 网格，<strong>12km</strong> 分辨率）</li><li>数据集划分：训练集 <strong>1711</strong> 个样本，验证集 <strong>389</strong> 个样本，测试集 <strong>388</strong> 个样本；使用 <strong>1597</strong> 个站点观测作为输入和同化，<strong>399</strong> 个独立站点用于评估</li><li>训练优化器为 <strong>AdamW</strong>，学习率和权重衰减为 <strong>10^-4</strong>，batch size为 <strong>1</strong>，最多训练 <strong>100</strong> 个 epochs</li><li>训练资源（如GPU/TPU）和模型参数量在提供的主文内容中未明确说明</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：与 <strong>WRF</strong> 数值预报和六个深度学习基线（<strong>AFNO</strong>, <strong>Earthformer</strong>, <strong>PFGNet</strong>, <strong>SimVP</strong>, <strong>Swin-UNet</strong>, <strong>MCVD</strong>）进行对比</li><li>评估指标：网格评估使用 <strong>RMSE</strong>, <strong>MAE</strong>, <strong>BIAS</strong>, <strong>CORR</strong>, <strong>SSIM</strong>；独立站点评估使用 <strong>RMSE</strong>, <strong>MAE</strong>, <strong>BIAS</strong>, <strong>Pearson r</strong></li><li>网格评估结果：<strong>AeroJEPA</strong> 取得最低的 <strong>RMSE</strong> (3.7347 μg/m³)，相比 <strong>PFGNet</strong> 降低 <strong>17.23%</strong>，相比 <strong>WRF</strong> 降低 <strong>34.05%</strong>，且 <strong>BIAS</strong> 最接近零，<strong>CORR</strong> 和 <strong>SSIM</strong> 最高</li><li>独立站点评估结果：<strong>RMSE</strong> 为 15.6055，<strong>MAE</strong> 为 8.9285，相比 <strong>PFGNet</strong> 分别降低 <strong>7.90%</strong> 和 <strong>6.15%</strong></li><li>消融实验：完整模型表现最优，移除 <strong>JEPA</strong> 监督导致 <strong>MSE</strong> 增幅最大（4.14%），移除粗细尺度融合、跨阶段气象引导和形态学引导路径均导致性能下降</li><li>48小时递归预测案例：<strong>AeroJEPA</strong> 在前24小时内的 <strong>RMSE</strong> 和 <strong>MAE</strong> 普遍低于数值预报基准（<strong>Original WRF</strong> 和 <strong>3D-Var + WRF</strong>）</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2611.30898/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">World Models as Native Latent Action Models</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2611.30836/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
