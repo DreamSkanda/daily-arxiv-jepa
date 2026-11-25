@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking - JEPA / 世界模型 每日论文卡</title>
+    <meta name="description" content="论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪 解决现有方法（如 SuperMimic）隐式学习物理规律时，在接触支撑变化期间预测误差累积并影响策略训练的问题 进一步扩展至人-场景交互，通过引入局部地形高度图实现地形条件下的复杂动作跟踪" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EJ%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2611.32944">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">JEPA / 世界模型 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32944.webp" alt="DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking</h1>
+            <div class="detail-meta">2026-11-24 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.32944" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.32944" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.32944</span></div>
+            <p class="detail-summary">论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪 解决现有方法（如 SuperMimic）隐式学习物理规律时，在接触支撑变化期间预测误差累积并影响策略训练的问题 进一步扩展至人-场景交互，通过引入局部地形高度图实现地形条件下的复杂动作跟踪</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">The Australian National University</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+  </div>
+  <p class="reading-intro-hook">论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪</p>
+  <ul class="reading-intro-points"><li>论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪</li><li>解决现有方法（如 SuperMimic）隐式学习物理规律时，在接触支撑变化期间预测误差累积并影响策略训练的问题</li><li>进一步扩展至人-场景交互，通过引入局部地形高度图实现地形条件下的复杂动作跟踪</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>The Australian National University</strong></li><li><strong>AgiBot</strong></li><li><strong>The Hong Kong University of Technology (Guangzhou)</strong></li><li><strong>Beijing Institute of Technology</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>DynaMimic</strong>，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪</li><li>解决现有方法（如 <strong>SuperMimic</strong>）隐式学习物理规律时，在接触支撑变化期间预测误差累积并影响策略训练的问题</li><li>进一步扩展至人-场景交互，通过引入局部地形高度图实现地形条件下的复杂动作跟踪</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>DynaMimic</strong>，通过结合预测的接触力矩与已知的刚体正向动力学，在每次状态更新中显式引入物理信息</li><li>扩展模型以支持人-场景交互，在跟踪策略和世界模型中加入局部地形几何条件，并在假想轨迹展开中持续更新地形输入</li><li>在多个基准数据集上持续超越现有 SOTA 方法，并在真实 <strong>A3</strong> 人形机器人上成功部署了地板恢复、侧手翻和跳箱等复杂技能</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>世界模型由学习型力预测器 $\mathcal{F}_{\phi}$ 和可微分刚体积分器 $I_{\mathrm{phys}}$ 组成</li><li>力预测器预测每个候选支撑链接的接触力矩和残差广义力，随后通过拉格朗日正向动力学解析计算下一状态</li><li>采用结构化输出层约束力矩预测，确保满足单侧法向负载和摩擦锥等物理约束</li><li>结合多步状态轨迹损失、链接级力矩监督和残差正则化来拟合世界模型</li><li>在假想轨迹中通过时间反向传播优化跟踪策略，并使用 Critic 估计终端回报</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的数据集：<strong>LAFAN1</strong>（60个完整动作及18个挑战性片段）、<strong>A3 Parkour</strong>、<strong>GRAIL</strong> 地形片段</li><li>训练和评估基于物理模拟器，采用 20 ms 控制步长和 10 ms 积分时间步长</li><li>部署和验证平台为真实的 <strong>A3 humanoid</strong> 机器人</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：在平地跟踪和地形跟踪任务上与 <strong>SuperMimic</strong> 及其地形条件变体进行对比</li><li>主要评估指标：平均关节位置误差（<strong>MPJPE</strong>）、归一化回报、速度误差、加速度误差和世界模型预测误差（<strong>WM</strong>）</li><li>关键结果：在 <strong>LAFAN1</strong> 的 60 个动作上，<strong>DynaMimic</strong> 的 MPJPE 相比 <strong>SuperMimic</strong> 降低了 18.6%</li><li>在 <strong>A3 Parkour</strong> 地形跟踪中，MPJPE 降低 14.9%（66.15 mm 降至 56.28 mm）；在 <strong>GRAIL</strong> 地形片段中降低 10.8%（141.88 mm 降至 126.57 mm）</li><li>真实世界部署中，<strong>A3</strong> 机器人成功完成了地板恢复、侧手翻和跳箱等多种高难度技能</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2611.33035/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Hybrid AI for AI-Native RAN Control: A Functional Perspective</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2611.32900/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Motion Conditioned World Modeling for Embodied Visual Tracking</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

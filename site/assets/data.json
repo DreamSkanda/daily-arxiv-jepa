@@ -1,5 +1,922 @@
 [
   {
+    "date": "2026-11-24",
+    "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
+    "link": "http://arxiv.org/abs/2611.33141",
+    "arxiv_id": "2611.33141",
+    "detail_path": "papers/2611.33141/",
+    "cover_path": "covers/2611.33141/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.33141.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.33141.webp",
+    "preview_text": "世界-动作模型基于预训练视频生成模型构建机器人策略，但生成未来场景在实时控制中代价过高 论文提出 iWAM（Implicit World-Action Model），通过将未来生成计算摊销到训练过程中，仅需单次视频模型前向传播即可为动作预测提供有效条件特征 解决的核心问题：如何在不显式生成未来帧的情况下，保留未来条件化带来的泛化能力",
+    "research_unit": "Carnegie Mellon University（所有作者均隶属于该机构）",
+    "hook_text": "世界-动作模型基于预训练视频生成模型构建机器人策略，但生成未来场景在实时控制中代价过高",
+    "key_points": [
+      "世界-动作模型基于预训练视频生成模型构建机器人策略，但生成未来场景在实时控制中代价过高",
+      "论文提出 iWAM（Implicit World-Action Model），通过将未来生成计算摊销到训练过程中，仅需单次视频模型前向传播即可为动作预测提供有效条件特征",
+      "解决的核心问题：如何在不显式生成未来帧的情况下，保留未来条件化带来的泛化能力"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Hybrid AI for AI-Native RAN Control: A Functional Perspective",
+    "link": "http://arxiv.org/abs/2611.33035",
+    "arxiv_id": "2611.33035",
+    "detail_path": "papers/2611.33035/",
+    "cover_path": "covers/2611.33035/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.33035.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.33035.webp",
+    "preview_text": "本文是一篇综述论文，探讨了 AI 原生无线接入网（AI-Native RAN）控制中的混合 AI 方法，关注跨网络实体、协议层和时间尺度的复杂决策。 引入了一个技术无关的 RAN 决策分类法，基于四个互补能力：表示与推理（R&R）、预测与模拟（P&S）、自适应控制（AC）和决策综合（DS）。 旨在解决现有研究难以比较不同 AI 和基于模型技术在 RAN 控制环路中功能角色和交互方式的问题。",
+    "research_unit": "Ericsson Research, France",
+    "hook_text": "本文是一篇综述论文，探讨了 AI 原生无线接入网（AI-Native RAN）控制中的混合 AI 方法，关注跨网络实体、协议层和时间尺度的复杂决策。",
+    "key_points": [
+      "本文是一篇综述论文，探讨了 AI 原生无线接入网（AI-Native RAN）控制中的混合 AI 方法，关注跨网络实体、协议层和时间尺度的复杂决策。",
+      "引入了一个技术无关的 RAN 决策分类法，基于四个互补能力：表示与推理（R&R）、预测与模拟（P&S）、自适应控制（AC）和决策综合（DS）。",
+      "旨在解决现有研究难以比较不同 AI 和基于模型技术在 RAN 控制环路中功能角色和交互方式的问题。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
+    "link": "http://arxiv.org/abs/2611.32944",
+    "arxiv_id": "2611.32944",
+    "detail_path": "papers/2611.32944/",
+    "cover_path": "covers/2611.32944/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32944.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32944.webp",
+    "preview_text": "论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪 解决现有方法（如 SuperMimic）隐式学习物理规律时，在接触支撑变化期间预测误差累积并影响策略训练的问题 进一步扩展至人-场景交互，通过引入局部地形高度图实现地形条件下的复杂动作跟踪",
+    "research_unit": "The Australian National University",
+    "hook_text": "论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪",
+    "key_points": [
+      "论文提出 DynaMimic，一种将物理规律显式融入状态预测的可微分世界模型，用于人形机器人全身运动跟踪",
+      "解决现有方法（如 SuperMimic）隐式学习物理规律时，在接触支撑变化期间预测误差累积并影响策略训练的问题",
+      "进一步扩展至人-场景交互，通过引入局部地形高度图实现地形条件下的复杂动作跟踪"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Motion Conditioned World Modeling for Embodied Visual Tracking",
+    "link": "http://arxiv.org/abs/2611.32900",
+    "arxiv_id": "2611.32900",
+    "detail_path": "papers/2611.32900/",
+    "cover_path": "covers/2611.32900/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32900.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32900.webp",
+    "preview_text": "论文针对具身视觉跟踪任务中目标运动不确定性和机器人视角变化共同影响视觉观测的挑战，提出了运动条件世界建模方法。 方法将预测的目标运动分布和机器人自身运动融入潜在状态转移中，通过Geometry–Progress模块联合建模几何路径和单步行进距离。 通过未来视觉特征重建监督运动预测器，使跟踪策略能够结合视觉上下文和预测性运动线索，仅需0.5B轻量级骨干网络即可提升跟踪性能和跨环境泛化能力。",
+    "research_unit": "中国科学院自动化研究所 多模态人工智能系统全国重点实验室 (MAIS)",
+    "hook_text": "论文针对具身视觉跟踪任务中目标运动不确定性和机器人视角变化共同影响视觉观测的挑战，提出了运动条件世界建模方法。",
+    "key_points": [
+      "论文针对具身视觉跟踪任务中目标运动不确定性和机器人视角变化共同影响视觉观测的挑战，提出了运动条件世界建模方法。",
+      "方法将预测的目标运动分布和机器人自身运动融入潜在状态转移中，通过Geometry–Progress模块联合建模几何路径和单步行进距离。",
+      "通过未来视觉特征重建监督运动预测器，使跟踪策略能够结合视觉上下文和预测性运动线索，仅需0.5B轻量级骨干网络即可提升跟踪性能和跨环境泛化能力。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "EEG-World: Context-Conditioned Dynamics of the Watching Brain",
+    "link": "http://arxiv.org/abs/2611.32825",
+    "arxiv_id": "2611.32825",
+    "detail_path": "papers/2611.32825/",
+    "cover_path": "covers/2611.32825/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32825.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32825.webp",
+    "preview_text": "论文提出了 EEG-World，一个循环世界模型，基于前6秒的EEG信号和随后的视听刺激，预测未来10秒的EEG频带功率动态。 传统的脑编码模型仅关注刺激与大脑响应的关系，忽略了大脑正在进行的活动（如觉醒、注意力）对个体神经轨迹的塑造作用，该模型旨在解决这一局限。 模型在连续EEG数据上预训练以学习共享的神经动力学，并通过轻量级的受试者特定读出模块适应新的个体。",
+    "research_unit": "深圳河套研究院 (Shenzhen Loop Area Institute)",
+    "hook_text": "论文提出了 EEG-World，一个循环世界模型，基于前6秒的EEG信号和随后的视听刺激，预测未来10秒的EEG频带功率动态。",
+    "key_points": [
+      "论文提出了 EEG-World，一个循环世界模型，基于前6秒的EEG信号和随后的视听刺激，预测未来10秒的EEG频带功率动态。",
+      "传统的脑编码模型仅关注刺激与大脑响应的关系，忽略了大脑正在进行的活动（如觉醒、注意力）对个体神经轨迹的塑造作用，该模型旨在解决这一局限。",
+      "模型在连续EEG数据上预训练以学习共享的神经动力学，并通过轻量级的受试者特定读出模块适应新的个体。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Interactive Neural Computers",
+    "link": "http://arxiv.org/abs/2611.32811",
+    "arxiv_id": "2611.32811",
+    "detail_path": "papers/2611.32811/",
+    "cover_path": "covers/2611.32811/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32811.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32811.webp",
+    "preview_text": "论文提出一种新范式：不训练 AI 代理去“使用”计算机，而是训练生成式模型“成为”计算机，根据过去的屏幕和用户的鼠标/键盘操作预测下一帧屏幕 旨在解决桌面交互式世界模型面临的三个核心问题：缺乏几何线索时的长期对象永久性、生成世界中的符号推理（如终端算术必须精确）、以及交互帧率下界面小字文本的清晰渲染 模型被设计为类似Neural Turing Machine的结构，包含三个端到端训练的核心模块：记忆、计算和界面",
+    "research_unit": "University College London",
+    "hook_text": "论文提出一种新范式：不训练 AI 代理去“使用”计算机，而是训练生成式模型“成为”计算机，根据过去的屏幕和用户的鼠标/键盘操作预测下一帧屏幕",
+    "key_points": [
+      "论文提出一种新范式：不训练 AI 代理去“使用”计算机，而是训练生成式模型“成为”计算机，根据过去的屏幕和用户的鼠标/键盘操作预测下一帧屏幕",
+      "旨在解决桌面交互式世界模型面临的三个核心问题：缺乏几何线索时的长期对象永久性、生成世界中的符号推理（如终端算术必须精确）、以及交互帧率下界面小字文本的清晰渲染",
+      "模型被设计为类似Neural Turing Machine的结构，包含三个端到端训练的核心模块：记忆、计算和界面"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+    "link": "http://arxiv.org/abs/2611.32786",
+    "arxiv_id": "2611.32786",
+    "detail_path": "papers/2611.32786/",
+    "cover_path": "covers/2611.32786/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32786.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32786.webp",
+    "preview_text": "提出 SimPWM（Simulator-as-Proxy World Model），一个将基于规则的无参数模拟器与视频生成模型结合的机器人操作世界模型，同时输出逼真视频和显式模拟状态 解决端到端视频世界模型不严格遵循动作指令（物体分裂、消失、残留）以及模拟器渲染不真实的双重问题 通过扰动模拟状态（如冻结物体或保持夹爪张开）来测试视频模型是否真正遵循模拟器的物理状态",
+    "research_unit": "Mohamed bin Zayed University of Artificial Intellig…",
+    "hook_text": "提出 SimPWM（Simulator-as-Proxy World Model），一个将基于规则的无参数模拟器与视频生成模型结合的机器人操作世界模型，同时输出逼真视频和显式模拟状态",
+    "key_points": [
+      "提出 SimPWM（Simulator-as-Proxy World Model），一个将基于规则的无参数模拟器与视频生成模型结合的机器人操作世界模型，同时输出逼真视频和显式模拟状态",
+      "解决端到端视频世界模型不严格遵循动作指令（物体分裂、消失、残留）以及模拟器渲染不真实的双重问题",
+      "通过扰动模拟状态（如冻结物体或保持夹爪张开）来测试视频模型是否真正遵循模拟器的物理状态"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Learning World Models through Contrastive Identification of Actions",
+    "link": "http://arxiv.org/abs/2611.32776",
+    "arxiv_id": "2611.32776",
+    "detail_path": "papers/2611.32776/",
+    "cover_path": "covers/2611.32776/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32776.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32776.webp",
+    "preview_text": "潜在世界模型支持从无奖励的离线视觉数据中进行目标导向规划，但仅靠预测无法明确其表征中应保留哪些与动作相关的信息。 传统的均方误差逆动力学回归仅通过条件动作均值的变化来奖励额外信息，限制了表征保留更丰富的动作-结果区分信息。 论文提出 Contrastive Identification of Actions (CIA)，通过从历史条件行为提议中采样的候选动作来对比识别真实执行的动作，从而鼓励模型保留超越历史信息的动作特征。",
+    "research_unit": "Korea University (Seoul, Republic of Korea)",
+    "hook_text": "潜在世界模型支持从无奖励的离线视觉数据中进行目标导向规划，但仅靠预测无法明确其表征中应保留哪些与动作相关的信息。",
+    "key_points": [
+      "潜在世界模型支持从无奖励的离线视觉数据中进行目标导向规划，但仅靠预测无法明确其表征中应保留哪些与动作相关的信息。",
+      "传统的均方误差逆动力学回归仅通过条件动作均值的变化来奖励额外信息，限制了表征保留更丰富的动作-结果区分信息。",
+      "论文提出 Contrastive Identification of Actions (CIA)，通过从历史条件行为提议中采样的候选动作来对比识别真实执行的动作，从而鼓励模型保留超越历史信息的动作特征。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "MemAnchorWorld: A Sparse World Model with Horizon-Conditioned Memory Retrieval for Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.32745",
+    "arxiv_id": "2611.32745",
+    "detail_path": "papers/2611.32745/",
+    "cover_path": "covers/2611.32745/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32745.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32745.webp",
+    "preview_text": "针对4D语义占用预测中，现有稀疏世界模型在长时序预测中依赖隐式状态传递历史信息导致误差累积和几何语义偏差的瓶颈问题 提出了MemAnchorWorld，一种通过显式检索历史几何与语义证据来优化自动驾驶未来场景预测的稀疏占用世界模型 受von Restorff效应启发，引入基于预测时间的分层双路径记忆锚点检索机制和点级残差适配器，减少误差传播",
+    "research_unit": "北京航空航天大学计算机科学与工程学院 (School of Computer Science and…",
+    "hook_text": "针对4D语义占用预测中，现有稀疏世界模型在长时序预测中依赖隐式状态传递历史信息导致误差累积和几何语义偏差的瓶颈问题",
+    "key_points": [
+      "针对4D语义占用预测中，现有稀疏世界模型在长时序预测中依赖隐式状态传递历史信息导致误差累积和几何语义偏差的瓶颈问题",
+      "提出了MemAnchorWorld，一种通过显式检索历史几何与语义证据来优化自动驾驶未来场景预测的稀疏占用世界模型",
+      "受von Restorff效应启发，引入基于预测时间的分层双路径记忆锚点检索机制和点级残差适配器，减少误差传播"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
+    "link": "http://arxiv.org/abs/2611.32665",
+    "arxiv_id": "2611.32665",
+    "detail_path": "papers/2611.32665/",
+    "cover_path": "covers/2611.32665/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32665.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32665.webp",
+    "preview_text": "针对人形机器人全身控制中运动生成与物理执行解耦导致的训练鸿沟问题，提出了DiffGR00T端到端可微训练框架 将GR00T N1.7 VLA模型与预训练的SONIC全身行为基础模型耦合，用可微的学习型世界模型替代不可微的仿真器 使得多步身体执行损失能够通过冻结的全身控制器和流匹配采样器直接反向传播至VLA动作头，从而对齐高层运动生成与闭环全身动力学",
+    "research_unit": "Shanghai Jiao Tong University (自动化系)",
+    "hook_text": "针对人形机器人全身控制中运动生成与物理执行解耦导致的训练鸿沟问题，提出了DiffGR00T端到端可微训练框架",
+    "key_points": [
+      "针对人形机器人全身控制中运动生成与物理执行解耦导致的训练鸿沟问题，提出了DiffGR00T端到端可微训练框架",
+      "将GR00T N1.7 VLA模型与预训练的SONIC全身行为基础模型耦合，用可微的学习型世界模型替代不可微的仿真器",
+      "使得多步身体执行损失能够通过冻结的全身控制器和流匹配采样器直接反向传播至VLA动作头，从而对齐高层运动生成与闭环全身动力学"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Economic World Model",
+    "link": "http://arxiv.org/abs/2611.32663",
+    "arxiv_id": "2611.32663",
+    "detail_path": "papers/2611.32663/",
+    "cover_path": "covers/2611.32663/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32663.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32663.webp",
+    "preview_text": "论文定义了经济世界模型，即智能体对经济系统运作方式的内部表征，支持反事实模拟和资源约束下的决策 提出一个通用多智能体框架，将三个任务联系起来：模拟经济主体行为、学习经济转轨模型、系统评估经济动态 旨在解决AI如何复现家庭、企业和政府通过市场和制度互动而产生的经济动态这一问题",
+    "research_unit": "上海财经大学 计算机科学与人工智能学院及计算与经济交叉研究重点实验室",
+    "hook_text": "论文定义了经济世界模型，即智能体对经济系统运作方式的内部表征，支持反事实模拟和资源约束下的决策",
+    "key_points": [
+      "论文定义了经济世界模型，即智能体对经济系统运作方式的内部表征，支持反事实模拟和资源约束下的决策",
+      "提出一个通用多智能体框架，将三个任务联系起来：模拟经济主体行为、学习经济转轨模型、系统评估经济动态",
+      "旨在解决AI如何复现家庭、企业和政府通过市场和制度互动而产生的经济动态这一问题"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "DexWAC: A Unified World-Actor-Critic Model for Dexterous Robot Manipulation",
+    "link": "http://arxiv.org/abs/2611.32654",
+    "arxiv_id": "2611.32654",
+    "detail_path": "papers/2611.32654/",
+    "cover_path": "covers/2611.32654/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32654.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32654.webp",
+    "preview_text": "提出 DexWAC，一个统一的 World–Actor–Critic 模型，在单一预训练阶段联合学习 Actor、动作条件化世界模型和自举 Critic 解决现有 WAMs 仅将视觉预测作为辅助损失，而策略改进方法需单独训练世界模型和价值模型、导致计算开销大且表示共享受限的问题 在仿真和真实机器人的灵巧操作任务上验证方法有效性，显著超越大规模预训练的 VLA 和 WAM 基线",
+    "research_unit": "University of California, San Diego (UCSD)",
+    "hook_text": "提出 DexWAC，一个统一的 World–Actor–Critic 模型，在单一预训练阶段联合学习 Actor、动作条件化世界模型和自举 Critic",
+    "key_points": [
+      "提出 DexWAC，一个统一的 World–Actor–Critic 模型，在单一预训练阶段联合学习 Actor、动作条件化世界模型和自举 Critic",
+      "解决现有 WAMs 仅将视觉预测作为辅助损失，而策略改进方法需单独训练世界模型和价值模型、导致计算开销大且表示共享受限的问题",
+      "在仿真和真实机器人的灵巧操作任务上验证方法有效性，显著超越大规模预训练的 VLA 和 WAM 基线"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "CodeWAM: A Code World Action Model for End-to-End Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.32483",
+    "arxiv_id": "2611.32483",
+    "detail_path": "papers/2611.32483/",
+    "cover_path": "covers/2611.32483/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32483.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32483.webp",
+    "preview_text": "提出了 CodeWAM，一种将可执行代码作为世界模型表示的自动驾驶世界模型，用于预测候选计划的执行后果。 通过代码模拟自车动力学（车辆状态演化），结合学习的视觉模型预测周围场景的后果，共同评估轨迹候选方案。 解决了自动驾驶规划中忽略车辆执行过程导致的高奖励但难以平滑执行的候选轨迹被错误选中，进而引起连续决策动作冲突的问题。",
+    "research_unit": "南洋理工大学 (Nanyang Technological University)",
+    "hook_text": "提出了 CodeWAM，一种将可执行代码作为世界模型表示的自动驾驶世界模型，用于预测候选计划的执行后果。",
+    "key_points": [
+      "提出了 CodeWAM，一种将可执行代码作为世界模型表示的自动驾驶世界模型，用于预测候选计划的执行后果。",
+      "通过代码模拟自车动力学（车辆状态演化），结合学习的视觉模型预测周围场景的后果，共同评估轨迹候选方案。",
+      "解决了自动驾驶规划中忽略车辆执行过程导致的高奖励但难以平滑执行的候选轨迹被错误选中，进而引起连续决策动作冲突的问题。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution",
+    "link": "http://arxiv.org/abs/2611.32473",
+    "arxiv_id": "2611.32473",
+    "detail_path": "papers/2611.32473/",
+    "cover_path": "covers/2611.32473/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32473.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32473.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "A Mesh to Remember: Persistent Appearance for Interactive Video Worlds",
+    "link": "http://arxiv.org/abs/2611.32445",
+    "arxiv_id": "2611.32445",
+    "detail_path": "papers/2611.32445/",
+    "cover_path": "covers/2611.32445/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32445.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32445.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "CriticJEPA: World Models Are Better Critics Than Optimizers",
+    "link": "http://arxiv.org/abs/2611.32357",
+    "arxiv_id": "2611.32357",
+    "detail_path": "papers/2611.32357/",
+    "cover_path": "covers/2611.32357/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32357.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32357.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Disentangling Visual Dynamics for World Model Planning",
+    "link": "http://arxiv.org/abs/2611.32228",
+    "arxiv_id": "2611.32228",
+    "detail_path": "papers/2611.32228/",
+    "cover_path": "covers/2611.32228/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "RoboProbe: Benchmarking Physical Plausibility of Robot World Models",
+    "link": "http://arxiv.org/abs/2611.32152",
+    "arxiv_id": "2611.32152",
+    "detail_path": "papers/2611.32152/",
+    "cover_path": "covers/2611.32152/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32152.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32152.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "PhysRF-WorldJEPA: Transforming Heterogeneous Large Language Models into Manifold-Decoupled Millimeter-Wave Radar World Models",
+    "link": "http://arxiv.org/abs/2611.32113",
+    "arxiv_id": "2611.32113",
+    "detail_path": "papers/2611.32113/",
+    "cover_path": "covers/2611.32113/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32113.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32113.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "SurgGenesis: A Generative Surgical World Model for Future-Aware Surgical Understanding",
+    "link": "http://arxiv.org/abs/2611.32054",
+    "arxiv_id": "2611.32054",
+    "detail_path": "papers/2611.32054/",
+    "cover_path": "covers/2611.32054/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.32054.webp",
+    "paper_image_full_path": "https://raw.githubusercontent.com/DreamSkanda/daily-arxiv-jepa/master/site/assets/paper-images/2611.32054.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Do Occupancy World Models Really Follow Actions?",
+    "link": "http://arxiv.org/abs/2611.32029",
+    "arxiv_id": "2611.32029",
+    "detail_path": "papers/2611.32029/",
+    "cover_path": "covers/2611.32029/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Learning Agent States for Latent Action Modeling",
+    "link": "http://arxiv.org/abs/2611.32017",
+    "arxiv_id": "2611.32017",
+    "detail_path": "papers/2611.32017/",
+    "cover_path": "covers/2611.32017/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "ADE: A Zero-Training Unlearning Method for Latent World Models",
+    "link": "http://arxiv.org/abs/2611.31998",
+    "arxiv_id": "2611.31998",
+    "detail_path": "papers/2611.31998/",
+    "cover_path": "covers/2611.31998/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "SPAR: Self-Referenced World-Model Rewards for Physical Alignment in Video Generation",
+    "link": "http://arxiv.org/abs/2611.31958",
+    "arxiv_id": "2611.31958",
+    "detail_path": "papers/2611.31958/",
+    "cover_path": "covers/2611.31958/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "DraftKV: Protecting Persistent Worlds through Hierarchical Streaming Retrieval",
+    "link": "http://arxiv.org/abs/2611.31944",
+    "arxiv_id": "2611.31944",
+    "detail_path": "papers/2611.31944/",
+    "cover_path": "covers/2611.31944/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "ReJEPA: Bounded Predictive Regulation for Latent World Models",
+    "link": "http://arxiv.org/abs/2611.31910",
+    "arxiv_id": "2611.31910",
+    "detail_path": "papers/2611.31910/",
+    "cover_path": "covers/2611.31910/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "JECT: Addressing the Context Shortcut in Joint-Embedding Predictive Learning for Chest CT",
+    "link": "http://arxiv.org/abs/2611.31849",
+    "arxiv_id": "2611.31849",
+    "detail_path": "papers/2611.31849/",
+    "cover_path": "covers/2611.31849/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Co-DRIS: Physics-Informed Predictive Belief and Variable-Impedance Learning for Reactive Catching under Coupled Uncertainty",
+    "link": "http://arxiv.org/abs/2611.31843",
+    "arxiv_id": "2611.31843",
+    "detail_path": "papers/2611.31843/",
+    "cover_path": "covers/2611.31843/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Gaze World Model",
+    "link": "http://arxiv.org/abs/2611.31836",
+    "arxiv_id": "2611.31836",
+    "detail_path": "papers/2611.31836/",
+    "cover_path": "covers/2611.31836/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "SceneMemBench: A Benchmark for Scene Memory in Interactive Video World Models",
+    "link": "http://arxiv.org/abs/2611.31803",
+    "arxiv_id": "2611.31803",
+    "detail_path": "papers/2611.31803/",
+    "cover_path": "covers/2611.31803/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Dreamcatcher: Remembering What Surprises a World Model in Video Streams",
+    "link": "http://arxiv.org/abs/2611.31765",
+    "arxiv_id": "2611.31765",
+    "detail_path": "papers/2611.31765/",
+    "cover_path": "covers/2611.31765/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Latent Channel Completion for Forecasting in Sensor Networks with Failed Detectors",
+    "link": "http://arxiv.org/abs/2611.31575",
+    "arxiv_id": "2611.31575",
+    "detail_path": "papers/2611.31575/",
+    "cover_path": "covers/2611.31575/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "title": "CaLA: Causal Latent Adjustment for World Models under Adaptive Policies",
+    "link": "http://arxiv.org/abs/2611.31431",
+    "arxiv_id": "2611.31431",
+    "detail_path": "papers/2611.31431/",
+    "cover_path": "covers/2611.31431/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-23",
     "title": "DexLatentWorld: 3D Cross-Embodiment Latent Action World Models for Zero-Shot Robotic Manipulation",
     "link": "http://arxiv.org/abs/2611.30907",
