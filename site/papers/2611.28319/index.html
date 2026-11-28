@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Learning a Food World Model That Predicts the Next State from Production Data - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="论文提出了一种从真实生产数据中学习的食物世界模型，用于预测食品组装机器人在执行抓取动作后的环境状态变化 模型接收抓取前的高度图、指令动作、食物和餐具信息，预测抓取后的高度图以及被抓取的质量，并输出预测的不确定性 旨在解决颗粒状和柔性食物难以解析建模或仿真、且在生产线上通过试错学习策略成本过高的问题" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">Learning a Food World Model That Predicts the Next State from Production Data</h1>
             <div class="detail-meta">2026-11-20 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28319" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28319" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28319</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">论文提出了一种从真实生产数据中学习的食物世界模型，用于预测食品组装机器人在执行抓取动作后的环境状态变化 模型接收抓取前的高度图、指令动作、食物和餐具信息，预测抓取后的高度图以及被抓取的质量，并输出预测的不确定性 旨在解决颗粒状和柔性食物难以解析建模或仿真、且在生产线上通过试错学习策略成本过高的问题</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Chef Robotics（位于美国旧金山）</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">论文提出了一种从真实生产数据中学习的食物世界模型，用于预测食品组装机器人在执行抓取动作后的环境状态变化</p>
+  <ul class="reading-intro-points"><li>论文提出了一种从真实生产数据中学习的食物世界模型，用于预测食品组装机器人在执行抓取动作后的环境状态变化</li><li>模型接收抓取前的高度图、指令动作、食物和餐具信息，预测抓取后的高度图以及被抓取的质量，并输出预测的不确定性</li><li>旨在解决颗粒状和柔性食物难以解析建模或仿真、且在生产线上通过试错学习策略成本过高的问题</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Chef Robotics</strong>（位于美国旧金山）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>论文提出了一种从真实生产数据中学习的<strong>食物世界模型</strong>，用于预测食品组装机器人在执行抓取动作后的环境状态变化</li><li>模型接收抓取前的高度图、指令动作、食物和餐具信息，预测抓取后的高度图以及被抓取的质量，并输出预测的不确定性</li><li>旨在解决颗粒状和柔性食物难以解析建模或仿真、且在生产线上通过试错学习策略成本过高的问题</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出据作者所知<strong>首个从生产数据中学习的食物世界模型</strong>，能够针对九种具有非线性、难以建模动态的食物预测抓取后状态和质量</li><li>在真实生产数据上与四个基线进行评估，质量预测的<strong>RMSE比命令目标或食物均值低9%</strong>，比控制器内部估计低24%</li><li>设计了<strong>简单高效的2.3M参数U-Net架构</strong>，结合异方差损失训练，能够同时估计每个预测的不确定性</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>核心网络采用<strong>U-Net架构</strong>，包含一个表面头和一个质量头，残差层通过<strong>FiLM</strong>（特征级线性调制）由食物和餐具嵌入及拾取位置进行条件调制</li><li>表面头预测高度图变化及每个网格的方差，质量头通过全局和局部池化特征并结合预测的体积变化来预测质量及方差</li><li>采用<strong>忠实异方差损失</strong>分离均值和方差的训练任务，防止模型通过预测大方差来回避困难样本</li><li>训练五个不同种子的模型形成<strong>集成</strong>，并结合同会话早期的残差进行<strong>会话修正</strong>，以减少相关误差</li><li>基于预测的不确定性$\sigma_w$进行<strong>拒绝机制</strong>，对高不确定性的预测选择不作答而交由秤检查</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的数据集：来自43台机器人在19个月内记录的<strong>133,340次生产抓取</strong>，涉及9种食物；经检查后包含<strong>61,773次训练抓取</strong>和<strong>12,294次评估抓取</strong></li><li>模型规模和参数量：单个网络拥有<strong>2.3M参数</strong></li><li>训练资源：使用<strong>单个GPU</strong>，训练时长约<strong>2.6小时</strong>，采用AdamW优化器和one-cycle cosine调度训练40个epochs</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境和基准：在真实生产环境的<strong>12,294次保留抓取</strong>上评估，与命令目标、食物均值、内部估计及梯度提升树四个基线对比</li><li>主要评估指标：均方根误差（<strong>RMSE</strong>，单位：克）</li><li>关键实验结果：模型RMSE为<strong>10.93 g</strong>，优于命令目标（11.97 g）、均值（12.06 g）和内部估计（14.35 g）；启用拒绝机制后，模型回答了<strong>89.4%的抓取</strong>，RMSE降至<strong>10.28 g</strong>，接近梯度提升树的10.18 g，且模型能额外提供下一状态预测</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

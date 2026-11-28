@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VICA: Video Contextual Agreement for AIGC Video Detection and Localization - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="针对 AIGC 视频生成与编辑技术带来的真实性验证挑战，提出统一框架 VICA 解决现有方法中全局特征掩盖局部伪影、区域级方法忽略时空上下文不一致性的问题 利用冻结的 V-JEPA 模型通过上下文预测被掩码区域的表示，并比较预测与实际特征以检测和定位伪造视频" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">VICA: Video Contextual Agreement for AIGC Video Detection and Localization</h1>
             <div class="detail-meta">2026-11-21 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28485" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28485" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28485</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">针对 AIGC 视频生成与编辑技术带来的真实性验证挑战，提出统一框架 VICA 解决现有方法中全局特征掩盖局部伪影、区域级方法忽略时空上下文不一致性的问题 利用冻结的 V-JEPA 模型通过上下文预测被掩码区域的表示，并比较预测与实际特征以检测和定位伪造视频</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">厦门大学</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">针对 AIGC 视频生成与编辑技术带来的真实性验证挑战，提出统一框架 VICA</p>
+  <ul class="reading-intro-points"><li>针对 AIGC 视频生成与编辑技术带来的真实性验证挑战，提出统一框架 VICA</li><li>解决现有方法中全局特征掩盖局部伪影、区域级方法忽略时空上下文不一致性的问题</li><li>利用冻结的 V-JEPA 模型通过上下文预测被掩码区域的表示，并比较预测与实际特征以检测和定位伪造视频</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>厦门大学</strong></li><li><strong>悉尼大学</strong></li><li><strong>微软</strong></li><li><strong>中国科学院自动化研究所</strong></li><li><strong>百度</strong></li><li><strong>澳门城市大学</strong></li><li><strong>牛津大学</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>针对 AIGC 视频生成与编辑技术带来的真实性验证挑战，提出统一框架 <strong>VICA</strong></li><li>解决现有方法中全局特征掩盖局部伪影、区域级方法忽略时空上下文不一致性的问题</li><li>利用冻结的 <strong>V-JEPA</strong> 模型通过上下文预测被掩码区域的表示，并比较预测与实际特征以检测和定位伪造视频</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>引入<strong>上下文一致性</strong>作为 AIGC 视频检测和编辑区域定位的取证线索，将焦点从孤立伪影转移到区域与全局上下文的一致性评估</li><li>提出 <strong>VICA</strong> 框架，基于冻结的 <strong>V-JEPA 2.1</strong> 模型，采用互补掩码策略生成上下文条件预测，并使用空间与双向时间残差表征上下文不一致性</li><li>广泛的实验证明 <strong>VICA</strong> 在多个基准测试中取得最先进性能，对未见过的视频生成器和编辑方法具有强大的泛化能力</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用冻结的 <strong>V-JEPA 2.1</strong> 模型提取观察特征，并通过上下文编码器和预测器生成互补掩码视图的区域预测</li><li>设计<strong>互补掩码策略</strong>，在视频时间轴的前后两半采用非对称掩码比例（0.2和0.8），确保完整区域覆盖并鼓励利用时间距离的上下文</li><li>计算预测与观察特征之间的<strong>空间残差</strong>（捕获帧内差异）和<strong>双向时间残差</strong>（捕获跨帧不一致性）</li><li>通过共享读出网络处理残差表示，并输入到轻量级的视频级检测和区域级定位头中，仅依赖残差特征进行取证</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的数据集：<strong>AIGVDBench</strong>、<strong>AINPAINT</strong> (OPN和STTN子集)、<strong>GenVidBench-143K</strong>、<strong>VideoFeedback</strong>、<strong>Magic Videos</strong>、<strong>GVF</strong>、<strong>MOSE100</strong></li><li>模型规模：冻结的 <strong>V-JEPA 2.1 ViT-g/16</strong> 主干，可训练参数仅包含共享读出（<strong>7.0M</strong>）和两个任务头，总计 <strong>7.01M</strong> 参数</li><li>训练资源：文中未明确提及具体 GPU/TPU 硬件资源</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：在多个数据集上进行跨数据集泛化评估，测试未见过的生成器和编辑方法</li><li>主要指标：检测任务使用 <strong>AUROC</strong> 和 <strong>AP (%)</strong>；定位任务使用 <strong>IoU</strong>、<strong>F1 (%)</strong> 和 <strong>FPR (%)</strong></li><li>在 <strong>AIGVDBench</strong> 开源生成器上检测 AUROC 达 <strong>94.74%</strong>；在 <strong>AINPAINT</strong> 定位 IoU 达 <strong>72.74%</strong>、F1 达 <strong>83.34%</strong></li><li>统一 <strong>VICA</strong> 模型在检测和定位任务上均显著优于现有基线，且将真实视频上的定位假阳性率 (<strong>FPR</strong>) 降至 <strong>0.39%</strong></li><li>消融实验证明残差特征优于整体特征，且空间与时间残差具有互补性，验证了掩码策略的有效性</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

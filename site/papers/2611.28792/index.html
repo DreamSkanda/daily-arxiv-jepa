@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ArgsWorld: Unifying 3DGS Scene Reconstruction, Generation and Extrapolation with Autoregressive Diffusion Transformer - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="论文提出了 ArgsWorld，一个自回归扩散世界模型，不仅能生成RGB视频帧，还能输出显式的 3D高斯溅射 (3DGS) 场景表示。 旨在解决现有自回归扩散世界模型通常只输出RGB帧而非可用3D资产的问题，弥合视觉世界动态与下游机器人、仿真和渲染可用3D资产之间的差距。 统一了从已知位姿图像进行3D场景重建、从图像或文本提示生成场景，以及沿断开端点的相机轨迹进行场景外推这三个任务。" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">ArgsWorld: Unifying 3DGS Scene Reconstruction, Generation and Extrapolation with Autoregressive Diffusion Transformer</h1>
             <div class="detail-meta">2026-11-21 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28792" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28792" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28792</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">论文提出了 ArgsWorld，一个自回归扩散世界模型，不仅能生成RGB视频帧，还能输出显式的 3D高斯溅射 (3DGS) 场景表示。 旨在解决现有自回归扩散世界模型通常只输出RGB帧而非可用3D资产的问题，弥合视觉世界动态与下游机器人、仿真和渲染可用3D资产之间的差距。 统一了从已知位姿图像进行3D场景重建、从图像或文本提示生成场景，以及沿断开端点的相机轨迹进行场景外推这三个任务。</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">清华大学深圳国际研究生院</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">论文提出了 ArgsWorld，一个自回归扩散世界模型，不仅能生成RGB视频帧，还能输出显式的 3D高斯溅射 (3DGS) 场景表示。</p>
+  <ul class="reading-intro-points"><li>论文提出了 ArgsWorld，一个自回归扩散世界模型，不仅能生成RGB视频帧，还能输出显式的 3D高斯溅射 (3DGS) 场景表示。</li><li>旨在解决现有自回归扩散世界模型通常只输出RGB帧而非可用3D资产的问题，弥合视觉世界动态与下游机器人、仿真和渲染可用3D资产之间的差距。</li><li>统一了从已知位姿图像进行3D场景重建、从图像或文本提示生成场景，以及沿断开端点的相机轨迹进行场景外推这三个任务。</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>清华大学深圳国际研究生院</strong></li><li><strong>哈尔滨工业大学</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>论文提出了 <strong>ArgsWorld</strong>，一个自回归扩散世界模型，不仅能生成RGB视频帧，还能输出显式的 <strong>3D高斯溅射 (3DGS)</strong> 场景表示。</li><li>旨在解决现有自回归扩散世界模型通常只输出RGB帧而非可用3D资产的问题，弥合视觉世界动态与下游机器人、仿真和渲染可用3D资产之间的差距。</li><li>统一了从已知位姿图像进行3D场景重建、从图像或文本提示生成场景，以及沿断开端点的相机轨迹进行场景外推这三个任务。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出了一个统一的3DGS世界模型，使用单一相机条件的自回归扩散模型同时支持场景重建、生成和外推。</li><li>实现了一致的自回归场景扩展，通过将已完成的生成作为固定视觉上下文，并利用联合场景解码与渲染一致性监督来确保跨视角的一致性。</li><li>提出了 <strong>3D Self-Forcing Distillation</strong> 训练方法，在模型自生成的历史数据上训练，并在图像和渲染分支中同时进行分布匹配，从而得到一个具有显式3DGS输出的四步自回归采样器。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于相机条件的 <strong>Wan2.2-TI2V-5B</strong> 扩散Transformer (DiT)，在每个生成块中联合处理干净的历史图像潜变量和带噪新视角潜变量。</li><li>保持历史图像潜变量固定，同时刷新场景特征，使得高斯表示能随着新视角的出现而更新，无需生成过渡视角即可在不同相机轨迹间继续同一场景。</li><li>训练时采用自生成回放策略，无梯度完成全部去噪步骤以提供历史数据，随后随机重放其中一个步骤进行梯度计算。</li><li>应用分布匹配蒸馏 (DMD) 于直接RGB预测及两组渲染视角（输入视角和新视角），并结合2D-3D潜变量一致性损失来维持场景更新过程中的外观一致性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的数据集：<strong>DL3DV-10K</strong>、<strong>RealEstate10K</strong>、<strong>ACID</strong>、<strong>SpatialVID</strong>、<strong>Echo-4o-Image</strong>、<strong>WildRGB-D</strong></li><li>评估使用的数据集：<strong>DL3DV-200</strong>、<strong>T3Bench-200</strong>、<strong>WorldScore</strong></li><li>模型规模和参数量：基于 <strong>Wan2.2-TI2V-5B</strong> 扩散Transformer（约5B参数）</li><li>训练资源：<strong>8个GPU</strong>，训练分辨率为 480×704</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：单张 <strong>NVIDIA RTX 6000D</strong> GPU</li><li>主要评估指标：PSNR、SSIM、LPIPS；Q-Align IQA/IAA、CLIPScore；WorldScore六项指标（相机控制、物体控制等）</li><li>在 <strong>DL3DV-200</strong> 多视角重建中，4个参考视角下取得最高PSNR (20.68 dB) 和最低LPIPS (0.121)，8个参考视角下LPIPS最低 (0.117)</li><li>在 <strong>DL3DV-200</strong> 单视角生成和自回归外推任务中，均取得最高PSNR和SSIM</li><li>在 <strong>T3Bench-200</strong> 文本条件生成中，五项指标中有四项排名第一，包括提示对齐CLIPScore (33.10)</li><li>在 <strong>WorldScore</strong> 基准测试中，取得最高的六项指标平均分 (72.08)，并在物体控制和内容对齐指标上排名第一</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

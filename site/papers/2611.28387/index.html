@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Knowing What You Carry: Scalable Physics-Anchored World Models for Robotic Planning with Liquid Payloads - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="针对携带液体载荷的地面车辆（如配送机器人和自动驾驶卡车），在接近侧翻安全极限时的轨迹规划问题 液体载荷在机动结束后会持续运动且状态难以测量，微小预测误差可能导致规划器选择不安全的计划 提出PLiMB并行模拟器和可扩展的物理锚定世界模型，在不进行流体仿真的情况下，于单个 20Hz 控制周期内评估数千个候选计划" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">Knowing What You Carry: Scalable Physics-Anchored World Models for Robotic Planning with Liquid Payloads</h1>
             <div class="detail-meta">2026-11-20 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28387" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28387" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28387</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">针对携带液体载荷的地面车辆（如配送机器人和自动驾驶卡车），在接近侧翻安全极限时的轨迹规划问题 液体载荷在机动结束后会持续运动且状态难以测量，微小预测误差可能导致规划器选择不安全的计划 提出PLiMB并行模拟器和可扩展的物理锚定世界模型，在不进行流体仿真的情况下，于单个 20Hz 控制周期内评估数千个候选计划</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Rochester Institute of Technology</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">针对携带液体载荷的地面车辆（如配送机器人和自动驾驶卡车），在接近侧翻安全极限时的轨迹规划问题</p>
+  <ul class="reading-intro-points"><li>针对携带液体载荷的地面车辆（如配送机器人和自动驾驶卡车），在接近侧翻安全极限时的轨迹规划问题</li><li>液体载荷在机动结束后会持续运动且状态难以测量，微小预测误差可能导致规划器选择不安全的计划</li><li>提出PLiMB并行模拟器和可扩展的物理锚定世界模型，在不进行流体仿真的情况下，于单个 20Hz 控制周期内评估数千个候选计划</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Rochester Institute of Technology</strong></li><li><strong>City University of Hong Kong</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>针对携带液体载荷的地面车辆（如配送机器人和自动驾驶卡车），在接近侧翻安全极限时的轨迹规划问题</li><li>液体载荷在机动结束后会持续运动且状态难以测量，微小预测误差可能导致规划器选择不安全的计划</li><li>提出<strong>PLiMB</strong>并行模拟器和可扩展的<strong>物理锚定世界模型</strong>，在不进行流体仿真的情况下，于单个 20Hz 控制周期内评估数千个候选计划</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>构建了<strong>PLiMB</strong>，首个在 GPU 上将 FLIP 液体与多个多体车辆进行双向耦合的并行晃动模拟器</li><li>提出了一种可扩展的物理锚定世界模型，通过车辆自身的运动历史估计隐藏的液体状态，并结合物理先验与学习修正进行快速规划评估</li><li>进行了决策层面的实验评估，证明该模型比刚性载荷和已发布的低阶晃动模型规划器产生显著更少的可避免不安全选择</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>PLiMB 模拟器</strong>：将 GPU FLIP 液体与在 Newton 中模拟的多体车辆双向耦合，支持批量并行模拟独立车辆与计划</li><li><strong>响应模型</strong>：利用降阶模型（ROM）在车辆车载信号上进行因果推断，估计隐藏的液体状态</li><li>结合模态晃动与滚动物理先验，以及一个带有膨胀时间块和输出头的神经网络进行学习修正，无需在推理时进行流体或多体仿真</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>训练数据由 <strong>PLiMB</strong> 模拟器生成，包含数千次 FLIP 和降阶液体模型（ROM）的闭环仿真运行记录</li><li>学习修正模型包含约 <strong>1.3×10^5</strong> 个可学习权重，先验模型和液体 ROM 分别有 21 个和 17 个常数</li><li>评估和基准测试使用单个 <strong>NVIDIA RTX 6000 Ada</strong> GPU</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境为标准水箱和宽水箱中的 120 个决策组，对比基准包括刚性载荷规划器（R）、ROM仿真规划器（E）及已发布的晃动模型规划器（Q 和 K）</li><li>主要评估指标为可避免的不安全选择数量、选择参考最佳安全计划的数量以及峰值载荷转移比（LTR）的预测平均绝对误差（MAE）</li><li>在标准水箱中，本文模型做出了 <strong>0</strong> 次可避免不安全选择，而 R、Q、K 分别为 9、22、14 次；在宽水箱中，本文模型的不安全选择约为已发布晃动模型的一半</li><li>可扩展性测试表明，该模型在一个控制周期内可评估 <strong>4,096</strong> 个候选计划，吞吐量是 E 的 <strong>93倍</strong>，是 FLIP 模拟器的 <strong>30,000倍</strong></li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

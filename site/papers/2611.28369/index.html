@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CausalNTP: A World-Model Recipe for Causal Next-Token Prediction under Noisy Training-data - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="论文揭示了使用下一词预测（NTP）和梯度下降训练的 Transformer 模型无法仅依赖左上下文中因果相关的词元进行预测，无论训练数据的词元排列顺序如何 引入了一个合成因果世界模型设置，从贝叶斯最优预测器的角度理论分析了 NTP 学习中的因果缺陷 提出了 CausalNTP 训练算法，通过数据增强和蒸馏目标促使 Transformer 仅依赖因果父节点进行预测，并在合成设置和自然语言问答任务中验证了其有效性" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">CausalNTP: A World-Model Recipe for Causal Next-Token Prediction under Noisy Training-data</h1>
             <div class="detail-meta">2026-11-20 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28369" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28369" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28369</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">论文揭示了使用下一词预测（NTP）和梯度下降训练的 Transformer 模型无法仅依赖左上下文中因果相关的词元进行预测，无论训练数据的词元排列顺序如何 引入了一个合成因果世界模型设置，从贝叶斯最优预测器的角度理论分析了 NTP 学习中的因果缺陷 提出了 CausalNTP 训练算法，通过数据增强和蒸馏目标促使 Transformer 仅依赖因果父节点进行预测，并在合成设置和自然语言问答任务中验证了其有效性</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Devansh Arpit（论文提供的文本中未明确标注其所属的具体研究机构）</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">论文揭示了使用下一词预测（NTP）和梯度下降训练的 Transformer 模型无法仅依赖左上下文中因果相关的词元进行预测，无论训练数据的词元排列顺序如何</p>
+  <ul class="reading-intro-points"><li>论文揭示了使用下一词预测（NTP）和梯度下降训练的 Transformer 模型无法仅依赖左上下文中因果相关的词元进行预测，无论训练数据的词元排列顺序如何</li><li>引入了一个合成因果世界模型设置，从贝叶斯最优预测器的角度理论分析了 NTP 学习中的因果缺陷</li><li>提出了 CausalNTP 训练算法，通过数据增强和蒸馏目标促使 Transformer 仅依赖因果父节点进行预测，并在合成设置和自然语言问答任务中验证了其有效性</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Devansh Arpit</strong>（论文提供的文本中未明确标注其所属的具体研究机构）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>论文揭示了使用<strong>下一词预测（NTP）</strong>和梯度下降训练的 Transformer 模型无法仅依赖左上下文中因果相关的词元进行预测，无论训练数据的词元排列顺序如何</li><li>引入了一个合成因果世界模型设置，从贝叶斯最优预测器的角度理论分析了 NTP 学习中的因果缺陷</li><li>提出了 <strong>CausalNTP</strong> 训练算法，通过数据增强和蒸馏目标促使 Transformer 仅依赖因果父节点进行预测，并在合成设置和自然语言问答任务中验证了其有效性</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>设计了一个可进行理论和实证分析的合成因果世界模型设置，以研究学习预测器的因果行为</li><li>证明了在普通 NTP 训练中，仅调整训练数据的词元顺序（因果或随机排列）不足以使模型学习到因果预测器</li><li>提出了一种基于 Occam's Razor 理论的数据增强与蒸馏目标，其最小化器能够恢复真实的因果预测器，并由此设计了实用的 <strong>CausalNTP</strong> 算法</li><li>发现并证明了模型必须通过包含父节点以及祖先、后代、无关节点的反事实增强视图进行训练，才能实现对左上下文中非因果词元的忽略，并提出了无噪声目标（<strong>CausalNTP$_1$</strong>）和噪声目标（<strong>CausalNTP$_2$</strong>）两种版本</li><li>将世界模型框架下的因果性概念扩展到自然语言问答任务，并在 <strong>GSM8K</strong> 数据集上作为概念验证证明了其增益</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>采用数据增强方案，将训练样本中位于查询节点右侧的后代节点重新放置到其左上下文中，构建成对增强视图</li><li>使用蒸馏目标，使模型在增强视图上的预测匹配因果视图下的<strong>贝叶斯最优预测器</strong>，并利用停止梯度防止利用后代节点信息</li><li>引入一致性正则化项，强制模型在包含非因果后代节点的上下文中忽略这些节点的影响</li><li>理论证明，结合该蒸馏目标和 Occam's Razor 归纳偏置（最小电路复杂度），模型可以恢复仅依赖因果父节点的真实因果功能预测器</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用自建的<strong>合成因果世界模型数据集</strong>进行受控理论验证实验</li><li>使用 <strong>GSM8K</strong> 数据集进行自然语言问答任务的验证，在数据中注入干扰项以模拟噪声</li><li>使用 Transformer 架构进行训练，具体模型规模和计算资源未在提供的文本中详细说明</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准包括合成数据上的 Causal Eval Set 和 Permuted Eval Set，以及 <strong>GSM8K</strong> 带干扰项的问答任务</li><li>主要评估指标为 <strong>MSE</strong> 和 <strong>ExcessMSE</strong>（合成数据），以及问答准确率（<strong>GSM8K</strong>）</li><li>实验证明，普通 NTP 在随机排列数据上会利用后代节点导致评估损失增加，在因果排列数据上也无法忽略推理时出现的后代节点</li><li><strong>CausalNTP</strong> 实现了普通 NTP 无法达到的分布外泛化，且在 <strong>GSM8K</strong> 上同时使用后代和非后代两类干扰注入的 CausalNTP 表现优于单一类型注入的方法</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

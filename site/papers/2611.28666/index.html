@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RecallWorld: Episodic Memory for Persistent Embodied Video World Models - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="提出 RecallWorld，一种具有情景记忆的持久式具身视频世界模型 解决现有视频世界模型在智能体重访先前场景时无法保持场景几何和外观一致性的问题 通过将短多视图情景联合重建为独立的 Scenelets，在固定记忆预算下检索互补的 Scenelets 并进行可见性分辨，实现长期记忆与条件生成" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">RecallWorld: Episodic Memory for Persistent Embodied Video World Models</h1>
             <div class="detail-meta">2026-11-21 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28666" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28666" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28666</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">提出 RecallWorld，一种具有情景记忆的持久式具身视频世界模型 解决现有视频世界模型在智能体重访先前场景时无法保持场景几何和外观一致性的问题 通过将短多视图情景联合重建为独立的 Scenelets，在固定记忆预算下检索互补的 Scenelets 并进行可见性分辨，实现长期记忆与条件生成</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Amazon</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">提出 RecallWorld，一种具有情景记忆的持久式具身视频世界模型</p>
+  <ul class="reading-intro-points"><li>提出 RecallWorld，一种具有情景记忆的持久式具身视频世界模型</li><li>解决现有视频世界模型在智能体重访先前场景时无法保持场景几何和外观一致性的问题</li><li>通过将短多视图情景联合重建为独立的 Scenelets，在固定记忆预算下检索互补的 Scenelets 并进行可见性分辨，实现长期记忆与条件生成</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Amazon</strong></li><li><strong>University of California, Riverside</strong></li><li><strong>University of Oxford</strong></li><li><strong>University of Maryland, College Park</strong></li><li><strong>Washington University in St. Louis</strong></li><li><strong>Georgia Institute of Technology</strong></li><li><strong>University of Illinois Urbana-Champaign</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>提出 <strong>RecallWorld</strong>，一种具有情景记忆的持久式具身视频世界模型</li><li>解决现有视频世界模型在智能体重访先前场景时无法保持场景几何和外观一致性的问题</li><li>通过将短多视图情景联合重建为独立的 <strong>Scenelets</strong>，在固定记忆预算下检索互补的 Scenelets 并进行可见性分辨，实现长期记忆与条件生成</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>情景 Scenelet 记忆</strong>，将相邻视图联合重建，同时保持各情景间几何独立性，避免了独立重建的约束丢失和全局重建的误差传播</li><li>设计 <strong>持久检索与可见性感知条件机制</strong>，在固定记忆预算下从完整历史中检索互补 Scenelets，并在外观融合前几何分辨目标视图的可见性</li><li>引入 <strong>相机通用的持久表示</strong>，使用相机感知光线提升统一透视和原生鱼眼观测，将宽视场表面保留在统一的空间记忆中</li><li>在四个数据集上验证，部分重访和完全环游的 PSNR 较最强基线分别提升 2.6 dB 和 3.9 dB</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>SANA-WM</strong> 骨干网络，通过添加 <strong>ControlNet</strong> 风格的空间条件分支实现自回归视频生成</li><li>使用 <strong>$\pi^3$X</strong> 进行多视图联合重建构建 Scenelets，<strong>Depth Anything 3</strong> 和 <strong>UniK3D</strong> 分别用于透视和鱼眼图像的深度/径向范围初始化</li><li>通过 <strong>相机感知光线提升</strong> 将每个源像素沿其视线的径向范围映射到 3D 世界坐标，统一不同相机的观测</li><li><strong>基于覆盖率的贪心检索</strong> 从历史 Scenelet 集中选择最多 K 个互补 Scenelets，保证至少 $1-1/e$ 的最优覆盖率</li><li><strong>可见性分辨机制</strong> 在相同目标位置的多个投影表面中，选择深度最浅的前表面进行外观融合，避免被遮挡内容的污染</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用了四个数据集：<strong>GrandTour</strong>、<strong>M2DGR</strong>、<strong>TartanGround</strong> 和 <strong>DL3DV</strong></li><li>评估轨迹为 32 秒的探索与返回轨迹</li><li>论文未明确提及模型参数量和具体训练资源（GPU/TPU 等）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准涵盖重访保真度、相机一致性和视频连贯性</li><li>主要评估指标包括：<strong>PSNR</strong>、<strong>SSIM</strong>、<strong>LPIPS</strong>（重访保真度）；<strong>TransErr</strong>、<strong>RotErr</strong>、<strong>ATE</strong>（相机一致性）；<strong>WS-3D</strong>、<strong>VB-BG</strong>、<strong>MEt3R</strong>（视频连贯性）</li><li>在部分重访场景中，<strong>RecallWorld</strong> 的 PSNR 达到 <strong>17.11 dB</strong>，比最强基线（<strong>Spatia</strong>，14.54 dB）提升 2.57 dB</li><li>在完全环游场景中，<strong>RecallWorld</strong> 的 PSNR 达到 <strong>19.34 dB</strong>，比最强基线（<strong>Spatia</strong>，15.46 dB）提升 3.88 dB</li><li>消融实验证明 Scenelets 作为记忆单元优于独立视图，并减少了峰值重建内存；使用原生鱼眼图像进一步扩大了记忆中的表面覆盖率</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

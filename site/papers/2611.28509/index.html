@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="针对推理型驾驶视觉-语言-动作（VLA）模型在每次决策时生成多个候选轨迹但只能执行一个的问题，提出了一种风险感知的轨迹选择方法 现有在线评估器通常需要训练专门的世界模型并在推理时对每个候选进行 rollout，计算成本高昂，而本文探索复用冻结 VLA 的内部表示来直接评估候选 AlpaSafe 通过读取冻结 VLA prompt prefill 的最后一个隐藏 token，结合轻量级选择器头部，在不增加 VLA 训练或推理时 rollout 的情况下实现安全轨迹选择" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving</h1>
             <div class="detail-meta">2026-11-21 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28509" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28509" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28509</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">针对推理型驾驶视觉-语言-动作（VLA）模型在每次决策时生成多个候选轨迹但只能执行一个的问题，提出了一种风险感知的轨迹选择方法 现有在线评估器通常需要训练专门的世界模型并在推理时对每个候选进行 rollout，计算成本高昂，而本文探索复用冻结 VLA 的内部表示来直接评估候选 AlpaSafe 通过读取冻结 VLA prompt prefill 的最后一个隐藏 token，结合轻量级选择器头部，在不增加 VLA 训练或推理时 rollout 的情况下实现安全轨迹选择</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Connected and Autonomous Research Laboratory，Univer…</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">针对推理型驾驶视觉-语言-动作（VLA）模型在每次决策时生成多个候选轨迹但只能执行一个的问题，提出了一种风险感知的轨迹选择方法</p>
+  <ul class="reading-intro-points"><li>针对推理型驾驶视觉-语言-动作（VLA）模型在每次决策时生成多个候选轨迹但只能执行一个的问题，提出了一种风险感知的轨迹选择方法</li><li>现有在线评估器通常需要训练专门的世界模型并在推理时对每个候选进行 rollout，计算成本高昂，而本文探索复用冻结 VLA 的内部表示来直接评估候选</li><li>AlpaSafe 通过读取冻结 VLA prompt prefill 的最后一个隐藏 token，结合轻量级选择器头部，在不增加 VLA 训练或推理时 rollout 的情况下实现安全轨迹选择</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Connected and Autonomous Research Laboratory</strong>，<strong>University of Delaware</strong>，美国纽瓦克</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>针对推理型驾驶视觉-语言-动作（VLA）模型在每次决策时生成多个候选轨迹但只能执行一个的问题，提出了一种风险感知的轨迹选择方法</li><li>现有在线评估器通常需要训练专门的世界模型并在推理时对每个候选进行 rollout，计算成本高昂，而本文探索复用冻结 VLA 的内部表示来直接评估候选</li><li><strong>AlpaSafe</strong> 通过读取冻结 VLA prompt prefill 的最后一个隐藏 token，结合轻量级选择器头部，在不增加 VLA 训练或推理时 rollout 的情况下实现安全轨迹选择</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>AlpaSafe</strong> 框架，复用冻结驾驶 VLA 生成候选时的最后一个 prompt-prefill 隐藏 token，无需额外 VLA 训练或推理时 rollout</li><li>设计了风险感知选择器头部，预测每个候选的相对得分和碰撞/偏驶风险 logits，通过支配规则过滤高风险候选并选择最优轨迹</li><li>实验证明 <strong>AlpaSafe</strong> 在所选 regret 和 top-1 一致性上优于 <strong>Alpamayo</strong> 默认规则和随机选择，将碰撞或偏驶率从 6.41%/6.10% 降至 4.93%</li><li>通过匹配消融实验验证了场景信息的重要性，证明仅用最后一个 token 即可达到与使用全部 3086 个 token 相当的性能</li><li>选择器仅 1.7M 参数，单次八候选决策耗时 0.75 ms，相比闭环仿真（约 891 秒）实现显著的效率提升</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>同一 Prefill 表示提取</strong>：通过捕获钩子记录冻结 VLA 在生成候选的同一前向传递中 prompt prefill 的最终层隐藏状态，使用 SHA-256 哈希确保位精确来源追踪，仅取最后一个 token h=H[-1]（4096维）</li><li><strong>轨迹编码器</strong>：3 层 pre-norm Transformer 编码器（4 头，宽度 128，前馈 256），将 64 个归一化航点编码为候选潜在表示</li><li><strong>场景读取器与融合</strong>：通过宽度 64 的瓶颈投影场景输入，使用单层交叉注意力块（6 头，残差连接）将场景信息融合到候选表示中</li><li><strong>输出与选择规则</strong>：预测有界相对得分 S·tanh(r̂/S) 和碰撞/偏驶 logits，移除在两个风险 logits 上被支配的候选，在剩余候选中选择得分最高者</li><li><strong>训练目标</strong>：七项加权损失（排名、居中、组均值、未来、进度、碰撞、偏驶），使用 <strong>AdamW</strong> 优化器，五折交叉验证</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>AlpaSim</strong> 闭环驾驶模拟器，评估池包含 525 个场景、1575 个决策组、12600 个评分候选</li><li>五折交叉验证：每折 357 训练场景、63 内验场景、105 测试场景；另有 122 场景开发集和 35 场景保留集</li><li>冻结生成器为 <strong>Alpamayo-1.5</strong>（10B 参数），选择器头部为 1.7M 参数</li><li>训练和评估在 <strong>NVIDIA RTX PRO 6000</strong> GPU 上进行</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：<strong>AlpaSim</strong> 闭环模拟器，525 个共享场景，每组 K=8 个候选</li><li>主要指标：Selected regret（↓）、Top-1 agreement（↑）、Official score（↑）、碰撞率、偏驶率、任一事件率</li><li><strong>LastToken</strong>（AlpaSafe）取得 regret 0.0512、top-1 0.348、score 0.5734，均优于默认（0.0611/0.239/0.5635）和随机（0.0586/0.238/0.5660）</li><li>任一事件率降至 4.93%，相比默认 6.41% 和随机 6.10% 分别降低 1.48 和 1.16 个百分点</li><li>消融显示场景盲输入（Null）事件率更高，全序列输入无显著性能提升但碰撞率更高</li><li>部署成本：选择路径 0.75 ms/决策（GPU），而闭环仿真需约 891 秒（串行）或至少 111 秒（并行下限）</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

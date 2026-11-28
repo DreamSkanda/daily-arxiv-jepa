@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ViTrust: Learning 3D Observation Trust for Deformable Physical World Models - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="论文提出 ViTrust 框架，旨在解决可变形物理世界模型中观测数据如何影响物理参数识别的问题 核心目标是学习3D观测信任度，即决定每个跟踪点在每一时刻对物理参数识别的相对影响程度 针对现有方法仅依靠视觉可靠性或对有效观测等权重处理而导致未来预测不准确的问题，提出结合视觉与接触证据的自适应加权方案" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">ViTrust: Learning 3D Observation Trust for Deformable Physical World Models</h1>
             <div class="detail-meta">2026-11-21 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28815" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28815" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28815</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">论文提出 ViTrust 框架，旨在解决可变形物理世界模型中观测数据如何影响物理参数识别的问题 核心目标是学习3D观测信任度，即决定每个跟踪点在每一时刻对物理参数识别的相对影响程度 针对现有方法仅依靠视觉可靠性或对有效观测等权重处理而导致未来预测不准确的问题，提出结合视觉与接触证据的自适应加权方案</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">禾赛科技</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">论文提出 ViTrust 框架，旨在解决可变形物理世界模型中观测数据如何影响物理参数识别的问题</p>
+  <ul class="reading-intro-points"><li>论文提出 ViTrust 框架，旨在解决可变形物理世界模型中观测数据如何影响物理参数识别的问题</li><li>核心目标是学习3D观测信任度，即决定每个跟踪点在每一时刻对物理参数识别的相对影响程度</li><li>针对现有方法仅依靠视觉可靠性或对有效观测等权重处理而导致未来预测不准确的问题，提出结合视觉与接触证据的自适应加权方案</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>禾赛科技</strong></li><li><strong>上海交通大学</strong></li><li><strong>东南大学</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>ViTrust</strong> 框架，旨在解决可变形物理世界模型中观测数据如何影响物理参数识别的问题</li><li>核心目标是学习3D观测信任度，即决定每个跟踪点在每一时刻对物理参数识别的相对影响程度</li><li>针对现有方法仅依靠视觉可靠性或对有效观测等权重处理而导致未来预测不准确的问题，提出结合视觉与接触证据的自适应加权方案</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>ViTrust</strong> 框架，通过正则化的共享前向重建目标，联合学习逐点、时变的观测权重和物理参数</li><li>设计 <strong>视觉-接触信任适配器</strong>，结合逐点时空证据与物体间及手-物交互上下文，利用持久patch分配和循环时序模型保留局部交互历史</li><li>在 <strong>22个真实世界交互序列</strong> 上显著提升未来预测性能，相比 <strong>PhysTwin</strong> 基线，场景平均未来 Chamfer 距离降低 <strong>5.65%</strong>，跟踪误差降低 <strong>6.47%</strong>，LPIPS 降低 <strong>4.51%</strong></li><li>通过消融实验验证了视觉证据、接触上下文、权重正则化和交互历史各自的作用</li><li>展示了拟合的物理参数在新控制和跨对象迁移场景下的泛化能力</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>PhysTwin</strong> 的 <strong>Spring-Mass</strong> 物理模拟器和 <strong>3D Gaussian Splatting</strong> 渲染表示，保留原有的物理参数化与拓扑</li><li><strong>逐点时空证据</strong>：使用冻结的 <strong>CoTracker3</strong> 进行2D追踪并提升为3D，结合深度一致性和冻结的 <strong>VideoMAE-Base</strong> 视觉特征构建六维点描述子</li><li><strong>视觉-接触信任适配器</strong>：通过最远点采样建立持久对象patch，使用接触图消息传递和 <strong>GRU</strong> 编码交互历史，生成patch级接触调整并广播至各点，与视觉分数融合预测观测权重</li><li><strong>单阶段联合优化</strong>：通过共享前向模拟，每帧同时提供物理参数和适配器参数的偏梯度，使用带正则化的加权几何与对应损失进行更新，正则项防止权重坍缩并保证时间一致性和有效样本支持</li><li>未来预测阶段直接冻结物理参数，在给定控制输入下模拟，无需重新拟合</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>22个真实世界交互序列</strong> 和 <strong>735个未来帧</strong> 进行评估</li><li>使用预训练且冻结的 <strong>VideoMAE-Base</strong> 和 <strong>CoTracker3</strong> 模型提取特征</li><li>物理模拟基于 <strong>Spring-Mass</strong> 系统，渲染基于 <strong>3D Gaussian Splatting</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准包括 <strong>Spring-Gaus</strong>、<strong>GS-Dynamics</strong>、<strong>PhysTwin</strong>、<strong>MatPhys</strong> 和 <strong>DeformMaster</strong></li><li>主要评估指标包括 Chamfer Distance (CD)、Tracking Error、IoU、PSNR、SSIM 和 LPIPS</li><li>在相同模拟器和初始化条件下，<strong>ViTrust</strong> 在未来预测的 CD 上达到 <strong>12.37mm</strong>，跟踪误差 <strong>24.70mm</strong>，均优于所有基线</li><li>消融实验表明，移除接触图信任、权重正则化或GRU时序模块均会导致性能下降，验证了各组件的必要性</li><li>定性结果展示了跨对象物理迁移和新控制下的模拟生成能力</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

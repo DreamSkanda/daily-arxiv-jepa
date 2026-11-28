@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>When Do Better Visual World Models Make Better Plans? Decision-Aligned Selection for Latent Planning - JEPA / 世界模型 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="论文探讨了视觉世界模型在潜在空间规划中“预测误差降低并不总是带来更好规划决策”的问题。 作者识别出“决策相关残差”（Decision-Relevant Residual, DRR），即预测误差中能够改变候选动作排序的部分，并证明减少 DRR 比单纯减少预测误差更能可靠地改善动作选择。 基于此发现，论文提出了一种即插即用的选择规则“决策对齐选择”（Decision-Aligned Selection, DAS），通过结合多个独立训练的模型检查点的共识来提升规划质量。" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">When Do Better Visual World Models Make Better Plans? Decision-Aligned Selection for Latent Planning</h1>
             <div class="detail-meta">2026-11-21 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2611.28919" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2611.28919" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2611.28919</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">论文探讨了视觉世界模型在潜在空间规划中“预测误差降低并不总是带来更好规划决策”的问题。 作者识别出“决策相关残差”（Decision-Relevant Residual, DRR），即预测误差中能够改变候选动作排序的部分，并证明减少 DRR 比单纯减少预测误差更能可靠地改善动作选择。 基于此发现，论文提出了一种即插即用的选择规则“决策对齐选择”（Decision-Aligned Selection, DAS），通过结合多个独立训练的模型检查点的共识来提升规划质量。</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">University of Georgia</span>
             </div>
           </div>
         </div>
@@ -87,16 +87,56 @@
   <div class="reading-card-topline">
     <span class="reading-badge">一眼看懂</span>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">论文探讨了视觉世界模型在潜在空间规划中“预测误差降低并不总是带来更好规划决策”的问题。</p>
+  <ul class="reading-intro-points"><li>论文探讨了视觉世界模型在潜在空间规划中“预测误差降低并不总是带来更好规划决策”的问题。</li><li>作者识别出“决策相关残差”（Decision-Relevant Residual, DRR），即预测误差中能够改变候选动作排序的部分，并证明减少 DRR 比单纯减少预测误差更能可靠地改善动作选择。</li><li>基于此发现，论文提出了一种即插即用的选择规则“决策对齐选择”（Decision-Aligned Selection, DAS），通过结合多个独立训练的模型检查点的共识来提升规划质量。</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>University of Georgia</strong></li><li><strong>University of Southern California</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>论文探讨了视觉世界模型在潜在空间规划中“预测误差降低并不总是带来更好规划决策”的问题。</li><li>作者识别出“决策相关残差”（Decision-Relevant Residual, DRR），即预测误差中能够改变候选动作排序的部分，并证明减少 DRR 比单纯减少预测误差更能可靠地改善动作选择。</li><li>基于此发现，论文提出了一种即插即用的选择规则“决策对齐选择”（Decision-Aligned Selection, DAS），通过结合多个独立训练的模型检查点的共识来提升规划质量。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>识别并形式化了<strong>决策相关残差（DRR）</strong>，证明其减少程度比预测误差更能预测训练带来的选择增益（Spearman ρ=0.82 vs. 0.61）。</li><li>提出了<strong>决策对齐选择（DAS）</strong>，一种在规划阶段结合多个检查点标准化共识的即插即用打分规则。</li><li>在两个模型家族和五个任务上进行了广泛验证，证明 DAS 在 18 种配置中的 14 种里优于将单模型训练三倍时间的策略，并在闭环评估中显著提升了成功率。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>决策相关残差（DRR）</strong>：将预测残差分解为所有候选共享的偏移误差和特定于候选的残差。理论证明共享误差对候选排序影响极小，而特定残差（DRR）决定了规划器的最终选择。</li><li><strong>决策对齐选择（DAS）</strong>：在交叉熵方法（CEM）规划器中替换评分步骤。对于每个候选动作，使用 M 个独立训练的检查点预测其成本，并对每个检查点的成本进行标准化。</li><li>DAS 选择标准化成本平均值（共识）最小、且检查点间分歧惩罚最小的候选动作，从而平均消除特定于检查点的误差，降低“优化器诅咒”带来的乐观偏差。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用五个模拟任务：<strong>OGBench-Cube</strong>、<strong>Two-Room</strong>、<strong>Reacher</strong>、<strong>PushT</strong> 和 <strong>Wall</strong>。</li><li>使用两个视觉世界模型家族：<strong>LeWorldModel (LeWM)</strong> 和 <strong>DINO-WM</strong>。</li><li>训练资源：从已发布的模型检查点继续训练 1,500 次更新，使用 3 个随机种子和 3 种等预算训练配方（共 18 种配置）。硬件资源未在文本中明确提及。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：基于 CEM 的潜在空间规划，使用固定候选池（128 个候选）进行开环评估，以及在 50 步重规划下进行闭环评估。</li><li>主要评估指标：潜在预测误差下降量（Δ latent err.）、成对排序准确率、所选候选的物理任务误差、到最优选择的差距闭合百分比（% of gap）。</li><li>关键实验结果：DAS 在 18 种配置中的 12 种里优于单检查点，在 14 种配置中优于训练三倍时长的单模型；在闭环测试中，DAS 将 PushT (LeWM) 的成功率从 89.6% 提升至 92.0%，并在 9 个预注册对比中的 6 个取得了成功率的提升。</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>
